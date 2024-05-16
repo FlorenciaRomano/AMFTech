@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="../Assets//icon.jpg">
+    <title>AMFTech</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="./style.css">
+</head>
+
+<body>
+    <!-- BARRA NAVEGACION -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./Index.html"><img src="../Assets/logo.png" alt="" width="160"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./Index.html">INICIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./quienessomos.html">QUIENES SOMOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">PROYECTOS</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            SERVICIOS
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">COMUNICACIONES</a></li>
+                            <li><a class="dropdown-item" href="#">ELECTRICIDAD</a></li>
+                            <li><a class="dropdown-item" href="#">FOTOVOLTAICA</a></li>
+                            <li><a class="dropdown-item" href="#">OPERADOR DE INTERNET</a></li>
+                            <li><a class="dropdown-item" href="#">VIGILANCIA Y SEGURIDAD</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./trabajaconnosotros.html">TRABAJA CON NOSOTROS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contacto.html">CONTACTO</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- ENCABEZADO y video -->
+    <!-- <div class="ratio-16x9 d-flex justify-content-center align-items-center min-vh-100">
+        <video class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover z-n1"
+            src="../Assets/AMFTech servicios .mp4" autoplay muted loop class="background"></video>
+     
+
+    </div> -->
+
+
+    <!-- NUESTROS SERVICIOS -->
+    <div class="container d-flex justify-content-center">
+        <h2 style="color: black; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 50px;">NUESTROS SERVICIOS</h2>
+    </div>
+
+    <div class="container d-flex justify-content-center align-items-center flex-wrap gap-4">
+
+        <!-- Tarjeta comunicaciones -->
+        <div class="card border shadow-lg p-1 mb-5 bg-white" style="width:  30rem; height: 85vh;">
+            <img src="../Assets//COMUNICACIONES.png" class="card-img-top" alt="...">
+            <div class="card-body d-flex justify-content-center flex-column align-items-center">
+                <h5 class="card-title" style="color: red;">COMUNICACIONES</h5>
+                <p style="color: rgb(68, 66, 66);"> <b> Integración diferentes fabricantes para diseñar un sistema completo de control y seguridad. </b>
+                </p>
+                <ul style="list-style: none;">
+                    <li>
+                        <img src="/Assets/check.svg" alt="">
+                        <b style="color: red;"> Redes de comunicación:</b> cableado estructurado, fibra optica y montaje armarios rack’s
+                    </li>
+                    <li>
+                        <img src="/Assets/check.svg" alt="">
+                        <b style="color: red;"> Redes inalámbricas:</b> wifi, enlaces multipunto y punto a punto, repetidores telefonía,
+                        tecnología LoRA
+                    </li>
+                    <li>
+                        <img src="/Assets/check.svg" alt="">
+                        <b style="color: red;">Switching:</b> acceso, distribución & core.
+                    </li>
+                    <li>
+                        <img src="/Assets/check.svg" alt="">
+                        <b style="color: red;">Routing: </b> instalación y configuración equipos.
+                    <li>
+                        <img src="/Assets/check.svg" alt="">
+                        <b style="color: red;">Soluciones de seguridad perimetral y redes: </b>firewall, vpn´s, ips, ids
+                    </li>
+                    <li>
+                        <img src="/Assets/check.svg" alt="">
+                        <b style="color: red;">Conectividad: </b> redes privadas virtuales. Conecta tus centros de trabajo, ahorra costes y
+                        centraliza tus esfuerzos.
+                    </li>
+                </ul>
+                <a href="#" class="btn btn-danger w-50">más información</a>
+            </div>
+        </div>
+
+        <!-- Tarjeta electricidad -->
+        <div class="card border shadow-lg p-1 mb-5 bg-white" style="width:  30rem; height: 85vh;">
+            <img src="../Assets//Electricidad.png" class="card-img-top" alt="...">
+            <div class="card-body d-flex justify-content-center flex-column align-items-center">
+                <h5 class="card-title" style="color: red;">ELECTRICIDAD</h5>
+                <p style="color: rgb(68, 66, 66);"> <b> Ponemos a su disposición un equipo de trabajo formado por ingenieros y personal técnico, que
+                        dará soluciones a cualquier requerimiento eléctrico de tipo industrial: estudios iniciales y
+                        ejecución de proyectos, construcción, mantenimiento, medio ambiente, inversiones, etc. </b> </p>
+                <ul style="list-style: none;">
+                    <li>
+                        <img src="/Assets/check.svg" alt="">
+                        <b style="color: red;">Instalaciones eléctricas:</b>: Instalaciones eléctricas en Baja Tensión
+                    </li>
+                    <li>
+                        <img src="/Assets/check.svg" alt="">
+                        <b style="color: red;"> Soluciones técnicas: </b> Estudios y soluciones técnicas
+                    </li>
+                    <li>
+                        <img src="/Assets/check.svg" alt="">
+                        <b style="color: red;">Armarios: </b> Diseño, fabricación, instalación e integraciónde armarios para intemperie e
+                        interior
+                    </li>
+                    <li>
+                        <img src="/Assets/check.svg" alt="">
+                        <b style="color: red;">Mantenimiento: </b> Mantenimiento eléctrico industrial
+                    <li>
+                        <img src="/Assets/check.svg" alt="">
+                        <b style="color: red;">Instalaciones fotovoltaicas: </b> instalacionesaisladas y de inyección a red
+                    </li>
+                    <li>
+                        <img src="/Assets/check.svg" alt="">
+                        <b style="color: red;">SAI´S: </b> Estudios y implementación equipo a medida
+                    </li>
+                    <li>
+                        <img src="/Assets/check.svg" alt="">
+                        <b style="color: red;">Baterías </b>
+                    </li>
+                </ul>
+                <a href="#" class="btn btn-danger w-50">más información</a>
+            </div>
+        </div>
+
+        <!-- Tarjeta fotovoltaica -->
+        <div class="card border shadow-lg p-1 mb-5 bg-white" style="width:  30rem; height: 75vh;">
+            <img src="../Assets//fotovoltaica.png" class="card-img-top" alt="...">
+            <div class="card-body d-flex justify-content-center flex-column align-items-center">
+                <h5 class="card-title" style="color: red;">FOTOVOLTAICA</h5>
+                <p style="color: rgb(68, 66, 66);"> <b> Servicios para plantas solares fijas y seguidores:</b>
+                </p>
+                <ul style="list-style: none;">
+                    <li>
+                        <img src="/Assets/check.svg" alt="">
+                        <b style="color: red;"> Diseño:</b> Diseño de proyectos
+                    </li>
+                    <li>
+                        <img src="/Assets/check.svg" alt="">
+                        <b style="color: red;"> Materiales: </b>Suministro de material
+                    </li>
+                    <li>
+                        <img src="/Assets/check.svg" alt="">
+                        <b style="color: red;">Montaje:</b> Montaje de proyectos
+                    </li>
+                    <li>
+                        <img src="/Assets/check.svg" alt="">
+                        <b style="color: red;">Comisionado: </b> Comisionado de proyecto
+                    <li>
+                        <img src="/Assets/check.svg" alt="">
+                        <b style="color: red;">Servicios adicionales: </b> Servicio de operación y mantenimiento
+                    </li>
+                    <li>
+                        <img src="/Assets/check.svg" alt="">
+                        <b style="color: red;">Soporte:</b> Asistencia y soporte técnico
+                    </li>
+                </ul>
+                <a href="#" class="btn btn-danger w-50">más información</a>
+            </div>
+        </div>
+        <!-- Tarjeta vigilancia y seguridad -->
+        <div class="card border shadow-lg p-1 mb-5 bg-white" style="width:  30rem; height: 75vh; ">
+            <img src="../Assets//vigilancia y seguridad.png" class="card-img-top" alt="...">
+            <div class="card-body d-flex justify-content-center flex-column align-items-center">
+                <h5 class="card-title"  style="color: red;">VIGILANCIA Y SEGURIDAD</h5>
+                <p style="color: rgb(68, 66, 66);"> <b> Integración diferentes fabricantes para diseñar un sistema completo de control y seguridad. </b>
+                </p>
+                <ul style="list-style: none;">
+                    <li>
+                        <img src="/Assets/check.svg" alt="">
+                        <b style="color: red;"> CCTV:</b> Diseño, instalación y mantenimiento de sistemas analógicos y digitales. (cámaras
+                        con inteligencia artificial, grabadores y SAI)
+                    </li>
+                    <li>
+                        <img src="/Assets/check.svg" alt="">
+                        <b style="color: red;"> Alarmas:</b> Instalación y puesta en marcha de alarmas de diferentes fabricantes, con o sin
+                        receptora de alarmas
+                    </li>
+                    <li>
+                        <img src="/Assets/check.svg" alt="">
+                        <b style="color: red;">Control de accesos: </b>sistemas biométricos de huella dactilar, reconocimiento facial, app
+                        para fichaje de personal.
+                    </li>
+
+                </ul>
+                <a href="#" class="btn btn-danger w-50">más información</a>
+            </div>
+        </div>
+        <!-- Tarjeta operador de internet -->
+        <div class="card border shadow-lg p-1 mb-5 bg-white" style="width:  30rem; height: 70vh;">
+            <img src="../Assets//operador de internet.png" class="card-img-top" alt="...">
+            <div class="card-body d-flex justify-content-center flex-column align-items-center">
+                <h5 class="card-title"  style="color: red;">OPERADOR DE INTERNET</h5>
+                <p style="color: rgb(68, 66, 66);"> <b> Integración diferentes fabricantes para diseñar un sistema completo de control y seguridad. </b>
+                </p>
+                <p>En nuestra empresa somos expertos, diseñamos, instalamos y mantenemos sistemas fotovoltaicos aislados
+                    y de inyección a red, aprovechando la energía solar para reducir los costos de energía y minimizar
+                    el impacto ambiental. Asegurando la mejor calidad y eficiencia del servicio.</p>
+                <a href="#" class="btn btn-danger w-50">más información</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- ATRIBUTOS -->
+   <div class="d-flex justify-content-center align-items-center gap-5 mt-5 flex-wrap" >
+    <div class="d-flex flex-column align-items-center" >
+        <img src="../Assets/eficiencia2.png" alt="" width="100">
+        <p>Eficiencia y productividad</p>
+    </div>
+
+    <div class="d-flex flex-column align-items-center">
+        <img src="../Assets//costosreducidos.png" alt=""  width="100">
+        <p>Costos Reducidos</p>
+    </div>
+
+    <div class="d-flex flex-column align-items-center">
+        <img src="../Assets//adaptabilidad.png" alt=""  width="100">
+        <p>Flexibilidad y adaptabilidad</p>
+    </div>
+
+    <div class="d-flex flex-column align-items-center">
+        <img src="../Assets//seguridadDeDatos.png" alt=""  width="100">
+        <p>Seguridad de Datos</p>
+    </div>
+
+    <div class="d-flex flex-column align-items-center">
+        <img src="../Assets/imagenProfesional.png" alt=""  width="100">
+        <p>Imagen Profesional</p>
+    </div>
+
+    <div class="d-flex flex-column align-items-center">
+        <img src="../Assets//cumplimientoNormatio.png" alt=""  width="100">
+        <p>Cumplimiento Normativo</p>
+    </div>
+
+   </div>
+    
+   <section class="d-flex justify-content-center align-items-center gap-5" 
+   style="background-color: red;
+   height: 10rem;">
+   <h3 style="color: white;">
+    OBTENE TU PRESUPUESTO HOY SIN COMPROMISO!</h3>
+   <a href="#" class="btn btn-light w-10">más información</a>
+</section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+</body>
+<footer class="bg-light d-flex align-items-center flex-column ">
+    <div class="container p-3" style="background-color: rgb(73, 73, 73);
+    min-width: 100%;
+    min-height: 30vh;">
+        <div class="row">
+            <div class="col-md-4 mt-5" style="color: white;">
+                <img src="../Assets/logo.png" alt="" width="200">
+                <p>Soluciones tecnológicas sostenibles</p>
+            </div>
+            <div class="col-md-4 mt-4">
+                <h5 style="color: white;;">EXPLORAR</h5>
+                <ul class="list-unstyled" style="color: white;">
+                    <li><a href="#">NOSOTROS</a></li>
+                    <li><a href="#">SERVICIOS</a></li>
+                    <li><a href="#">DONCDE ESTAMOS</a></li>
+                    <li><a href="#">PROYECTOS</a></li>
+                    <li><a href="#">CONTACTO</a></li>
+                </ul>
+            </div>
+            <div class=" mt-2 col-md-4 d-flex flex-column justify-content-center align-items-center">
+                <h5 style="color: white;">CONTACTO</h5>
+                <ul class="list-unstyled" style="color: white;">
+                    <li><img src="../Assets//gps-red.png" alt="" width="30"> Carrer les Pells, Nº 12 Nave 3,
+                        12600 La Vall d’Uixó, Castelló</li>
+                    <li> <img src="../Assets//phone-red.png" alt="" width="30">+34 641 401 459</li>
+                    <li> <img src="../Assets//email-reds.png" alt="" width="30">comercial@amftech.es</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class=" d-flex justify-content-center" style="background-color: rgb(61, 61, 61);
+    color: white;
+    width: 100% !important;">
+        <a href="https://quizzical-maxwell.82-165-2-112.plesk.page/politica-de-cookies/">Politica de cookies</a>
+        <a href="https://quizzical-maxwell.82-165-2-112.plesk.page/aviso-legal/">|Aviso legal</a>
+        <a href="">|Politica de Privacidad</a>
+
+    </div>
+    <div class=" d-flex justify-content-center" style="background-color: rgb(61, 61, 61);
+    color: white;
+    width: 100%;">
+        <p>Designed by <a href="">Moma publicidad</a></p>
+    </div>
+    <div class=" d-flex justify-content-center" style="background-color: rgb(61, 61, 61);
+    color: white;
+    width: 100%;">
+        <p>© 2024 AMF TECH. All Rights Reserved</p>
+    </div>
+</footer>
+
+</html>
