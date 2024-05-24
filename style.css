@@ -3,3 +3,18 @@
     min-height: 60vh !important;
     color: white !important;
 }
+
+.cardActive{
+    /* color de fondo negro y letra blanca */
+    background-color: black;
+    color: white;
+}
+
+.transitionAll{
+    transition: all 0.5s ease-in-out;
+}
+
+.showP{
+    display: block !important;
+    color: white;
+}
