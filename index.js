@@ -8,9 +8,11 @@ cards.forEach(card => {
         console.log('hovered')
         console.log(card.children[1].children[1])
         card.children[1].children[1].classList.add('showP')
+        card.children[1].children[2].classList.add('showP')
     })
     card.addEventListener('mouseout', () => {
         card.classList.remove('cardActive')
         card.children[1].children[1].classList.remove('showP')
+        card.children[1].children[2].classList.remove('showP')
     })
 })
