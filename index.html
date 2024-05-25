@@ -8,7 +8,7 @@
     <title>AMFTech</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link href="./style.css">
+        <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
@@ -43,7 +43,7 @@
                         </a>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="#">COMUNICACIONES</a></li>
-                            <li><a class="dropdown-item" href="#">ELECTRICIDAD</a></li>
+                            <li><a class="dropdown-item" href="./electricidad.html">ELECTRICIDAD</a></li>
                             <li><a class="dropdown-item" href="#">FOTOVOLTAICA</a></li>
                             <li><a class="dropdown-item" href="#">OPERADOR DE INTERNET</a></li>
                             <li><a class="dropdown-item" href="#">VIGILANCIA Y SEGURIDAD</a></li>
@@ -102,76 +102,75 @@
     <!-- SERVICIOS -->
 
 
-    <div style="background-color: rgba(228, 228, 228, 0.384);">
-        <div class="container d-flex justify-content-center flex-column align-items-center w-70  p-2 mb-5 rounded">
+    <!-- NUESTROS SERVICIOS -->
+    <section class="container mt-2">
 
 
-            <h2 style="color: black;
-             font-size: 40px;
-              font-family:Arial, Helvetica, sans-serif">NUESTROS SERVICIOS</h2>
-            <p style="font-size: 25px; color: rgb(66, 66, 66);">Encontrá todas las soluciones tecnológicas para
-                potenciar y optimizar la
-                productividad de tu negocio</p>
+
+        <!-- <div class="container mt-5 d-flex flex-column justify-content align-items-center"> -->
+
+        <h2 class="text-center" style="font-family:Arial, Helvetica, sans-serif;
+                font-size: 30px;">NUESTROS SERVICIOS</h2>
+                <p class="text-center" style="font-family:Arial, Helvetica, sans-serif;
+                font-size: 20px;">Encontrá todas las soluciones tecnológicas para potenciar y optimizar la productividad de tu negocio</p>
+
+        <div class="flex-wrap d-flex justify-content-center align-items-center w-100 gap-3 mt-5">
+
+            <div class="card d-flex align-items-center serviceCard flex-column transitionAll border-0 pt-3"
+                style="width: 12rem; height: 15rem">
+                <img src="./Assets/rayo.png" class="card-img-top" alt="..."
+                    style="width: 100px; height: 100px; object-fit:contain">
+                <div class="card-body d-flex flex-column flex-grow-1">
+                    <h5 class="card-title">Electricidad</h5>
+                    <a href="./electricidad.html" class="btn btn-outline-danger d-none transitionAll">Ver más</a>
+                </div>
+            </div>
+
+            <div class="card d-flex align-items-center serviceCard flex-column transitionAll border-0 pt-3"
+                style="width: 12rem; height: 15rem">
+                <img src="./Assets/camarita.png" class="card-img-top" alt="..."
+                    style="width: 100px; height: 100px; object-fit:contain">
+                <div class="card-body d-flex flex-column flex-grow-1">
+                    <h5 class="card-title">Videoseguridad</h5>
+                    <a href="#" class="btn btn-outline-danger d-none transitionAll">Ver más</a>
+                </div>
+            </div>
+
+            <div class="card d-flex align-items-center serviceCard flex-column transitionAll border-0 pt-3"
+                style="width: 12rem; height: 15rem">
+                <img src="./Assets//antena.png" class="card-img-top" alt="..."
+                    style="width: 100px; height: 100px; object-fit:contain">
+                <div class="card-body d-flex flex-column flex-grow-1">
+                    <h5 class="card-title">Conectividad</h5>
+                    <a href="#" class="btn btn-outline-danger d-none transitionAll">Ver más</a>
+                </div>
+            </div>
+
+            <div class="card d-flex align-items-center serviceCard flex-column transitionAll border-0 pt-3"
+                style="width: 12rem; height: 15rem">
+                <img src="./Assets//internet.png" class="card-img-top" alt="..."
+                    style="width: 100px; height: 100px; object-fit:contain">
+                <div class="card-body d-flex flex-column flex-grow-1">
+                    <h5 class="card-title">Comunicaciones</h5>
+                    <a href="#" class="btn btn-outline-danger d-none transitionAll">Ver más</a>
+                </div>
+            </div>
+
+            <div class="card d-flex align-items-center serviceCard flex-column transitionAll border-0 pt-3"
+                style="width: 12rem; height: 15rem">
+                <img src="./Assets/panel solar.png" class="card-img-top" alt="..."
+                    style="width: 100px; height: 100px; object-fit:contain">
+                <div class="card-body d-flex flex-column flex-grow-1">
+                    <h5 class="card-title">Energías Renovables</h5>
+                    <a href="#" class="btn btn-outline-danger d-none transitionAll">Ver más</a>
+                </div>
+            </div>
+
 
         </div>
 
 
-        <div class="container d-flex justify-content-center align-items-center flex-wrap gap-4 ">
-
-            <!-- Tarjeta comunicaciones -->
-            <div class="card d-flex justify-content-center align-items-center border shadow-lg p-1 mb-5 bg-white"
-                style="width:  15rem; height: 22vh;">
-                <img src="./Assets//comunicaciones2.png" class="mt-3" alt="..." style="width: 100px;">
-                <div class="card-body d-flex flex-column align-items-center">
-                    <h6 class="card-title" style="color: black;">COMUNICACIONES</h6>
-
-                </div>
-            </div>
-
-            <!-- Tarjeta vigilancia y seguridad -->
-            <div class="card d-flex justify-content-center align-items-center border shadow-lg p-1 mb-5 bg-white"
-                style="width:  15rem; height: 22vh; ">
-                <img src="./Assets//vigilancia.png" class="mt-3" alt="..." style="width: 100px;">
-                <div class="card-body d-flex  flex-column align-items-center">
-                    <h6 class="card-title" style="color: blacblack">VIGILANCIA Y SEGURIDAD</h6>
-
-                </div>
-            </div>
-
-
-
-            <!-- Tarjeta fotovoltaica -->
-            <div class="card d-flex justify-content-center align-items-center border shadow-lg p-1 mb-5 bg-white"
-                style="width:  15rem; height: 22vh;">
-                <img src="./Assets//fotovoltaica2.png" class="mt-3" alt="..." style="width: 100px;">
-                <div class="card-body d-flex flex-column align-items-center">
-                    <h6 class="card-title" style="color: black; ">ENERGÍAS RENOVABLES</h6>
-
-                </div>
-            </div>
-
-            <!-- Tarjeta electricidad -->
-            <div class="card d-flex justify-content-center align-items-center border shadow-lg p-1 mb-5 bg-white"
-                style="width:  15rem; height: 22vh;">
-                <img src="./Assets//Electricidad2.png" class="mt-3" alt="..." style="width: 100px;">
-                <div class="card-body d-flex justify-content-center flex-column align-items-center">
-                    <h6 class="card-title" style="color: black; ">ELECTRICIDAD</h6>
-
-                </div>
-            </div>
-
-            <!-- Tarjeta operador de internet -->
-            <div class="card d-flex justify-content-center align-items-center border shadow-lg p-1 mb-5 bg-white"
-                style="width:  15rem; height: 22vh;">
-                <img src="./Assets//operador de internet2.png" class="mt-3" alt="..." style="width: 100px;">
-                <div class="card-body d-flex justify-content-center flex-column align-items-center">
-                    <h6 class="card-title" style="color: black; ">OPERADOR DE INTERNET</h6>
-
-                </div>
-            </div>
-        </div>
-    </div>
-
+    </section>
     <!-- TRAYECTORIA -->
 
    <div class="container d-flex align-items-center justify-content-center mt-5" style="width: 100%;">
@@ -229,49 +228,50 @@
         <img src="./Assets//logo.png" alt="" width="200">
     </div>
 
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
-</body>
-<footer class="bg-light d-flex justify-content-center align-items-center flex-column ">
-    <div class="container p-3 d-flex align-items-center justify-content-center" style="background-color: rgb(0, 0, 0);
-    min-width: 100%;
-    min-height: 30vh;">
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
 
-        <div class="col-md-3 mt-4">
-            <h5 style="color: white;;">EXPLORAR</h5>
-            <ul class="list-unstyled" style="color: white;">
-                <li><a href="#">NOSOTROS</a></li>
-                <li><a href="#">SERVICIOS</a></li>
-                <li><a href="#">DONCDE ESTAMOS</a></li>
-                <li><a href="#">PROYECTOS</a></li>
-                <li><a href="#">CONTACTO</a></li>
-            </ul>
-        </div>
-
-        <div class="d-flex flex-column align-items-center justify-content-center">
-            <div>
-                <a href="https://quizzical-maxwell.82-165-2-112.plesk.page/politica-de-cookies/">Politica de cookies</a>
-                <a href="https://quizzical-maxwell.82-165-2-112.plesk.page/aviso-legal/">|Aviso legal</a>
-                <a href="">|Politica de Privacidad</a>
-                <p style="color: white;">Designed by <a href="">Florencia Romano</a></p>
-                <p style="color: white;">© 2024 AMF TECH. All Rights Reserved</p>
+    <footer class="bg-light d-flex justify-content-center align-items-center flex-column ">
+        <div class="container p-3 d-flex align-items-center justify-content-center" style="background-color: rgb(0, 0, 0);
+        min-width: 100%;
+        min-height: 30vh;">
+    
+            <div class="col-md-3 mt-4">
+                <h5 style="color: white;;">EXPLORAR</h5>
+                <ul class="list-unstyled" style="color: white;">
+                    <li><a href="/quienessomos.html">NOSOTROS</a></li>
+                    <li><a href="./servicios.html">SERVICIOS</a></li>
+                    <li><a href="#">DONCDE ESTAMOS</a></li>
+                    <li><a href="#">PROYECTOS</a></li>
+                    <li><a href="./contacto.html">CONTACTO</a></li>
+                </ul>
             </div>
+    
+            <div class="d-flex flex-column align-items-center justify-content-center">
+                <div>
+                    <a href="https://quizzical-maxwell.82-165-2-112.plesk.page/politica-de-cookies/">Politica de cookies</a>
+                    <a href="https://quizzical-maxwell.82-165-2-112.plesk.page/aviso-legal/">|Aviso legal</a>
+                    <a href="">|Politica de Privacidad</a>
+                    <p style="color: white;">Designed by <a href="">Florencia Romano</a></p>
+                    <p style="color: white;">© 2024 AMF TECH. All Rights Reserved</p>
+                </div>
+            </div>
+    
+            <div class=" mt-2 col-md-4 d-flex flex-column justify-content-center align-items-center"
+                style="margin-left: 5rem;">
+                <h5 style="color: white;">CONTACTO</h5>
+                <ul class="list-unstyled" style="color: white;">
+                    <li><img src="./Assets//gps-red.png" alt="" width="30"> Carrer les Pells, Nº 12 Nave 3,
+                        12600 La Vall d’Uixó, Castelló</li>
+                    <li> <img src="./Assets//phone-red.png" alt="" width="30">+34 641 401 459</li>
+                    <li> <img src="./Assets//email-reds.png" alt="" width="30">comercial@amftech.es</li>
+                </ul>
+            </div>
+    
         </div>
+    </footer>
 
-        <div class=" mt-2 col-md-4 d-flex flex-column justify-content-center align-items-center"
-            style="margin-left: 5rem;">
-            <h5 style="color: white;">CONTACTO</h5>
-            <ul class="list-unstyled" style="color: white;">
-                <li><img src="./Assets//gps-red.png" alt="" width="30"> Carrer les Pells, Nº 12 Nave 3,
-                    12600 La Vall d’Uixó, Castelló</li>
-                <li> <img src="./Assets//phone-red.png" alt="" width="30">+34 641 401 459</li>
-                <li> <img src="./Assets//email-reds.png" alt="" width="30">comercial@amftech.es</li>
-            </ul>
-        </div>
-
-    </div>
-</footer>
-
+        <script src="./index.js"></script>
+    </body>
 </html>
