@@ -22,52 +22,75 @@
 
     <!-- BARRA NAVEGACION -->
     <nav class="navbar navbar-expand-lg bg-body-black"
-        style="background-color: rgba(255, 255, 255, 0.164); color: rgb(0, 0, 0);">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="./index.html"><img src="./Assets/logo.png" alt="" width="160"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                    <li class="nav-item" style="color: rgb(0, 0, 0);">
-                        <a class="nav-link active" style="color: rgb(0, 0, 0);" aria-current="page"
-                            href="./index.html">INICIO</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" style="color: rgb(0, 0, 0)" href="./quienessomos.html">QUIENES SOMOS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" style="color: rgb(0, 0, 0)" href="#">PROYECTOS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" style="color: rgb(0, 0, 0)" href=".//servicios.html">SERVICIOS</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" style="color: rgb(0, 0, 0)" href="./servicios.html"
-                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    style="background-color: rgba(255, 255, 255, 0.164); color: rgb(0, 0, 0);">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html"><img src="./Assets/logo.png" alt="" width="160"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item" style="color: rgb(0, 0, 0);">
+                    <a class="nav-link active" style="color: rgb(0, 0, 0);" aria-current="page"
+                        href="./index.html" data-section="index" data-value="navBarMenu1">INICIO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color: rgb(0, 0, 0)" href="./quienessomos.html"
+                    data-section="index" data-value="navBarMenu2">QUIENES SOMOS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color: rgb(0, 0, 0)" href="#" 
+                    data-section="index" data-value="navBarMenu3">PROYECTOS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color: rgb(0, 0, 0)" href=".//servicios.html"
+                    data-section="index" data-value="navBarMenu4">SERVICIOS</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" style="color: rgb(0, 0, 0)" href="./servicios.html"
+                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
 
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="./comunicaciones.html">COMUNICACIONES</a></li>
-                            <li><a class="dropdown-item" href="./electricidad.html">ELECTRICIDAD</a></li>
-                            <li><a class="dropdown-item" href="./energiasRenovables.html">ENERGIAS RENOVABLES</a></li>
-                            <li><a class="dropdown-item" href="./operadorInternet.html">OPERADOR DE INTERNET</a></li>
-                            <li><a class="dropdown-item" href="./videoseguridad.html">VIDEOSEGURIDAD</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" style="color: rgb(0, 0, 0)" href="./trabajaconnosotros.html">TRABAJA CON
-                            NOSOTROS</a>
-                    </li>
-                </ul>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="./comunicaciones.html"
+                            data-section="index" data-value="navBarMenu7">COMUNICACIONES</a></li>
+                        <li><a class="dropdown-item" href="./electricidad.html"
+                            data-section="index" data-value="navBarMenu8">ELECTRICIDAD</a></li>
+                        <li><a class="dropdown-item" href="./energiasRenovables.html"
+                            data-section="index" data-value="navBarMenu9">ENERGIAS RENOVABLES</a></li>
+                        <li><a class="dropdown-item" href="./operadorInternet.html"
+                            data-section="index" data-value="navBarMenu10">OPERADOR DE INTERNET</a></li>
+                        <li><a class="dropdown-item" href="./videoseguridad.html"
+                            data-section="index" data-value="navBarMenu11">VIDEOSEGURIDAD</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color: rgb(0, 0, 0)" href="./trabajaconnosotros.html"
+                    data-section="index" data-value="navBarMenu5">TRABAJA CON
+                        NOSOTROS</a>
+                </li>
+            </ul>
 
-                <a href="./contacto.html" class="btn btn-danger w-40"
-                    style="height: 2rem; font-size: 13px; color: rgb(0, 0, 0);">CONTACTO</a>
+            <a href="./contacto.html" class="btn btn-danger w-40"
+                style="height: 2rem; font-size: 13px; color: rgb(0, 0, 0);"
+                data-section="index" data-value="navBarMenu6">CONTACTO</a>
+        </div>
+        <div class="switches">
+            <div id="toggle-theme" class="toggle-theme">
+
             </div>
         </div>
-    </nav>
+        <div id="flags" class="flags">
+            <div class="flags__item" data-language="es">
+                <img src="./Assets//es.svg" alt="" class="flags__img">
+            </div>
+            <div class="flags__item" data-language="en">
+                <img src="./Assets//gb.svg" alt="" class="flags__img">
+            </div>
+        </div>
+    </div>
+</nav>
     <!-- PORTADA -->
     <div class="container-fluid d-flex justify-content-center  align-items-center" style="width: 100%; 
         height: 59.7vh;
@@ -81,9 +104,9 @@
             align-items: center;
             justify-content: center;">
             <h2 style="font-family:Arial, Helvetica, sans-serif;
-                font-size: 50px;" class="text-center">Electricidad</h2>
+                font-size: 50px;" class="text-center"  data-section="index" data-value="electricidad">Electricidad</h2>
             <p style="font-family:Arial, Helvetica, sans-serif;
-                font-size: 20px" class="text-center">En AMFTech, donde la innovación y la eficiencia energética se
+                font-size: 20px" class="text-center"  data-section="index" data-value="portadaElectricidad">En AMFTech, donde la innovación y la eficiencia energética se
                 fusionan para impulsar
                 el progreso industrial. En nuestra sección de electricidad, te sumergirás en un entorno dedicado a
                 soluciones eléctricas de vanguardia para la industria. Desde sistemas de control y automatización hasta
@@ -92,7 +115,7 @@
             <a href="./quienessomos.html" style="font-family:Arial, Helvetica, sans-serif;
                 font-size: 15px;
                 width: 200px;
-                margin-left: 2rem;" class="btn  btn-light">Más de nosotros</a>
+                margin-left: 2rem;" class="btn  btn-light"  data-section="index" data-value="botonPortada">Más de nosotros</a>
         </div>
         <div style="width: 50%;
         height: 100%;
@@ -113,11 +136,11 @@
         <!-- <div class="container mt-5 d-flex flex-column justify-content align-items-center"> -->
 
         <h2 class="text-center" style="font-family:Arial, Helvetica, sans-serif;
-                font-size: 30px;">¿QUE OFRECEMOS?</h2>
+                font-size: 30px;"  data-section="index" data-value="queOfrecemos">¿QUE OFRECEMOS?</h2>
 
 
         <h3 class="text-center" style="font-family:Arial, Helvetica, sans-serif;
-                font-size: 20px;">
+                font-size: 20px;"  data-section="index" data-value="ofElectricidad">
             Instalaciones Eléctricas Baja Tension
         </h3>
 
@@ -128,8 +151,8 @@
                 <img src="./Assets/instalacionesComerciales.webp" class="card-img-top" alt="..."
                     style="width: 100%; height: 100px; object-fit:cover">
                 <div class="card-body d-flex flex-column flex-grow-1">
-                    <h5 class="card-title text-center">Instalaciones Comerciales</h5>
-                    <p class="card-text flex-grow-1 d-none transitionAll">
+                    <h5 class="card-title text-center"  data-section="index" data-value="ofElectricidad1">Instalaciones Comerciales</h5>
+                    <p class="card-text flex-grow-1 d-none transitionAll"  data-section="index" data-value="ofElectricidad1Description">
                         Pronemos a su disposición un equipo de trabajo formado por ingenieros y personal técnico
                         que dará soluciones a cualquier requerimiento eléctrico de tipo industrial.
                     </p>
@@ -141,8 +164,8 @@
                 <img src="./Assets/intalacionesEdificioPublicos.webp" class="card-img-top" alt="..."
                     style="width: 100%; height: 100px; object-fit:cover">
                 <div class="card-body d-flex flex-column flex-grow-1">
-                    <h5 class="card-title text-center">Instalaciones en Edificios Públicos</h5>
-                    <p class="card-text flex-grow-1 d-none transitionAll">
+                    <h5 class="card-title text-center"  data-section="index" data-value="ofElectricidad2">Instalaciones en Edificios Públicos</h5>
+                    <p class="card-text flex-grow-1 d-none transitionAll"  data-section="index" data-value="ofElectricidad2Description">
                         Edificios gubernamentales, escuelas, hospitales, estadios, centros comerciales cumpliendo
                         requisitos específicos de seguridad y regulación.
                     </p>
@@ -154,8 +177,8 @@
                 <img src="./Assets/IntalacionFotovoltaica.webp" class="card-img-top" alt="..."
                     style="width: 100%; height: 100px; object-fit:cover">
                 <div class="card-body d-flex flex-column flex-grow-1">
-                    <h5 class="card-title text-center">Instalaciones de Energía Renovable</h5>
-                    <p class="card-text flex-grow-1 d-none transitionAll">
+                    <h5 class="card-title text-center"  data-section="index" data-value="ofElectricidad3">Instalaciones de Energía Renovable</h5>
+                    <p class="card-text flex-grow-1 d-none transitionAll"  data-section="index" data-value="ofElectricidad3Description">
                         Instalaciones eléctricas de baja tensión para integrar y distribuir la energía generada por
                         fuentes renovables a las redes eléctricas existentes.
                     </p>
@@ -167,8 +190,8 @@
                 <img src="./Assets/InstalacionesIndustriales.png" class="card-img-top" alt="..."
                     style="width: 100%; height: 100px; object-fit:cover">
                 <div class="card-body d-flex flex-column flex-grow-1">
-                    <h5 class="card-title text-center">Instalaciones Industriales</h5>
-                    <p class="card-text flex-grow-1 d-none transitionAll">
+                    <h5 class="card-title text-center"  data-section="index" data-value="ofElectricidad4">Instalaciones Industriales</h5>
+                    <p class="card-text flex-grow-1 d-none transitionAll"  data-section="index" data-value="ofElectricidad4Description">
                         Sistemas de alimentación para maquinaria, sistemas de control de procesos, sistemas de
                         iluminación industrial.
                     </p>
@@ -180,8 +203,8 @@
                 <img src="./Assets/instalacionesTelecomunicaciones.jpg" class="card-img-top" alt="..."
                     style="width: 100%; height: 100px; object-fit:cover">
                 <div class="card-body d-flex flex-column flex-grow-1">
-                    <h5 class="card-title text-center">Instalaciones de Telecomunicaciones</h5>
-                    <p class="card-text flex-grow-1 d-none transitionAll">
+                    <h5 class="card-title text-center"  data-section="index" data-value="ofElectricidad5">Instalaciones de Telecomunicaciones</h5>
+                    <p class="card-text flex-grow-1 d-none transitionAll"  data-section="index" data-value="ofElectricidad5Description">
                         Estas instalaciones incluyen cableado para redes de datos, sistemas de telefonía, sistemas de
                         seguridad, sistemas de control de acceso.
                     </p>
@@ -193,8 +216,8 @@
                 <img src="./Assets/intalacionesResidenciales.jpg" class="card-img-top" alt="..."
                     style="width: 100%; height: 100px; object-fit:cover">
                 <div class="card-body d-flex flex-column flex-grow-1">
-                    <h5 class="card-title text-center">Instalaciones residenciales</h5>
-                    <p class="card-text flex-grow-1 d-none transitionAll">
+                    <h5 class="card-title text-center"  data-section="index" data-value="ofElectricidad6">Instalaciones residenciales</h5>
+                    <p class="card-text flex-grow-1 d-none transitionAll"  data-section="index" data-value="ofElectricidad6Description">
                         Instalaciones eléctricas de baja tensión para hogares, edificios y apartamentos.
                     </p>
                 </div>
@@ -215,31 +238,31 @@
     height: 60vh;
     padding-top: 2rem;">
         <h3 class="text-center" style="font-family:Arial, Helvetica, sans-serif;
-        font-size: 20px;">SAI (Sistema de Alimentación Ininterrumpida)</h3>
+        font-size: 20px;"  data-section="index" data-value="sai">SAI (Sistema de Alimentación Ininterrumpida)</h3>
         <p class="text-center" style="font-family:Arial, Helvetica, sans-serif;
-        font-size: 15px;">Es un dispositivo esencial que protege equipos electrónicos sensibles contra cortes de
+        font-size: 15px;"  data-section="index" data-value="saiDescription">Es un dispositivo esencial que protege equipos electrónicos sensibles contra cortes de
             energía y
             fluctuaciones en la corriente eléctrica. Proporciona alimentación eléctrica continua durante interrupciones,
             asegurando que los dispositivos sigan funcionando sin problemas.</p>
         <div class="d-flex justify-content-center align-items-center gap-3">
             <div class="d-flex flex-column align-items-center">
                 <img src="./Assets/SAiEnLinea.png" alt="" width="100">
-                <h5>SAI en línea</h5>
-                <p>Ofrece la máxima protección, ya que el equipo siempre está alimentado por la batería, brindando una
+                <h5  data-section="index" data-value="saiCard1titulo">SAI en línea</h5>
+                <p  data-section="index" data-value="saiCard1Description">Ofrece la máxima protección, ya que el equipo siempre está alimentado por la batería, brindando una
                     corriente continua y filtrada</p>
 
             </div>
             <div class="d-flex flex-column align-items-center">
                 <img src="./Assets/SAIModoInteractivo.png" alt="" width="100">
-                <h5>SAI en modo interactivo</h5>
-                <p>El equipo se alimenta directamente desde la red eléctrica y solo usa la batería en caso de fallo o
+                <h5  data-section="index" data-value="saiCard2titulo">SAI en modo interactivo</h5>
+                <p  data-section="index" data-value="saiCard2Description">El equipo se alimenta directamente desde la red eléctrica y solo usa la batería en caso de fallo o
                     anomalía en el suministro.</p>
 
             </div>
             <div class="d-flex flex-column align-items-center">
                 <img src="./Assets/SAIEnEspera.png" alt="" width="100">
-                <h5>SAI en modo de espera</h5>
-                <p>Conmuta a la batería solo cuando detecta una interrupción en la energía, lo que proporciona una
+                <h5  data-section="index" data-value="saiCard3titulo">SAI en modo de espera</h5>
+                <p  data-section="index" data-value="saiCard3Description">Conmuta a la batería solo cuando detecta una interrupción en la energía, lo que proporciona una
                     respuesta rápida y eficiente.</p>
             </div>
         </div>
@@ -248,7 +271,7 @@
 
     <section class="container mt-5">
         <h3 class="text-center" style="font-family:Arial, Helvetica, sans-serif;
-         font-size: 20px; color: black;">Armarios</h3>
+         font-size: 20px; color: black;"  data-section="index" data-value="armarios">Armarios</h3>
 
         <div class="flex-wrap d-flex justify-content-center align-items-center w-100 gap-3 mt-5">
 
@@ -257,8 +280,8 @@
                 <img src="./Assets/instalacionesComerciales.webp" class="card-img-top" alt="..."
                     style="width: 100%; height: 100px; object-fit:cover">
                 <div class="card-body d-flex flex-column flex-grow-1">
-                    <h5 class="card-title text-center">Armarios de distribución eléctrica</h5>
-                    <p class="card-text flex-grow-1 d-none transitionAll">
+                    <h5 class="card-title text-center"  data-section="index" data-value="armariosCard1">Armarios de distribución eléctrica</h5>
+                    <p class="card-text flex-grow-1 d-none transitionAll"  data-section="index" data-value="armariosCard1Description">
                         Se utilizan para alojar componentes de distribución eléctrica, como
                         interruptores automáticos, interruptores de seguridad, y fusibles.
                     </p>
@@ -270,8 +293,8 @@
                 <img src="./Assets/armario2.jpg" class="card-img-top" alt="..."
                     style="width: 100%; height: 100px; object-fit:cover">
                 <div class="card-body d-flex flex-column flex-grow-1">
-                    <h5 class="card-title text-center">Armarios de control</h5>
-                    <p class="card-text flex-grow-1 d-none transitionAll">
+                    <h5 class="card-title text-center"  data-section="index" data-value="armariosCard2">Armarios de control</h5>
+                    <p class="card-text flex-grow-1 d-none transitionAll"  data-section="index" data-value="armariosCard2Description">
                         Diseñados para alojar componentes de control eléctrico, como relés,
                         contactores, temporizadores, PLCs (Controladores Lógicos Programables), y otros dispositivos de
                         automatización industrial.
@@ -284,8 +307,8 @@
                 <img src="./Assets/armario3.jpg" class="card-img-top" alt="..."
                     style="width: 100%; height: 100px; object-fit:cover">
                 <div class="card-body d-flex flex-column flex-grow-1">
-                    <h5 class="card-title text-center">Armarios de comunicaciones y redes</h5>
-                    <p class="card-text flex-grow-1 d-none transitionAll">
+                    <h5 class="card-title text-center"  data-section="index" data-value="armariosCard3">Armarios de comunicaciones y redes</h5>
+                    <p class="card-text flex-grow-1 d-none transitionAll"  data-section="index" data-value="armariosCard3Description">
                         Utilizados para alojar equipos de telecomunicaciones, como switches
                         de red, routers, servidores, y otros dispositivos de conectividad. Son comunes en entornos de redes de
                         datos, centros de datos, y sistemas de telecomunicaciones.
@@ -298,8 +321,8 @@
                 <img src="./Assets/armario4.jpg" class="card-img-top" alt="..."
                     style="width: 100%; height: 100px; object-fit:cover">
                 <div class="card-body d-flex flex-column flex-grow-1">
-                    <h5 class="card-title text-center">Armarios de instrumentación</h5>
-                    <p class="card-text flex-grow-1 d-none transitionAll">
+                    <h5 class="card-title text-center"  data-section="index" data-value="armariosCard4">Armarios de instrumentación</h5>
+                    <p class="card-text flex-grow-1 d-none transitionAll"  data-section="index" data-value="armariosCard4Description">
                         Estos armarios albergan instrumentos de medición y control, como
                         transmisores de temperatura, presión, caudal, nivel, y otros parámetros. Se utilizan en aplicaciones donde se
                         requiere monitoreo y control preciso de variables físicas en procesos industriales y sistemas de
@@ -313,8 +336,8 @@
                 <img src="./Assets/armario5.jpg" class="card-img-top" alt="..."
                     style="width: 100%; height: 100px; object-fit:cover">
                 <div class="card-body d-flex flex-column flex-grow-1">
-                    <h5 class="card-title text-center">Armarios de seguridad y protección</h5>
-                    <p class="card-text flex-grow-1 d-none transitionAll">
+                    <h5 class="card-title text-center"  data-section="index" data-value="armariosCard5">Armarios de seguridad y protección</h5>
+                    <p class="card-text flex-grow-1 d-none transitionAll"  data-section="index" data-value="armariosCard5Description">
                         Estos armarios están diseñados para proteger equipos eléctricos
                         sensibles contra sobretensiones, sobre corrientes, cortocircuitos y otros eventos que puedan dañarlos.
                         Pueden incluir dispositivos de protección contra rayos, supresores de picos de voltaje, y
@@ -328,8 +351,8 @@
                 <img src="./Assets/armario6.jpg" class="card-img-top" alt="..."
                     style="width: 100%; height: 100px; object-fit:cover">
                 <div class="card-body d-flex flex-column flex-grow-1">
-                    <h5 class="card-title text-center">Armarios especiales</h5>
-                    <p class="card-text flex-grow-1 d-none transitionAll">
+                    <h5 class="card-title text-center"  data-section="index" data-value="armariosCard6">Armarios especiales</h5>
+                    <p class="card-text flex-grow-1 d-none transitionAll"  data-section="index" data-value="armariosCard6Description">
                         Además de los tipos mencionados, existen armarios diseñados para
                         aplicaciones especializadas, como armarios a prueba de explosiones para entornos peligrosos, armarios
                         climatizados para ambientes extremos, armarios con grado de protección IP (contra polvo y agua)
@@ -345,13 +368,13 @@
     <section class="container-fluid mt-5 d-flex flex-column align-items-center justify-content-center gap-4" style="color: rgb(0, 0, 0);
  height: 70vh;
  font-family: Arial, Helvetica, sans-serif;">
-        <h3 style="font-size: 20px;">BATERIAS</h3>
-        <p class="text-center">Nuestras baterías están diseñadas con los más altos estándares de calidad y confiabilidad
+        <h3 style="font-size: 20px;"  data-section="index" data-value="baterias">BATERIAS</h3>
+        <p class="text-center"  data-section="index" data-value="bateriasDescription">Nuestras baterías están diseñadas con los más altos estándares de calidad y confiabilidad
             para ofrecer un
             rendimiento óptimo en cualquier entorno. Desde baterías de plomo-ácido tradicionales hasta tecnologías de
             vanguardia como las baterías de iones de litio, tenemos la solución adecuada para satisfacer las necesidades
             específicas de su empresa.</p>
-        <p> <b>NUESTROS SERVICIOS DE MANTENIMIENTO INCLUYEN:</b></p>
+        <p data-section="index" data-value="bateriasServices" > <b>NUESTROS SERVICIOS DE MANTENIMIENTO INCLUYEN:</b></p>
         <div class="d-flex gap-3 justify-content-center align-items-center" style="color: white;">
 
             <div style="width: 15rem; 
@@ -361,7 +384,7 @@
                align-items: center;
                justify-content: center;
                border-radius: 2%;">
-                <p class="text-center">Inspecciones regulares</p>
+                <p class="text-center"  data-section="index" data-value="bateriasServices1">Inspecciones regulares</p>
             </div>
 
             <div style="width: 15rem; 
@@ -370,7 +393,7 @@
                 display: flex !important;
                align-items: center;
                border-radius: 2%;">
-                <p class="text-center">Reemplazo de baterías envejecidas o defectuosas</p>
+                <p class="text-center"  data-section="index" data-value="bateriasServices2">Reemplazo de baterías envejecidas o defectuosas</p>
             </div>
 
             <div style="width: 15rem; 
@@ -380,7 +403,7 @@
                align-items: center;
                justify-content: center;
                border-radius: 2%;">
-                <p class="text-center">Pruebas de carga</p>
+                <p class="text-center"  data-section="index" data-value="bateriasServices3">Pruebas de carga</p>
             </div>
 
             <div style="width: 15rem; 
@@ -389,7 +412,7 @@
                 display: flex !important;
                align-items: center;
                border-radius: 2%;">
-                <p class="text-center">Implementación de las mejores prácticas para prolongar la vida útil de sus
+                <p class="text-center"  data-section="index" data-value="bateriasServices4">Implementación de las mejores prácticas para prolongar la vida útil de sus
                     sistemas de energía de respaldo.</p>
             </div>
 
@@ -409,8 +432,9 @@
         height: 100%;
         background-color: rgba(0,0,0,.2);">
             <img src="./Assets/iconCarga.png" alt="" width="70">
-            <h3 style=" font-size: 20px;"> Puntos De Cargas Para Vehículos Eléctricos</h3>
-            <p style="color: white; font-size: 15px;" class="text-center d-flex flex-column align-items-center">
+            <h3 style=" font-size: 20px;"  data-section="index" data-value="puntoDeCarga"> Puntos De Cargas Para Vehículos Eléctricos</h3>
+            <p style="color: white; font-size: 15px;" class="text-center d-flex flex-column align-items-center"
+            data-section="index" data-value="puntoDeCargaDescription">
                 En AMFTech, estamos a la vanguardia de la revolución de la movilidad eléctrica, ofreciendo soluciones
                 innovadoras y confiables para cargar vehículos eléctricos en cualquier lugar y en cualquier momento.
                 Nuestra gama de puntos de carga está diseñada para satisfacer las necesidades de conductores
@@ -425,7 +449,7 @@
                align-items: center;
                justify-content: center;
                border-radius: 2%;">
-                    <p>Carga rápida y eficiente</p>
+                    <p  data-section="index" data-value="puntoDeCargaService1">Carga rápida y eficiente</p>
                 </div>
                 <div style="width: 15rem; 
                 height: 3rem; 
@@ -434,7 +458,7 @@
                align-items: center;
                justify-content: center;
                border-radius: 2%;">
-                    <p> Seguridad y confiabilidad</p>
+                    <p  data-section="index" data-value="puntoDeCargaService2"> Seguridad y confiabilidad</p>
                 </div>
                 <div style="width: 15rem; 
                 height: 3rem; 
@@ -443,7 +467,7 @@
                align-items: center;
                justify-content: center;
                border-radius: 2%;">
-                    <p>Flexibilidad de istalación</p>
+                    <p  data-section="index" data-value="puntoDeCargaService3">Flexibilidad de istalación</p>
                 </div>
                 <div style="width: 15rem; 
                 height: 3rem; 
@@ -452,7 +476,7 @@
                align-items: center;
                justify-content: center;
                border-radius: 2%;">
-                    <p> Opción de pagos integrado</p>
+                    <p  data-section="index" data-value="puntoDeCargaService4"> Opción de pagos integrado</p>
                 </div>
             </div>
 

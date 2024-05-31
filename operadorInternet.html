@@ -22,52 +22,75 @@
 
     <!-- BARRA NAVEGACION -->
     <nav class="navbar navbar-expand-lg bg-body-black"
-        style="background-color: rgba(255, 255, 255, 0.164); color: rgb(0, 0, 0);">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="./index.html"><img src="./Assets/logo.png" alt="" width="160"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                    <li class="nav-item" style="color: rgb(0, 0, 0);">
-                        <a class="nav-link active" style="color: rgb(0, 0, 0);" aria-current="page"
-                            href="./index.html">INICIO</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" style="color: rgb(0, 0, 0)" href="./quienessomos.html">QUIENES SOMOS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" style="color: rgb(0, 0, 0)" href="#">PROYECTOS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" style="color: rgb(0, 0, 0)" href=".//servicios.html">SERVICIOS</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" style="color: rgb(0, 0, 0)" href="./servicios.html"
-                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    style="background-color: rgba(255, 255, 255, 0.164); color: rgb(0, 0, 0);">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html"><img src="./Assets/logo.png" alt="" width="160"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item" style="color: rgb(0, 0, 0);">
+                    <a class="nav-link active" style="color: rgb(0, 0, 0);" aria-current="page"
+                        href="./index.html" data-section="index" data-value="navBarMenu1">INICIO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color: rgb(0, 0, 0)" href="./quienessomos.html"
+                    data-section="index" data-value="navBarMenu2">QUIENES SOMOS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color: rgb(0, 0, 0)" href="#" 
+                    data-section="index" data-value="navBarMenu3">PROYECTOS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color: rgb(0, 0, 0)" href=".//servicios.html"
+                    data-section="index" data-value="navBarMenu4">SERVICIOS</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" style="color: rgb(0, 0, 0)" href="./servicios.html"
+                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
 
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="./comunicaciones.html">COMUNICACIONES</a></li>
-                            <li><a class="dropdown-item" href="./electricidad.html">ELECTRICIDAD</a></li>
-                            <li><a class="dropdown-item" href="./energiasRenovables.html">ENERGIAS RENOVABLES</a></li>
-                            <li><a class="dropdown-item" href="./operadorInternet.html">OPERADOR DE INTERNET</a></li>
-                            <li><a class="dropdown-item" href="./videoseguridad.html">VIDEOSEGURIDAD</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" style="color: rgb(0, 0, 0)" href="./trabajaconnosotros.html">TRABAJA CON
-                            NOSOTROS</a>
-                    </li>
-                </ul>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="./comunicaciones.html"
+                            data-section="index" data-value="navBarMenu7">COMUNICACIONES</a></li>
+                        <li><a class="dropdown-item" href="./electricidad.html"
+                            data-section="index" data-value="navBarMenu8">ELECTRICIDAD</a></li>
+                        <li><a class="dropdown-item" href="./energiasRenovables.html"
+                            data-section="index" data-value="navBarMenu9">ENERGIAS RENOVABLES</a></li>
+                        <li><a class="dropdown-item" href="./operadorInternet.html"
+                            data-section="index" data-value="navBarMenu10">OPERADOR DE INTERNET</a></li>
+                        <li><a class="dropdown-item" href="./videoseguridad.html"
+                            data-section="index" data-value="navBarMenu11">VIDEOSEGURIDAD</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color: rgb(0, 0, 0)" href="./trabajaconnosotros.html"
+                    data-section="index" data-value="navBarMenu5">TRABAJA CON
+                        NOSOTROS</a>
+                </li>
+            </ul>
 
-                <a href="./contacto.html" class="btn btn-danger w-40"
-                    style="height: 2rem; font-size: 13px; color: rgb(0, 0, 0);">CONTACTO</a>
+            <a href="./contacto.html" class="btn btn-danger w-40"
+                style="height: 2rem; font-size: 13px; color: rgb(0, 0, 0);"
+                data-section="index" data-value="navBarMenu6">CONTACTO</a>
+        </div>
+        <div class="switches">
+            <div id="toggle-theme" class="toggle-theme">
+
             </div>
         </div>
-    </nav>
+        <div id="flags" class="flags">
+            <div class="flags__item" data-language="es">
+                <img src="./Assets//es.svg" alt="" class="flags__img">
+            </div>
+            <div class="flags__item" data-language="en">
+                <img src="./Assets//gb.svg" alt="" class="flags__img">
+            </div>
+        </div>
+    </div>
+</nav>
     <!-- PORTADA -->
     <div class="container-fluid d-flex justify-content-center  align-items-center" style="width: 100%; 
         height: 59.7vh;
@@ -82,9 +105,9 @@
             justify-content: center;
             align-items: center;">
             <h2 style="font-family:Arial, Helvetica, sans-serif;
-                font-size: 50px;" class="text-center">Operador de Internet</h2>
+                font-size: 50px;" class="text-center" data-section="index" data-value="operadorPortada">Operador de Internet</h2>
             <p style="font-family:Arial, Helvetica, sans-serif;
-                font-size: 20px">Como operador de Internet, ofrecemos una variedad de servicios de conectividad
+                font-size: 20px" data-section="index" data-value="operadorDescription">Como operador de Internet, ofrecemos una variedad de servicios de conectividad
                 diseñados para satisfacer las necesidades de empresas de todos los tamaños.
 
 
@@ -92,7 +115,7 @@
             <a href="./quienessomos.html" style="font-family:Arial, Helvetica, sans-serif;
                 font-size: 15px;
                 width: 200px;
-                margin-left: 2rem;" class="btn  btn-light">Más de nosotros</a>
+                margin-left: 2rem;" class="btn  btn-light" data-section="index" data-value="botonPortada">Más de nosotros</a>
         </div>
         <div style="width: 50%;
         height: 100%;
@@ -113,7 +136,7 @@
         <!-- <div class="container mt-5 d-flex flex-column justify-content align-items-center"> -->
 
         <h2 class="text-center" style="font-family:Arial, Helvetica, sans-serif;
-                font-size: 30px;">¿QUE OFRECEMOS?</h2>
+                font-size: 30px;" data-section="index" data-value="queOfrecemos">¿QUE OFRECEMOS?</h2>
 
 
 
@@ -123,8 +146,8 @@
             <div class="card d-flex align-items-center serviceCard flex-column transitionAll border-0 pt-3"
                 style="width: 20rem; height: 20rem">
                 <div class="card-body d-flex flex-column flex-grow-1">
-                    <h5 class="card-title" style="color: red;">Fibra Óptica</h5>
-                    <p class="card-text ">
+                    <h5 class="card-title" style="color: red;" data-section="index" data-value="operadorCard1">Fibra Óptica</h5>
+                    <p class="card-text " data-section="index" data-value="aOperadorCard1">
                         La fibra óptica es una tecnología de conectividad de alta velocidad que ofrece velocidades de
                         conexión extremadamente rápidas y una alta capacidad de ancho de banda. Proporcionamos
                         soluciones de conectividad basadas en fibra óptica en cualquier sitio donde sea factible su
@@ -138,8 +161,8 @@
             <div class="card d-flex align-items-center serviceCard flex-column transitionAll border-0 pt-3"
                 style="width: 20rem; height: 20rem">
                 <div class="card-body d-flex flex-column flex-grow-1">
-                    <h5 class="card-title" style="color: red;">Cable Coaxial</h5>
-                    <p class="card-text ">
+                    <h5 class="card-title" style="color: red;" data-section="index" data-value="operadorCard2">Cable Coaxial</h5>
+                    <p class="card-text " data-section="index" data-value="aOperadorCard2">
                         Utilizamos cable coaxial para proporcionar servicios de Internet de alta velocidad en áreas
                         donde es la opción más adecuada. Nuestra red de cableado coaxial nos permite ofrecer soluciones
                         de conectividad confiables y eficientes en cualquier ubicación.
@@ -152,8 +175,8 @@
             <div class="card d-flex align-items-center serviceCard flex-column transitionAll border-0 pt-3"
                 style="width: 20rem; height: 20rem">
                 <div class="card-body d-flex flex-column flex-grow-1">
-                    <h5 class="card-title" style="color: red;"  >DSL (Línea de Abonado Digital)</h5>
-                    <p class="card-text ">
+                    <h5 class="card-title" style="color: red;" data-section="index" data-value="operadorCard3" >DSL (Línea de Abonado Digital)</h5>
+                    <p class="card-text " data-section="index" data-value="aOperadorCard3">
                         Ofrecemos conexiones DSL a través de la infraestructura telefónica existente en diversas
                         ubicaciones. Esta opción nos permite proporcionar soluciones de conectividad incluso en áreas
                         donde la fibra óptica no está disponible.
@@ -166,8 +189,8 @@
             <div class="card d-flex align-items-center serviceCard flex-column transitionAll border-0 pt-3"
                 style="width: 20rem; height: 20rem">
                 <div class="card-body d-flex flex-column flex-grow-1">
-                    <h5 class="card-title" style="color: red;">Conexiones Satelitales</h5>
-                    <p class="card-text ">
+                    <h5 class="card-title" style="color: red;" data-section="index" data-value="operadorCard4">Conexiones Satelitales</h5>
+                    <p class="card-text " data-section="index" data-value="aOperadorCard4">
                         Las conexiones satelitales nos permiten ofrecer conectividad en áreas rurales o remotas donde la
                         infraestructura terrestre es limitada. Gracias a esta tecnología, podemos proporcionar
                         soluciones de conectividad en prácticamente cualquier sitio, independientemente de su ubicación
@@ -181,8 +204,8 @@
             <div class="card d-flex align-items-center serviceCard flex-column transitionAll border-0 pt-3"
                 style="width: 20rem; height: 20rem">
                 <div class="card-body d-flex flex-column flex-grow-1">
-                    <h5 class="card-title" style="color: red;">Redes de Última Milla Inalámbricas</h5>
-                    <p class="card-text">
+                    <h5 class="card-title" style="color: red;" data-section="index" data-value="operadorCard5">Redes de Última Milla Inalámbricas</h5>
+                    <p class="card-text" data-section="index" data-value="aOperadorCard5">
                         Utilizamos tecnologías inalámbricas como Wi-Fi y WiMAX para proporcionar conectividad sin la
                         necesidad de cables físicos. Esto nos permite ofrecer soluciones de conectividad flexibles y
                         escalables en cualquier entorno, incluidos entornos urbanos y rurales.
@@ -195,8 +218,8 @@
             <div class="card d-flex align-items-center serviceCard flex-column transitionAll border-0 pt-3"
                 style="width: 20rem; height: 20rem">
                 <div class="card-body d-flex flex-column flex-grow-1">
-                    <h5 class="card-title" style="color: red;">Redes Móviles (3G, 4G, 5G)</h5>
-                    <p class="card-text">
+                    <h5 class="card-title" style="color: red;" data-section="index" data-value="operadorCard6">Redes Móviles (3G, 4G, 5G)</h5>
+                    <p class="card-text" data-section="index" data-value="aOperadorCard6">
                         Las redes móviles nos permiten proporcionar conectividad en movimiento a través de torres
                         celulares. Con tecnologías como 4G y 5G, podemos ofrecer soluciones de conectividad de alta
                         velocidad y baja latencia en cualquier ubicación donde haya cobertura de red móvil.
@@ -218,32 +241,32 @@
     <div class="container-fluid">
         <h3 class="text-center" style="font-family:Arial, Helvetica, sans-serif;
         font-size: 20px; 
-        color: black;"><b>¿PORQUE ELEGIRNOS?</b></h3>
+        color: black;" data-section="index" data-value="eleginos"><b>¿PORQUE ELEGIRNOS?</b></h3>
        <p class="text-center" style="font-family: Arial, Helvetica, sans-serif; 
-       font-size: 20px;">
+       font-size: 20px;" data-section="index" data-value="eleginosDescription">
         Estamos comprometidos a proporcionar la mejor solución de conectividad para las necesidades específicas de nuestros clientes, y nuestra capacidad para ofrecer soluciones de conectividad en cualquier sitio utilizando una variedad de métodos nos permite satisfacer las demandas de conectividad en cualquier entorno.
         </p>
     </div>
         <div class="d-flex justify-content-center align-items-center gap-3 mt-5">
             <div class="d-flex flex-column align-items-center">
                 <img src="./Assets/compromiso-100x100.png" alt="" width="100">
-                <h5><b>Experiencia y Expertise</b></h5>
-                <p>Contamos con un equipo de profesionales altamente capacitados y con experiencia en el diseño,
+                <h5 data-section="index" data-value="eleginosCard1"><b>Experiencia y Expertise</b></h5>
+                <p data-section="index" data-value="aEleginosCard1">Contamos con un equipo de profesionales altamente capacitados y con experiencia en el diseño,
                     implementación y mantenimiento de soluciones de seguridad para empresas de todos los tamaños y
                     sectores.</p>
 
             </div>
             <div class="d-flex flex-column align-items-center">
                 <img src="./Assets/tecnologiaAvanzada.png" alt="" width="90">
-                <h5><b>Tecnología Avanzada</b></h5>
-                <p>Nos mantenemos a la vanguardia de la tecnología de seguridad, utilizando equipos y software de última
+                <h5 data-section="index" data-value="eleginosCard2"><b>Tecnología Avanzada</b></h5>
+                <p data-section="index" data-value="aEleginosCard2">Nos mantenemos a la vanguardia de la tecnología de seguridad, utilizando equipos y software de última
                     generación para proporcionar soluciones eficaces y confiables.</p>
 
             </div>
             <div class="d-flex flex-column align-items-center">
                 <img src="./Assets/excellencesd-150x150.png" alt="" width="100">
-                <h5><b>Calidad y Seguridad</b></h5>
-                <p>Nos comprometemos a proporcionar soluciones de seguridad que cumplan con los más altos estándares de
+                <h5 data-section="index" data-value="eleginosCard3"><b>Calidad y Seguridad</b></h5>
+                <p data-section="index" data-value="aEleginosCard3">Nos comprometemos a proporcionar soluciones de seguridad que cumplan con los más altos estándares de
                     calidad y seguridad, protegiendo a tu empresa de manera integral.</p>
             </div>
         </div>

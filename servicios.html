@@ -33,16 +33,16 @@
                 <ul class="navbar-nav">
                     <li class="nav-item" style="color: rgb(0, 0, 0);">
                         <a class="nav-link active" style="color: rgb(0, 0, 0);" aria-current="page"
-                            href="./index.html">INICIO</a>
+                            href="./index.html" data-section="index" data-value="navBarMenu1">INICIO</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" style="color: rgb(0, 0, 0)" href="./quienessomos.html">QUIENES SOMOS</a>
+                        <a class="nav-link" style="color: rgb(0, 0, 0)" href="./quienessomos.html"  data-section="index" data-value="navBarMenu2">QUIENES SOMOS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" style="color: rgb(0, 0, 0)" href="#">PROYECTOS</a>
+                        <a class="nav-link" style="color: rgb(0, 0, 0)" href="#"  data-section="index" data-value="navBarMenu3">PROYECTOS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" style="color: rgb(0, 0, 0)" href=".//servicios.html">SERVICIOS</a>
+                        <a class="nav-link" style="color: rgb(0, 0, 0)" href=".//servicios.html"  data-section="index" data-value="navBarMenu4">SERVICIOS</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" style="color: rgb(0, 0, 0)" href="./servicios.html"
@@ -50,21 +50,41 @@
 
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="./comunicaciones.html">COMUNICACIONES</a></li>
-                            <li><a class="dropdown-item" href="./electricidad.html">ELECTRICIDAD</a></li>
-                            <li><a class="dropdown-item" href="./energiasRenovables.html">ENERGIAS RENOVABLES</a></li>
-                            <li><a class="dropdown-item" href="./operadorInternet.html">OPERADOR DE INTERNET</a></li>
-                            <li><a class="dropdown-item" href="./videoseguridad.html">VIDEOSEGURIDAD</a></li>
+                            <li><a class="dropdown-item" href="./comunicaciones.html"
+                                data-section="index" data-value="navBarMenu7">COMUNICACIONES</a></li>
+                            <li><a class="dropdown-item" href="./electricidad.html"
+                                data-section="index" data-value="navBarMenu8">ELECTRICIDAD</a></li>
+                            <li><a class="dropdown-item" href="./energiasRenovables.html"
+                                data-section="index" data-value="navBarMenu9">ENERGIAS RENOVABLES</a></li>
+                            <li><a class="dropdown-item" href="./operadorInternet.html"
+                                data-section="index" data-value="navBarMenu10">OPERADOR DE INTERNET</a></li>
+                            <li><a class="dropdown-item" href="./videoseguridad.html"
+                                data-section="index" data-value="navBarMenu11">VIDEOSEGURIDAD</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" style="color: rgb(0, 0, 0)" href="./trabajaconnosotros.html">TRABAJA CON
+                        <a class="nav-link" style="color: rgb(0, 0, 0)" href="./trabajaconnosotros.html"
+                        data-section="index" data-value="navBarMenu5">TRABAJA CON
                             NOSOTROS</a>
                     </li>
                 </ul>
 
                 <a href="./contacto.html" class="btn btn-danger w-40"
-                    style="height: 2rem; font-size: 13px; color: rgb(0, 0, 0);">CONTACTO</a>
+                    style="height: 2rem; font-size: 13px; color: rgb(0, 0, 0);"
+                    data-section="index" data-value="navBarMenu6">CONTACTO</a>
+            </div>
+            <div class="switches">
+                <div id="toggle-theme" class="toggle-theme">
+
+                </div>
+            </div>
+            <div id="flags" class="flags">
+                <div class="flags__item" data-language="es">
+                    <img src="./Assets//es.svg" alt="" class="flags__img">
+                </div>
+                <div class="flags__item" data-language="en">
+                    <img src="./Assets//gb.svg" alt="" class="flags__img">
+                </div>
             </div>
         </div>
     </nav>
@@ -81,15 +101,16 @@
             align-items: center;
             justify-content: center;">
             <h2 style="font-family:Arial, Helvetica, sans-serif;
-                font-size: 50px;">AMF, el aliado tecnológico para usted.</h2>
+                font-size: 50px;" data-section="index" data-value="tituloServicios">ADENTRATE AL MUNDO AMF TECH</h2>
             <p style="font-family:Arial, Helvetica, sans-serif;
-                font-size: 20px">Conectamos las mejores soluciones de nuestras alianzas estratégicas con nuestros ​servicios
-                profesionales, con los que impulsamos y transformamos la evolución del negocio de nuestros clientes.
+                font-size: 20px" data-section="index" data-value="descriptionServicios">Ofrecemos soluciones integrales en telecomunicaciones, tecnología y energía. Descubra
+                nuestros servicios diseñados para mejorar su conectividad, optimizar sus sistemas y potenciar su
+                negocio.
             </p>
             <a href="./quienessomos.html" style="font-family:Arial, Helvetica, sans-serif;
                 font-size: 15px;
                 width: 200px;
-                margin-left: 2rem;" class="btn  btn-light">Más de nosotros</a>
+                margin-left: 2rem;" class="btn  btn-light" data-section="index" data-value="botonPortada">Más de nosotros</a>
         </div>
         <div style="width: 50%;
             display: flex;
@@ -98,7 +119,7 @@
         </div>
     </div>
 
-  <!-- NUESTROS SERVICIOS -->
+    <!-- NUESTROS SERVICIOS -->
     <section class="container mt-5">
 
 
@@ -106,7 +127,7 @@
         <!-- <div class="container mt-5 d-flex flex-column justify-content align-items-center"> -->
 
         <h2 class="text-center" style="font-family:Arial, Helvetica, sans-serif;
-                font-size: 30px;">NUESTROS SERVICIOS</h2>
+                font-size: 30px;" data-section="index" data-value="subtituloServicios">NUESTROS SERVICIOS</h2>
 
         <div class="flex-wrap d-flex justify-content-center align-items-center w-100 gap-3 mt-5">
 
@@ -115,12 +136,14 @@
                 <img src="./Assets/rayo.png" class="card-img-top" alt="..."
                     style="width: 100px; height: 100px; object-fit:contain">
                 <div class="card-body d-flex flex-column flex-grow-1">
-                    <h5 class="card-title">Electricidad</h5>
-                    <p class="card-text flex-grow-1 d-none transitionAll">
+                    <h5 class="card-title" data-section="index" data-value="servicio1">Electricidad</h5>
+                    <p class="card-text flex-grow-1 d-none transitionAll"
+                    data-section="index" data-value="descriptionServicio1">
                         Pronemos a su disposición un equipo de trabajo formado por ingenieros y personal técnico
                         que dará soluciones a cualquier requerimiento eléctrico de tipo industrial.
                     </p>
-                    <a href="./electricidad.html" class="btn btn-outline-danger d-none transitionAll">Ver más</a>
+                    <a href="./electricidad.html" class="btn btn-outline-danger d-none transitionAll"
+                    data-section="index" data-value="verMasServ">Ver más</a>
                 </div>
             </div>
 
@@ -129,13 +152,15 @@
                 <img src="./Assets/camarita.png" class="card-img-top" alt="..."
                     style="width: 100px; height: 100px; object-fit:contain">
                 <div class="card-body d-flex flex-column flex-grow-1">
-                    <h5 class="card-title">Videoseguridad</h5>
-                    <p class="card-text flex-grow-1 d-none transitionAll">
+                    <h5 class="card-title" data-section="index" data-value="servicio2">Videoseguridad</h5>
+                    <p class="card-text flex-grow-1 d-none transitionAll"
+                    data-section="index" data-value="descriptionServicio2">
                         Ofrecemos un conjunto completo de servicios
                         de seguridad que abarcan desde la videointeligencia hasta el control de accesos, proporcionando
                         una protección completa para tu empresa y tus activos
                     </p>
-                    <a href="./videoseguridad.html" class="btn btn-outline-danger d-none transitionAll">Ver más</a>
+                    <a href="./videoseguridad.html" class="btn btn-outline-danger d-none transitionAll"
+                    data-section="index" data-value="verMasServ">Ver más</a>
                 </div>
             </div>
 
@@ -144,11 +169,13 @@
                 <img src="./Assets//antena.png" class="card-img-top" alt="..."
                     style="width: 100px; height: 100px; object-fit:contain">
                 <div class="card-body d-flex flex-column flex-grow-1">
-                    <h5 class="card-title">Conectividad</h5>
-                    <p class="card-text flex-grow-1 d-none transitionAll">Como operador de internet, ofrecemos una
+                    <h5 class="card-title" data-section="index" data-value="servicio3">Conectividad</h5>
+                    <p class="card-text flex-grow-1 d-none transitionAll"
+                    data-section="index" data-value="descriptionServicio3">Como operador de internet, ofrecemos una
                         variedad
                         de servicios diseñados para satisfacer las necesidades de empresas de todos los tamaños.</p>
-                    <a href="/operadorInternet.html" class="btn btn-outline-danger d-none transitionAll">Ver más</a>
+                    <a href="/operadorInternet.html" class="btn btn-outline-danger d-none transitionAll"
+                    data-section="index" data-value="verMasServ">Ver más</a>
                 </div>
             </div>
 
@@ -157,14 +184,16 @@
                 <img src="./Assets//internet.png" class="card-img-top" alt="..."
                     style="width: 100px; height: 100px; object-fit:contain">
                 <div class="card-body d-flex flex-column flex-grow-1">
-                    <h5 class="card-title">Comunicaciones</h5>
-                    <p class="card-text flex-grow-1 d-none transitionAll">
+                    <h5 class="card-title" data-section="index" data-value="servicio4">Comunicaciones</h5>
+                    <p class="card-text flex-grow-1 d-none transitionAll"
+                    data-section="index" data-value="descriptionServicio4">
                         Ofrecemos consultoria especializada en comunicaciones, adaptando soluciones a medida del
                         desafío específico de cada cliente. Priorizamos la implementación eficaz de infraestructuras de
                         red, asegurando
                         su funcionamiento óptimo desde el inicio.
                     </p>
-                    <a href="./comunicaciones.html" class="btn btn-outline-danger d-none transitionAll">Ver más</a>
+                    <a href="./comunicaciones.html" class="btn btn-outline-danger d-none transitionAll"
+                    data-section="index" data-value="verMasServ">Ver más</a>
                 </div>
             </div>
 
@@ -173,13 +202,15 @@
                 <img src="./Assets/panel solar.png" class="card-img-top" alt="..."
                     style="width: 100px; height: 100px; object-fit:contain">
                 <div class="card-body d-flex flex-column flex-grow-1">
-                    <h5 class="card-title">Energías Renovables</h5>
-                    <p class="card-text flex-grow-1 d-none transitionAll">
+                    <h5 class="card-title" data-section="index" data-value="servicio5">Energías Renovables</h5>
+                    <p class="card-text flex-grow-1 d-none transitionAll"
+                    data-section="index" data-value="descriptionServicio5">
                         Servicios para plantas solares fijas y seguidores: Montaje de proyectos,
                         Servicio de operación y mantenimiento, asistencia, soporte técnico,
                         diseño y construcción de sistemas solares para el hogar.
                     </p>
-                    <a href="./energiasRenovables.html" class="btn btn-outline-danger d-none transitionAll">Ver más</a>
+                    <a href="./energiasRenovables.html" class="btn btn-outline-danger d-none transitionAll"
+                    data-section="index" data-value="verMasServ">Ver más</a>
                 </div>
             </div>
 
@@ -190,7 +221,7 @@
         <!-- </div> -->
     </section>
 
-  <!-- TE ASESORAMOS -->
+    <!-- TE ASESORAMOS -->
     <section class="container-fluid mt-5" style="background-image:linear-gradient(rgba(255, 255, 255, 0.541), rgba(0, 0, 0, 0.568)), url(./Assets/WhatsApp\ Image\ 2024-05-20\ at\ 7.41.03\ AM.jpeg);
     background-size: cover;
     width: 100%;
@@ -200,105 +231,108 @@
     padding-top: 2rem;
     object-fit: fill;">
         <h2 class="text-center" style="font-family:Arial, Helvetica, sans-serif;
-        font-size: 30px;">En AMF te asesoramos según tus necesidades</h2>
+        font-size: 30px;"data-section="index" data-value="tituloAsesoria">En AMF te asesoramos según tus necesidades</h2>
         <div class="d-flex justify-content-center align-items-center gap-3">
-        <div class="d-flex flex-column align-items-center">
-            <img src="./Assets/checknegro.png" alt="" width="100">
-            <h5>Encuentra tu solución</h5>
-            <p>Ayudamos a transformar y potenciar  tu empresa, diseñamos soluciones que  integran conocimiento y
-                tecnología que impulsan la evolución de los procesos de negocio.</p>
+            <div class="d-flex flex-column align-items-center">
+                <img src="./Assets/checknegro.png" alt="" width="100">
+                <h5 data-section="index" data-value="asesoriaTitulo1">Encuentra tu solución</h5>
+                <p data-section="index" data-value="descripcionAsesoria1">Ayudamos a transformar y potenciar tu empresa, diseñamos soluciones que integran conocimiento y
+                    tecnología que impulsan la evolución de los procesos de negocio.</p>
+            </div>
+            <div class="d-flex flex-column align-items-center">
+                <img src="./Assets/trato.png" alt="" width="100">
+                <h5 data-section="index" data-value="asesoriaTitulo2">Sé nuestro partner</h5>
+                <p data-section="index" data-value="descripcionAsesoria2">La potencia de nuestras alianzas nos permite alcanzar un alto nivel de actualización tecnológica.
+                    Monitoreamos permanentemente potenciales socios estratégicos.</p>
+            </div>
+            <div class="d-flex flex-column align-items-center">
+                <img src="./Assets//usuarios.png" alt="" width="100">
+                <h5 data-section="index" data-value="asesoriaTitulo3">Trabaja con nosotros</h5>
+                <p data-section="index" data-value="descripcionAsesoria3">Somos un equipo interdisciplinario de profesionales que busca superarse continuamente y agregar valor
+                    centrándonos en nuestros clientes. Súmate a nuestro staff.</p>
+            </div>
         </div>
-        <div class="d-flex flex-column align-items-center">
-            <img src="./Assets/trato.png" alt="" width="100">
-            <h5>Sé nuestro partner</h5>
-            <p>La potencia de nuestras alianzas nos permite alcanzar un alto nivel de actualización tecnológica.
-                Monitoreamos permanentemente potenciales socios estratégicos.</p>
-        </div>
-        <div class="d-flex flex-column align-items-center">
-            <img src="./Assets//usuarios.png" alt="" width="100">
-            <h5>Trabaja con nosotros</h5>
-            <p>Somos un equipo interdisciplinario de profesionales que busca superarse continuamente y agregar valor
-                centrándonos en nuestros clientes. Súmate a nuestro staff.</p>
-        </div>
-    </div>
     </section>
- <!-- COMO TRABAJAMOS -->
+    <!-- COMO TRABAJAMOS -->
 
- <section class="container mt-5">
-    <h2 class="text-center" style="font-family:Arial, Helvetica, sans-serif;
-            font-size: 30px;">Cómo trabajamos</h2>
+    <section class="container mt-5">
+        <h2 class="text-center" style="font-family:Arial, Helvetica, sans-serif;
+            font-size: 30px;" data-section="index" data-value="comoTrabajamos">Cómo trabajamos</h2>
 
-    <div class="flex-wrap d-flex justify-content-center align-items-center w-100 gap-3 mt-5">
+        <div class="flex-wrap d-flex justify-content-center align-items-center w-100 gap-3 mt-5">
 
-        <div class="card d-flex align-items-center serviceCard flex-column transitionAll border-0 pt-3"
-            style="width: 20rem; height: 25rem">
-            <img src="./Assets/diagnostico.png" class="card-img-top" alt="..."
-                style="width: 100px; height: 100px; object-fit:contain">
-            <div class="card-body d-flex flex-column flex-grow-1">
-                <h5 class="card-title">Comprensión y diagnóstico</h5>
-               <ul class=" d-none flex-grow-1">
-                
-                <li>Diagnóstico </li>
-                <li>Procesos de negocios</li>
-                <li>Impacto tecnológico</li>
-                <li>Definición de objetivos</li>
-                <li>Definición de estructura del proyecto</li>
-               </ul>
-                <a href="./contacto.html" class="btn btn-outline-danger d-none transitionAll">Contactanos</a>
+            <div class="card d-flex align-items-center serviceCard flex-column transitionAll border-0 pt-3"
+                style="width: 20rem; height: 25rem">
+                <img src="./Assets/diagnostico.png" class="card-img-top" alt="..."
+                    style="width: 100px; height: 100px; object-fit:contain">
+                <div class="card-body d-flex flex-column flex-grow-1">
+                    <h5 class="card-title" data-section="index" data-value="Comprension">Comprensión y diagnóstico</h5>
+                    <ul class=" d-none flex-grow-1" >
+
+                        <li data-section="index" data-value="aComprension">Diagnóstico </li>
+                        <li data-section="index" data-value="bComprension">Procesos de negocios</li>
+                        <li data-section="index" data-value="cComprension">Impacto tecnológico</li>
+                        <li data-section="index" data-value="dComprension">Definición de objetivos</li>
+                        <li data-section="index" data-value="eComprension">Definición de estructura del proyecto</li>
+                    </ul>
+                    <a href="./contacto.html" class="btn btn-outline-danger d-none transitionAll"
+                    data-section="index" data-value="verMasComoTrabajamos">Contactanos</a>
+                </div>
             </div>
-        </div>
 
-        <div class="card d-flex align-items-center serviceCard flex-column transitionAll border-0 pt-3"
-        style="width: 20rem; height: 25rem">
-        <img src="./Assets/objetivo.png" class="card-img-top" alt="..."
-            style="width: 100px; height: 100px; object-fit:contain">
-        <div class="card-body d-flex flex-column flex-grow-1">
-            <h5 class="card-title">Implementación y adopción</h5>
-            <ul class=" d-none flex-grow-1">
-            
-                <li>Acompañamiento al cliente</li>
-                <li>Implementación solución</li>
-                <li>Adopción de la tecnología</li>
-                <li>Diagnóstico</li>
-                <li>Evolución del proyecto</li>
-               </ul>
-            <a href="./contacto.html" class="btn btn-outline-danger d-none transitionAll">Contactanos</a>
-        </div>
-    </div>
+            <div class="card d-flex align-items-center serviceCard flex-column transitionAll border-0 pt-3"
+                style="width: 20rem; height: 25rem">
+                <img src="./Assets/objetivo.png" class="card-img-top" alt="..."
+                    style="width: 100px; height: 100px; object-fit:contain">
+                <div class="card-body d-flex flex-column flex-grow-1">
+                    <h5 class="card-title" data-section="index" data-value="implementacion">Implementación y adopción</h5>
+                    <ul class=" d-none flex-grow-1">
 
-
-        <div class="card d-flex align-items-center serviceCard flex-column transitionAll border-0 pt-3"
-            style="width: 20rem; height: 25rem">
-            <img src="./Assets/diseño.png" class="card-img-top" alt="..."
-                style="width: 100px; height: 100px; object-fit:contain">
-            <div class="card-body d-flex flex-column flex-grow-1">
-                <h5 class="card-title">Diseño y construcción</h5>
-                <ul class=" d-none flex-grow-1">
-                
-                    <li>Visión cliente centrista </li>
-                    <li>Definición alcance</li>
-                    <li>Definición tecnología</li>
-                    <li>Desarrollo de la solución</li>
-                   
-                   </ul>
-                <a href="./contacto.html" class="btn btn-outline-danger d-none transitionAll">Contactanos</a>
+                        <li data-section="index" data-value="aImplementacion">Acompañamiento al cliente</li>
+                        <li data-section="index" data-value="bImplementacion">Implementación solución</li>
+                        <li data-section="index" data-value="cImplementacion">Adopción de la tecnología</li>
+                        <li data-section="index" data-value="dImplementacion">Diagnóstico</li>
+                        <li data-section="index" data-value="eImplementacion">Evolución del proyecto</li>
+                    </ul>
+                    <a href="./contacto.html" class="btn btn-outline-danger d-none transitionAll"
+                    data-section="index" data-value="verMasComoTrabajamos">Contactanos</a>
+                </div>
             </div>
+
+
+            <div class="card d-flex align-items-center serviceCard flex-column transitionAll border-0 pt-3"
+                style="width: 20rem; height: 25rem">
+                <img src="./Assets/diseño.png" class="card-img-top" alt="..."
+                    style="width: 100px; height: 100px; object-fit:contain">
+                <div class="card-body d-flex flex-column flex-grow-1">
+                    <h5 class="card-title" data-section="index" data-value="diseño">Diseño y construcción</h5>
+                    <ul class=" d-none flex-grow-1">
+
+                        <li data-section="index" data-value="aDiseño">Visión cliente centrista </li>
+                        <li  data-section="index" data-value="bDiseño">Definición alcance</li>
+                        <li  data-section="index" data-value="cDiseño">Definición tecnología</li>
+                        <li  data-section="index" data-value="dDiseño">Desarrollo de la solución</li>
+
+                    </ul>
+                    <a href="./contacto.html" class="btn btn-outline-danger d-none transitionAll"
+                    data-section="index" data-value="verMasComoTrabajamos">Contactanos</a>
+                </div>
+            </div>
+
+
+
+
+
         </div>
 
-       
 
-       
 
-    </div>
-
-    
-
-    <!-- </div> -->
-</section>
+        <!-- </div> -->
+    </section>
 
 
 
-<!-- LOGO DE ABAJO -->
+    <!-- LOGO DE ABAJO -->
     <div class="d-flex align-items-center justify-content-center" style="background-color: rgba(0, 0, 0, 0.055);">
         <img src="./Assets//logo.png" alt="" width="200">
     </div>

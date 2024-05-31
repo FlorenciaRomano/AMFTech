@@ -22,52 +22,75 @@
 
     <!-- BARRA NAVEGACION -->
     <nav class="navbar navbar-expand-lg bg-body-black"
-        style="background-color: rgba(255, 255, 255, 0.164); color: rgb(0, 0, 0);">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="./index.html"><img src="./Assets/logo.png" alt="" width="160"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                    <li class="nav-item" style="color: rgb(0, 0, 0);">
-                        <a class="nav-link active" style="color: rgb(0, 0, 0);" aria-current="page"
-                            href="./index.html">INICIO</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" style="color: rgb(0, 0, 0)" href="./quienessomos.html">QUIENES SOMOS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" style="color: rgb(0, 0, 0)" href="#">PROYECTOS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" style="color: rgb(0, 0, 0)" href=".//servicios.html">SERVICIOS</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" style="color: rgb(0, 0, 0)" href="./servicios.html"
-                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    style="background-color: rgba(255, 255, 255, 0.164); color: rgb(0, 0, 0);">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html"><img src="./Assets/logo.png" alt="" width="160"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item" style="color: rgb(0, 0, 0);">
+                    <a class="nav-link active" style="color: rgb(0, 0, 0);" aria-current="page"
+                        href="./index.html" data-section="index" data-value="navBarMenu1">INICIO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color: rgb(0, 0, 0)" href="./quienessomos.html"
+                    data-section="index" data-value="navBarMenu2">QUIENES SOMOS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color: rgb(0, 0, 0)" href="#" 
+                    data-section="index" data-value="navBarMenu3">PROYECTOS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color: rgb(0, 0, 0)" href=".//servicios.html"
+                    data-section="index" data-value="navBarMenu4">SERVICIOS</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" style="color: rgb(0, 0, 0)" href="./servicios.html"
+                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
 
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="./comunicaciones.html">COMUNICACIONES</a></li>
-                            <li><a class="dropdown-item" href="./electricidad.html">ELECTRICIDAD</a></li>
-                            <li><a class="dropdown-item" href="./energiasRenovables.html">ENERGIAS RENOVABLES</a></li>
-                            <li><a class="dropdown-item" href="./operadorInternet.html">OPERADOR DE INTERNET</a></li>
-                            <li><a class="dropdown-item" href="./videoseguridad.html">VIDEOSEGURIDAD</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" style="color: rgb(0, 0, 0)" href="./trabajaconnosotros.html">TRABAJA CON
-                            NOSOTROS</a>
-                    </li>
-                </ul>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="./comunicaciones.html"
+                            data-section="index" data-value="navBarMenu7">COMUNICACIONES</a></li>
+                        <li><a class="dropdown-item" href="./electricidad.html"
+                            data-section="index" data-value="navBarMenu8">ELECTRICIDAD</a></li>
+                        <li><a class="dropdown-item" href="./energiasRenovables.html"
+                            data-section="index" data-value="navBarMenu9">ENERGIAS RENOVABLES</a></li>
+                        <li><a class="dropdown-item" href="./operadorInternet.html"
+                            data-section="index" data-value="navBarMenu10">OPERADOR DE INTERNET</a></li>
+                        <li><a class="dropdown-item" href="./videoseguridad.html"
+                            data-section="index" data-value="navBarMenu11">VIDEOSEGURIDAD</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color: rgb(0, 0, 0)" href="./trabajaconnosotros.html"
+                    data-section="index" data-value="navBarMenu5">TRABAJA CON
+                        NOSOTROS</a>
+                </li>
+            </ul>
 
-                <a href="./contacto.html" class="btn btn-danger w-40"
-                    style="height: 2rem; font-size: 13px; color: rgb(0, 0, 0);">CONTACTO</a>
+            <a href="./contacto.html" class="btn btn-danger w-40"
+                style="height: 2rem; font-size: 13px; color: rgb(0, 0, 0);"
+                data-section="index" data-value="navBarMenu6">CONTACTO</a>
+        </div>
+        <div class="switches">
+            <div id="toggle-theme" class="toggle-theme">
+
             </div>
         </div>
-    </nav>
+        <div id="flags" class="flags">
+            <div class="flags__item" data-language="es">
+                <img src="./Assets//es.svg" alt="" class="flags__img">
+            </div>
+            <div class="flags__item" data-language="en">
+                <img src="./Assets//gb.svg" alt="" class="flags__img">
+            </div>
+        </div>
+    </div>
+</nav>
     <!-- PORTADA -->
     <div class="container-fluid d-flex justify-content-center  align-items-center" style="width: 100%; 
         height: 59.7vh;
@@ -82,14 +105,14 @@
             justify-content: center;
             align-items: center;">
             <h2 style="font-family:Arial, Helvetica, sans-serif;
-                font-size: 50px;" class="text-center">Energias Renovables</h2>
+                font-size: 50px;" class="text-center" data-section="index" data-value="energiasRenovables">Energias Renovables</h2>
             <p class="text-center" style="font-family:Arial, Helvetica, sans-serif;
-                font-size: 20px">Servicios para plantas solares fijas y seguidores.
+                font-size: 20px" data-section="index" data-value="energiasRenovablesDescription">Servicios para plantas solares fijas y seguidores.
             </p>
             <a href="./quienessomos.html" style="font-family:Arial, Helvetica, sans-serif;
                 font-size: 15px;
                 width: 200px;
-                margin-left: 2rem;" class="btn  btn-light">Más de nosotros</a>
+                margin-left: 2rem;" class="btn  btn-light" data-section="index" data-value="botonPortada">Más de nosotros</a>
         </div>
         <div style="width: 50%;
         height: 100%;
@@ -110,11 +133,11 @@
         <!-- <div class="container mt-5 d-flex flex-column justify-content align-items-center"> -->
 
         <h2 class="text-center" style="font-family:Arial, Helvetica, sans-serif;
-                font-size: 30px;">¿QUE OFRECEMOS?</h2>
+                font-size: 30px;" data-section="index" data-value="queOfrecemos">¿QUE OFRECEMOS?</h2>
 
 
         <h3 class="text-center" style="font-family:Arial, Helvetica, sans-serif;
-                font-size: 20px;">
+                font-size: 20px;"  data-section="index" data-value="energiasProyectos">
             Montaje de Proyectos
         </h3>
 
@@ -125,12 +148,17 @@
                 style="width: 20rem; height: 16rem">
                 <img src="./Assets/panel solar.png" alt="..." width="118">
                 <div class="card-body d-flex flex-column flex-grow-1">
-                    <h5 class="card-title text-center">Instalación de Paneles Solares</h5>
-                    <p class="card-text flex-grow-1 d-none transitionAll">
+                    <h5 class="card-title text-center" data-section="index" data-value="energiasService1">Instalación de Paneles Solares</h5>
+                   <ul>
+                    <li data-section="index" data-value="aEnergiasService1">Colocación de paneles solares en los soportes previamente instalados.</li>
+                    <li data-section="index" data-value="bEnergiasService1">Conexión de paneles</li>
+                   </ul>
+                   
+                    <!-- <p class="card-text flex-grow-1 d-none transitionAll">
                         • Colocación de paneles solares en los soportes previamente instalados.
                         <br>
                         • Conexión de paneles
-                    </p>
+                    </p> -->
                 </div>
             </div>
 
@@ -138,13 +166,12 @@
                 style="width: 20rem; height: 16em">
                 <img src="./Assets//diagnostico.png" alt="..." width="100">
                 <div class="card-body d-flex flex-column flex-grow-1">
-                    <h5 class="card-title text-center">Planificación</h5>
-                    <p class="card-text flex-grow-1 d-none transitionAll">
-                        • Estudio de viabilidad
-                        <br>
-                        • Diseño de los arreglos de paneles solares, considerando la inclinación, orientación y
-                        sombreado.
-                    </p>
+                    <h5 class="card-title text-center" data-section="index" data-value="energiasService2">Planificación</h5>
+                    <ul>
+                        <li data-section="index" data-value="aEnergiasService2">Estudio de viabilidad</li>
+                        <li data-section="index" data-value="bEnergiasService2">Diseño de los arreglos de paneles solares, considerando la inclinación, orientación y
+                            sombreado.</li>
+                    </ul>
                 </div>
             </div>
 
@@ -152,13 +179,11 @@
                 style="width: 20rem; height: 16rem">
                 <img src="./Assets/cableadoyconecciones.png" alt="..." width="100 !important">
                 <div class="card-body d-flex flex-column flex-grow-1">
-                    <h5 class="card-title text-center">Cableado y Conexiones</h5>
-                    <p class="card-text flex-grow-1 d-none transitionAll">
-                        • Instalación de cables eléctricos que conectan los paneles solares entre sí y con el inversor.
-                        <br>
-                        • Conexión de inversores.
-
-                    </p>
+                    <h5 class="card-title text-center" data-section="index" data-value="energiasService3">Cableado y Conexiones</h5>
+                   <ul>
+                    <li data-section="index" data-value="aEnergiasService3">Instalación de cables eléctricos que conectan los paneles solares entre sí y con el inversor.</li>
+                    <li data-section="index" data-value="bEnergiasService3">Conexión de inversores.</li>
+                   </ul>
                 </div>
             </div>
 
@@ -178,7 +203,7 @@
 
 
         <h3 class="text-center" style="font-family:Arial, Helvetica, sans-serif;
-                font-size: 20px;">
+                font-size: 20px;" data-section="index" data-value="operacionYMantenimiento">
             Servicio de operación y mantenimiento
         </h3>
 
@@ -189,22 +214,17 @@
                  background-color: black;
                 color: white;">
                 <div class="card-body d-flex flex-column ">
-                    <h5 class="card-title text-center" style="color: red;">Mantenimiento Preventivo</h5>
-                    <p class="card-text ">
-                        • Revisión eléctrica: inspección visual del cableado de corriente continua y alterna,
-                        conexiones, termografía de cuadros eléctricos, etc.
-                        <br>
-                        • Revisión mecánica: inspección visual de paneles solares, estructuras, inversores, reapriete de
-                        tornillería, etc.
-                        <br>
-                        • Mantenimiento de inversores según protocolos del fabricante.
-                        <br>
-                        • Revisión termográfica de los paneles para detectar posibles defectos.
-                        <br>
-                        • Limpieza de paneles solares y desbroce en plantas ubicadas en terrenos
-
-
-                    </p>
+                    <h5 class="card-title text-center" style="color: red;"
+                    data-section="index" data-value="OyMcard1">Mantenimiento Preventivo</h5>
+                    <ul>
+                        <li   data-section="index" data-value="aOyMcard1">Mantenimiento Preventivo>Revisión eléctrica: inspección visual del cableado de corriente continua y alterna,
+                            conexiones, termografía de cuadros eléctricos, etc.</li>
+                        <li   data-section="index" data-value="bOyMcard1">Mantenimiento Preventivo>Revisión mecánica: inspección visual de paneles solares, estructuras, inversores, reapriete de
+                            tornillería, etc.</li>
+                        <li   data-section="index" data-value="cOyMcard1">Mantenimiento Preventivo> Mantenimiento de inversores según protocolos del fabricante.</li>
+                        <li   data-section="index" data-value="dOyMcard1">Mantenimiento Preventivo> Revisión termográfica de los paneles para detectar posibles defectos.</li>
+                        <li   data-section="index" data-value="eOyMcard1">Mantenimiento Preventivo>Limpieza de paneles solares y desbroce en plantas ubicadas en terrenos</li>
+                    </ul>
                 </div>
             </div>
 
@@ -214,16 +234,13 @@
                 color: white;">
 
                 <div class="card-body d-flex flex-column ">
-                    <h5 class="card-title text-center" style="color: red;">Mantenimiento correctivo</h5>
-                    <p class="card-text ">
-                        • Corregir defectos de diseño.
-                        <br>
-                        • Reparar desperfectos o averías en la instalación
-                        <br>
-                        • Reparación de averías por eventos de viento.
-
-
-                    </p>
+                    <h5 class="card-title text-center" style="color: red;"
+                    data-section="index" data-value="OyMcard2">Mantenimiento Preventivo>Mantenimiento correctivo</h5>
+                    <ul>
+                        <li  data-section="index" data-value="aOyMcard2">Corregir defectos de diseño.</li>
+                        <li  data-section="index" data-value="bOyMcard2">Reparar desperfectos o averías en la instalación</li>
+                        <li  data-section="index" data-value="cOyMcard2">Reparación de averías por eventos de viento.</li>
+                    </ul>
                 </div>
             </div>
 
@@ -245,7 +262,7 @@
 
 
         <h3 class="text-center" style="font-family:Arial, Helvetica, sans-serif;
-                font-size: 20px;">
+                font-size: 20px;"   data-section="index" data-value="asistenciaYSoporte">
            Asistencia y soporte técnico
         </h3>
 
@@ -256,9 +273,10 @@
                  background-color: black;
                 color: white;">
                 <div class="card-body d-flex flex-column ">
-                    <h5 class="card-title text-center" style="color: red;">Verificación y cálculo en pruebas de
+                    <h5 class="card-title text-center" style="color: red;"
+                    data-section="index" data-value="AySCard1">Verificación y cálculo en pruebas de
                         Performance Ratio</h5>
-                    <p class="card-text ">
+                    <p class="card-text "   data-section="index" data-value="aAySCard1">
                         Se evalúa el rendimiento real en comparación con el esperado.
 
                     </p>
@@ -271,9 +289,10 @@
                 color: white;">
 
                 <div class="card-body d-flex flex-column ">
-                    <h5 class="card-title text-center" style="color: red;">Apoyo y soporte en pruebas de disponibilidad
+                    <h5 class="card-title text-center" style="color: red;"
+                    data-section="index" data-value="AySCard2">Apoyo y soporte en pruebas de disponibilidad
                     </h5>
-                    <p class="card-text ">
+                    <p class="card-text "   data-section="index" data-value="aAySCard2">
                         Se garantiza que todos los componentes estén listos para operar.
 
                     </p>
@@ -286,8 +305,9 @@
             color: white;">
 
                 <div class="card-body d-flex flex-column ">
-                    <h5 class="card-title text-center" style="color: red;">Evaluación de la producción</h5>
-                    <p class="card-text ">
+                    <h5 class="card-title text-center" style="color: red;"
+                    data-section="index" data-value="AySCard3">Evaluación de la producción</h5>
+                    <p class="card-text "   data-section="index" data-value="aAySCard3">
                         Se verifica que la generación alcance los niveles deseados
                     </p>
                 </div>
@@ -312,7 +332,7 @@
         width: 100%;
         height: 100%;
         background-color: rgba(0,0,0,.2);">
-            <h3 style=" font-size: 20px;"> Diseño y construcción de sistemas solares para el hogar</h3>
+            <h3 style=" font-size: 20px;"   data-section="index" data-value="diseñoYConstruccion"> Diseño y construcción de sistemas solares para el hogar</h3>
 
             <div class="d-flex gap-4">
                 <div style="width: 15rem; 
@@ -322,7 +342,7 @@
                align-items: center;
                justify-content: center;
                border-radius: 2%;">
-                    <p>Cálculo de consumo (gratuito)</p>
+                    <p   data-section="index" data-value="1Diseño">Cálculo de consumo (gratuito)</p>
                 </div>
                 <div style="width: 15rem; 
                 height: 3rem; 
@@ -331,7 +351,7 @@
                align-items: center;
                justify-content: center;
                border-radius: 2%;">
-                    <p> Visita técnica</p>
+                    <p   data-section="index" data-value="2Diseño"> Visita técnica</p>
                 </div>
                 <div style="width: 15rem; 
                 height: 3rem; 
@@ -340,7 +360,7 @@
                align-items: center;
                justify-content: center;
                border-radius: 2%;">
-                    <p>Instalación</p>
+                    <p   data-section="index" data-value="3Diseño">Instalación</p>
                 </div>
                 <div style="width: 15rem; 
                 height: 3rem; 
@@ -349,7 +369,7 @@
                align-items: center;
                justify-content: center;
                border-radius: 2%;">
-                    <p> Legalización de planta</p>
+                    <p   data-section="index" data-value="4Diseño"> Legalización de planta</p>
                 </div>
                 <div style="width: 15rem; 
                 height: 3rem; 
@@ -358,7 +378,7 @@
                align-items: center;
                justify-content: center;
                border-radius: 2%;">
-                    <p> Seguimiento y mantenimiento</p>
+                    <p   data-section="index" data-value="5Diseño"> Seguimiento y mantenimiento</p>
                 </div>
             </div>
 

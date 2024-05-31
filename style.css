@@ -46,3 +46,25 @@ input{
     border-color: black;
    border-radius: 2%;
 }
+
+/* IDIOMA */
+
+.toggle-theme__icon{
+    margin-right: 0.5rem;
+    width: 20px;
+}
+.flags{
+    width: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flags__item{
+    width: 30px;
+}
+
+.flags__img{
+    display: block;
+    cursor: pointer;
+}

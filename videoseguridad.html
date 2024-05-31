@@ -22,52 +22,75 @@
 
     <!-- BARRA NAVEGACION -->
     <nav class="navbar navbar-expand-lg bg-body-black"
-        style="background-color: rgba(255, 255, 255, 0.164); color: rgb(0, 0, 0);">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="./index.html"><img src="./Assets/logo.png" alt="" width="160"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                    <li class="nav-item" style="color: rgb(0, 0, 0);">
-                        <a class="nav-link active" style="color: rgb(0, 0, 0);" aria-current="page"
-                            href="./index.html">INICIO</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" style="color: rgb(0, 0, 0)" href="./quienessomos.html">QUIENES SOMOS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" style="color: rgb(0, 0, 0)" href="#">PROYECTOS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" style="color: rgb(0, 0, 0)" href=".//servicios.html">SERVICIOS</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" style="color: rgb(0, 0, 0)" href="./servicios.html"
-                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    style="background-color: rgba(255, 255, 255, 0.164); color: rgb(0, 0, 0);">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html"><img src="./Assets/logo.png" alt="" width="160"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item" style="color: rgb(0, 0, 0);">
+                    <a class="nav-link active" style="color: rgb(0, 0, 0);" aria-current="page"
+                        href="./index.html" data-section="index" data-value="navBarMenu1">INICIO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color: rgb(0, 0, 0)" href="./quienessomos.html"
+                    data-section="index" data-value="navBarMenu2">QUIENES SOMOS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color: rgb(0, 0, 0)" href="#" 
+                    data-section="index" data-value="navBarMenu3">PROYECTOS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color: rgb(0, 0, 0)" href=".//servicios.html"
+                    data-section="index" data-value="navBarMenu4">SERVICIOS</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" style="color: rgb(0, 0, 0)" href="./servicios.html"
+                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
 
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="./comunicaciones.html">COMUNICACIONES</a></li>
-                            <li><a class="dropdown-item" href="./electricidad.html">ELECTRICIDAD</a></li>
-                            <li><a class="dropdown-item" href="./energiasRenovables.html">ENERGIAS RENOVABLES</a></li>
-                            <li><a class="dropdown-item" href="./operadorInternet.html">OPERADOR DE INTERNET</a></li>
-                            <li><a class="dropdown-item" href="./videoseguridad.html">VIDEOSEGURIDAD</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" style="color: rgb(0, 0, 0)" href="./trabajaconnosotros.html">TRABAJA CON
-                            NOSOTROS</a>
-                    </li>
-                </ul>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="./comunicaciones.html"
+                            data-section="index" data-value="navBarMenu7">COMUNICACIONES</a></li>
+                        <li><a class="dropdown-item" href="./electricidad.html"
+                            data-section="index" data-value="navBarMenu8">ELECTRICIDAD</a></li>
+                        <li><a class="dropdown-item" href="./energiasRenovables.html"
+                            data-section="index" data-value="navBarMenu9">ENERGIAS RENOVABLES</a></li>
+                        <li><a class="dropdown-item" href="./operadorInternet.html"
+                            data-section="index" data-value="navBarMenu10">OPERADOR DE INTERNET</a></li>
+                        <li><a class="dropdown-item" href="./videoseguridad.html"
+                            data-section="index" data-value="navBarMenu11">VIDEOSEGURIDAD</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color: rgb(0, 0, 0)" href="./trabajaconnosotros.html"
+                    data-section="index" data-value="navBarMenu5">TRABAJA CON
+                        NOSOTROS</a>
+                </li>
+            </ul>
 
-                <a href="./contacto.html" class="btn btn-danger w-40"
-                    style="height: 2rem; font-size: 13px; color: rgb(0, 0, 0);">CONTACTO</a>
+            <a href="./contacto.html" class="btn btn-danger w-40"
+                style="height: 2rem; font-size: 13px; color: rgb(0, 0, 0);"
+                data-section="index" data-value="navBarMenu6">CONTACTO</a>
+        </div>
+        <div class="switches">
+            <div id="toggle-theme" class="toggle-theme">
+
             </div>
         </div>
-    </nav>
+        <div id="flags" class="flags">
+            <div class="flags__item" data-language="es">
+                <img src="./Assets//es.svg" alt="" class="flags__img">
+            </div>
+            <div class="flags__item" data-language="en">
+                <img src="./Assets//gb.svg" alt="" class="flags__img">
+            </div>
+        </div>
+    </div>
+</nav>
     <!-- PORTADA -->
     <div class="container-fluid d-flex justify-content-center  align-items-center" style="width: 100%; 
         height: 59.7vh;
@@ -79,11 +102,12 @@
             display: flex;
             flex-direction: column;
             align-content: center;
-            justify-content: center;">
+            justify-content: center;
+            align-items: center;">
             <h2 style="font-family:Arial, Helvetica, sans-serif;
-                font-size: 50px;" class="text-center">Videoseguridad</h2>
+                font-size: 50px;" class="text-center" data-section="index" data-value="seguridad">Videoseguridad</h2>
             <p style="font-family:Arial, Helvetica, sans-serif;
-                font-size: 20px">Ofrecemos un conjunto completo de servicios de seguridad que abarcan desde la
+                font-size: 20px" data-section="index" data-value="portadaSeguridad">Ofrecemos un conjunto completo de servicios de seguridad que abarcan desde la
                 videovigilancia hasta el control de accesos, proporcionando una protección completa para tu empresa y
                 tus activos.
 
@@ -92,7 +116,7 @@
             <a href="./quienessomos.html" style="font-family:Arial, Helvetica, sans-serif;
                 font-size: 15px;
                 width: 200px;
-                margin-left: 2rem;" class="btn  btn-light">Más de nosotros</a>
+                margin-left: 2rem;" class="btn  btn-light" data-section="index" data-value="botonPortada">Más de nosotros</a>
         </div>
         <div style="width: 50%;
         height: 100%;
@@ -113,7 +137,7 @@
         <!-- <div class="container mt-5 d-flex flex-column justify-content align-items-center"> -->
 
         <h2 class="text-center" style="font-family:Arial, Helvetica, sans-serif;
-                font-size: 30px;">¿QUE OFRECEMOS?</h2>
+                font-size: 30px;" data-section="index" data-value="queOfrecemos">¿QUE OFRECEMOS?</h2>
 
 
 
@@ -125,8 +149,9 @@
                 <img src="./Assets/camarita.png" class="card-img-top" alt="..."
                     style="width: 100px; height: 100px; object-fit:contain">
                 <div class="card-body d-flex flex-column flex-grow-1">
-                    <h5 class="card-title">Videovigilancia Avanzada</h5>
-                    <p class="card-text flex-grow-1 d-none transitionAll">
+                    <h5 class="card-title" data-section="index" data-value="cardSeg1"> 
+                        Videovigilancia Avanzada</h5>
+                    <p class="card-text flex-grow-1 d-none transitionAll" data-section="index" data-value="aCardSeg1">
                         Implementamos sistemas de videovigilancia de alta definición con cámaras de última generación y
                         tecnología de análisis de video para una vigilancia efectiva en tiempo real.
                         Funciones avanzadas como detección de movimiento, reconocimiento facial y seguimiento
@@ -141,8 +166,8 @@
                 <img src="./Assets/iconAccesoInteligente.png" class="card-img-top" alt="..."
                     style="width: 100px; height: 100px; object-fit:contain">
                 <div class="card-body d-flex flex-column flex-grow-1">
-                    <h5 class="card-title">Control De Accesos Inteligente</h5>
-                    <p class="card-text flex-grow-1 d-none transitionAll">
+                    <h5 class="card-title" data-section="index" data-value="cardSeg2">Control De Accesos Inteligente</h5>
+                    <p class="card-text flex-grow-1 d-none transitionAll" data-section="index" data-value="aCardSeg2">
                         Diseñamos sistemas de control de accesos basados en tarjetas de proximidad, biometría y
                         dispositivos móviles para regular el ingreso a áreas sensibles.
                         Integración con sistemas de videovigilancia para una verificación visual de la identidad del
@@ -158,8 +183,8 @@
                 <img src="./Assets/internet.png" class="card-img-top" alt="..."
                     style="width: 100px; height: 100px; object-fit:contain">
                 <div class="card-body d-flex flex-column flex-grow-1">
-                    <h5 class="card-title">Gestión Centralizada Y Remota</h5>
-                    <p class="card-text flex-grow-1 d-none transitionAll">
+                    <h5 class="card-title" data-section="index" data-value="cardSeg3">Gestión Centralizada Y Remota</h5>
+                    <p class="card-text flex-grow-1 d-none transitionAll" data-section="index" data-value="aCardSeg3">
                         Nuestro software de gestión centralizada te permite controlar y monitorear todos los aspectos de
                         tu sistema de seguridad desde una ubicación central o de forma remota a través de dispositivos
                         móviles.
@@ -176,9 +201,9 @@
                 <img src="./Assets/diagnostico.png" class="card-img-top" alt="..."
                     style="width: 100px; height: 100px; object-fit:contain">
                 <div class="card-body d-flex flex-column flex-grow-1">
-                    <h5 class="card-title">Análisis De Datos Y Reporting</h5>
-                    <p class="card-text flex-grow-1 d-none transitionAll">
-                        Utilizamos herramientas de análisis de datos para extraer información valiosa de tus sistemas de
+                    <h5 class="card-title" data-section="index" data-value="cardSeg4">Análisis De Datos Y Reporting</h5>
+                    <p class="card-text flex-grow-1 d-none transitionAll" data-secton="index" data-value="aCardSeg4">
+                        Utilizamos herramientas de análisis de datos para extraer iinformación valiosa de tus sistemas de
                         seguridad, identificando patrones, tendencias y áreas de mejora.
                         Generación de informes detallados sobre actividad de usuarios, eventos de seguridad y
                         cumplimiento normativo.
@@ -199,29 +224,35 @@
     font-family:Arial, Helvetica, sans-serif;
     height: 60vh;
     padding-top: 2rem;">
+    <div class="container-fluid">
         <h3 class="text-center" style="font-family:Arial, Helvetica, sans-serif;
-        font-size: 20px; color: black;"><b>¿PORQUE ELEGIRNOS?</b></h3>
-
+        font-size: 20px; 
+        color: black;" data-section="index" data-value="eleginos"><b>¿PORQUE ELEGIRNOS?</b></h3>
+       <p class="text-center" style="font-family: Arial, Helvetica, sans-serif; 
+       font-size: 20px;" data-section="index" data-value="eleginosDescription">
+        Estamos comprometidos a proporcionar la mejor solución de conectividad para las necesidades específicas de nuestros clientes, y nuestra capacidad para ofrecer soluciones de conectividad en cualquier sitio utilizando una variedad de métodos nos permite satisfacer las demandas de conectividad en cualquier entorno.
+        </p>
+    </div>
         <div class="d-flex justify-content-center align-items-center gap-3 mt-5">
             <div class="d-flex flex-column align-items-center">
                 <img src="./Assets/compromiso-100x100.png" alt="" width="100">
-                <h5><b>Experiencia y Expertise</b></h5>
-                <p>Contamos con un equipo de profesionales altamente capacitados y con experiencia en el diseño,
+                <h5 data-section="index" data-value="eleginosCard1"><b>Experiencia y Expertise</b></h5>
+                <p data-section="index" data-value="aEleginosCard1">Contamos con un equipo de profesionales altamente capacitados y con experiencia en el diseño,
                     implementación y mantenimiento de soluciones de seguridad para empresas de todos los tamaños y
                     sectores.</p>
 
             </div>
             <div class="d-flex flex-column align-items-center">
                 <img src="./Assets/tecnologiaAvanzada.png" alt="" width="90">
-                <h5><b>Tecnología Avanzada</b></h5>
-                <p>Nos mantenemos a la vanguardia de la tecnología de seguridad, utilizando equipos y software de última
+                <h5 data-section="index" data-value="eleginosCard2"><b>Tecnología Avanzada</b></h5>
+                <p data-section="index" data-value="aEleginosCard2">Nos mantenemos a la vanguardia de la tecnología de seguridad, utilizando equipos y software de última
                     generación para proporcionar soluciones eficaces y confiables.</p>
 
             </div>
             <div class="d-flex flex-column align-items-center">
                 <img src="./Assets/excellencesd-150x150.png" alt="" width="100">
-                <h5><b>Calidad y Seguridad</b></h5>
-                <p>Nos comprometemos a proporcionar soluciones de seguridad que cumplan con los más altos estándares de
+                <h5 data-section="index" data-value="eleginosCard3"><b>Calidad y Seguridad</b></h5>
+                <p data-section="index" data-value="aEleginosCard3">Nos comprometemos a proporcionar soluciones de seguridad que cumplan con los más altos estándares de
                     calidad y seguridad, protegiendo a tu empresa de manera integral.</p>
             </div>
         </div>

@@ -33,16 +33,19 @@
                 <ul class="navbar-nav">
                     <li class="nav-item" style="color: rgb(0, 0, 0);">
                         <a class="nav-link active" style="color: rgb(0, 0, 0);" aria-current="page"
-                            href="./index.html">INICIO</a>
+                            href="./index.html" data-section="index" data-value="navBarMenu1">INICIO</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" style="color: rgb(0, 0, 0)" href="./quienessomos.html">QUIENES SOMOS</a>
+                        <a class="nav-link" style="color: rgb(0, 0, 0)" href="./quienessomos.html"
+                        data-section="index" data-value="navBarMenu2">QUIENES SOMOS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" style="color: rgb(0, 0, 0)" href="#">PROYECTOS</a>
+                        <a class="nav-link" style="color: rgb(0, 0, 0)" href="#" 
+                        data-section="index" data-value="navBarMenu3">PROYECTOS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" style="color: rgb(0, 0, 0)" href=".//servicios.html">SERVICIOS</a>
+                        <a class="nav-link" style="color: rgb(0, 0, 0)" href=".//servicios.html"
+                        data-section="index" data-value="navBarMenu4">SERVICIOS</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" style="color: rgb(0, 0, 0)" href="./servicios.html"
@@ -50,21 +53,41 @@
 
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="./comunicaciones.html">COMUNICACIONES</a></li>
-                            <li><a class="dropdown-item" href="./electricidad.html">ELECTRICIDAD</a></li>
-                            <li><a class="dropdown-item" href="./energiasRenovables.html">ENERGIAS RENOVABLES</a></li>
-                            <li><a class="dropdown-item" href="./operadorInternet.html">OPERADOR DE INTERNET</a></li>
-                            <li><a class="dropdown-item" href="./videoseguridad.html">VIDEOSEGURIDAD</a></li>
+                            <li><a class="dropdown-item" href="./comunicaciones.html"
+                                data-section="index" data-value="navBarMenu7">COMUNICACIONES</a></li>
+                            <li><a class="dropdown-item" href="./electricidad.html"
+                                data-section="index" data-value="navBarMenu8">ELECTRICIDAD</a></li>
+                            <li><a class="dropdown-item" href="./energiasRenovables.html"
+                                data-section="index" data-value="navBarMenu9">ENERGIAS RENOVABLES</a></li>
+                            <li><a class="dropdown-item" href="./operadorInternet.html"
+                                data-section="index" data-value="navBarMenu10">OPERADOR DE INTERNET</a></li>
+                            <li><a class="dropdown-item" href="./videoseguridad.html"
+                                data-section="index" data-value="navBarMenu11">VIDEOSEGURIDAD</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" style="color: rgb(0, 0, 0)" href="./trabajaconnosotros.html">TRABAJA CON
+                        <a class="nav-link" style="color: rgb(0, 0, 0)" href="./trabajaconnosotros.html"
+                        data-section="index" data-value="navBarMenu5">TRABAJA CON
                             NOSOTROS</a>
                     </li>
                 </ul>
 
                 <a href="./contacto.html" class="btn btn-danger w-40"
-                    style="height: 2rem; font-size: 13px; color: rgb(0, 0, 0);">CONTACTO</a>
+                    style="height: 2rem; font-size: 13px; color: rgb(0, 0, 0);"
+                    data-section="index" data-value="navBarMenu6">CONTACTO</a>
+            </div>
+            <div class="switches">
+                <div id="toggle-theme" class="toggle-theme">
+
+                </div>
+            </div>
+            <div id="flags" class="flags">
+                <div class="flags__item" data-language="es">
+                    <img src="./Assets//es.svg" alt="" class="flags__img">
+                </div>
+                <div class="flags__item" data-language="en">
+                    <img src="./Assets//gb.svg" alt="" class="flags__img">
+                </div>
             </div>
         </div>
     </nav>
@@ -82,9 +105,9 @@
             justify-content: center;
             align-items: center;">
             <h2 style="font-family:Arial, Helvetica, sans-serif;
-                font-size: 50px;" class="text-center">Trabaja con Nosotros</h2>
+                font-size: 50px;" class="text-center" data-section="index" data-value="tituloTrabajaConNosotros">Trabaja con Nosotros</h2>
             <p style="font-family:Arial, Helvetica, sans-serif;
-                font-size: 20px">Unete a nuestro equipo de AMFTech, empresa puntera en tecnología y servicios en los
+                font-size: 20px" data-section="index" data-value="descripcionTrabajaConNosotros">Unete a nuestro equipo de AMFTech, empresa puntera en tecnología y servicios en los
                 campos de comunicaciones, sistemas de videovigilancia, electricidad y energías renovables. Si estás
                 buscando oportunidades para crecer profesionalmente y contribuir a proyectos innovadores, ¡podrías ser
                 la persona que estamos buscando!
@@ -92,7 +115,7 @@
             <a href="./quienessomos.html" style="font-family:Arial, Helvetica, sans-serif;
                 font-size: 15px;
                 width: 200px;
-                margin-left: 2rem;" class="btn  btn-light">Más de nosotros</a>
+                margin-left: 2rem;" class="btn  btn-light" data-section="index" data-value="botonPortada">Más de nosotros</a>
         </div>
         <div style="width: 50%;
         height: 100%;
@@ -105,23 +128,10 @@
         </div>
     </div>
 
-    <!-- QUE OFRECEMOS -->
-    <section class="container mt-5">
-        <div class="flex-wrap d-flex justify-content-center align-items-center w-100 gap-3 mt-5">
-
-            <h5 class="text-center">Unete a nuestro equipo de AMFTech, empresa puntera en tecnología y servicios en los
-                campos de
-                comunicaciones, sistemas de videovigilancia, electricidad y energías renovables. Si estás buscando
-                oportunidades para crecer profesionalmente y contribuir a proyectos innovadores, ¡podrías ser la persona
-                que estamos buscando!
-            </h5>
-
-        </div>
-    </section>
-
+   <!-- SECTORES -->
     <section class="container mt-5">
         <h3 class="text-center" style="font-family:Arial, Helvetica, sans-serif;
-         font-size: 20px; color: rgb(255, 0, 0);">UNETE A NUESTRO EQUIPO</h3>
+         font-size: 20px; color: rgb(255, 0, 0);" data-section="index" data-value="tituloEquipo">UNETE A NUESTRO EQUIPO</h3>
 
         <div class="flex-wrap d-flex justify-content-center align-items-center w-100 gap-3 mt-5">
 
@@ -131,7 +141,7 @@
                     style="width: 100%; height: 100px; object-fit:cover">
                 <div class="card-body d-flex flex-column justify-content-center"
                  style="background-color: #0A4273; width: 100%; color: white;">
-                    <h5 class="card-title text-center">TÉCNICOS</h5>
+                    <h5 class="card-title text-center" data-section="index" data-value="equipo1">TÉCNICOS</h5>
             
                 </div>
             </div>
@@ -142,7 +152,7 @@
                     style="width: 100%; height: 100px; object-fit:cover">
                 <div class="card-body d-flex flex-column justify-content-center " 
                  style="background-color: #0A4273; width: 100%; color: white">
-                    <h5 class="card-title text-center">INGENIEROS</h5>
+                    <h5 class="card-title text-center" data-section="index" data-value="equipo2">INGENIEROS</h5>
                    
                 </div>
             </div>
@@ -153,7 +163,7 @@
                     style="width: 100%; height: 100px; object-fit:cover">
                 <div class="card-body d-flex flex-column justify-content-center"  
                 style="background-color: #0A4273; width: 100%; color: white">
-                    <h5 class="card-title text-center">GESTIÓN</h5>
+                    <h5 class="card-title text-center" data-section="index" data-value="equipo3">GESTIÓN</h5>
                    
                 </div>
             </div>
@@ -164,7 +174,7 @@
                     style="width: 100%; height: 100px; object-fit:cover">
                 <div class="card-body d-flex flex-column justify-content-center" 
                  style="background-color: #0A4273; width: 100%; color: white">
-                    <h5 class="card-title text-center mb-1">GRADUADOS/ESTUDIANTES</h5>
+                    <h5 class="card-title text-center mb-1" data-section="index" data-value="equipo4">GRADUADOS/ESTUDIANTES</h5>
                   
                 </div>
             </div>
@@ -178,20 +188,20 @@
         
         <form action="https://formsubmit.co/florromanoyt@gmail.com" method="POST" enctype="multipart/form-data"
         class="shadow-lg p-3 mb-5 bg-white rounded">
-        <h5 style="color: RED;">QUEREMOS CONOCERTE</h5>   
+        <h5 style="color: RED;" data-section="index" data-value="formulario">QUEREMOS CONOCERTE</h5>   
         
-        <label for="Nombre">Nombre</label>
+        <label for="Nombre" data-section="index" data-value="nombre">Nombre</label>
             <input type="text" name="name">
 
-            <label for="email">Correo Electrónico</label>
+            <label for="email" data-section="index" data-value="correo">Correo Electrónico</label>
             <input type="email" name="email" >
 
-            <label for="subject">Asunto</label>
+            <label for="subject" data-section="index" data-value="asunto">Asunto</label>
             <input type="text" name="subject">
 
             <input type="file" name="adjunto" aceptar="image/png, image/jpeg" style="margin-top: 1rem;">
 
-            <label for="comments">Comentarios</label>
+            <label for="comments" data-section="index" data-value="comentario">Comentarios</label>
             <textarea name="comments" cols="50" rows="3"></textarea>
 
             <input type="submit" value="Enviar"
@@ -213,9 +223,9 @@
         <div class="container-fluid">
             <h3 class="text-center" style="font-family:Arial, Helvetica, sans-serif;
         font-size: 20px; 
-        color: black;"><b>¿PORQUE ELEGIRNOS?</b></h3>
+        color: black;" data-section="index" data-value="porqueElegirnos"><b>¿PORQUE ELEGIRNOS?</b></h3>
             <p class="text-center" style="font-family: Arial, Helvetica, sans-serif; 
-       font-size: 20px;">
+       font-size: 20px;" data-section="index" data-value="descriptionPorqueElegirnos">
                Si crees que tienes las habilidades y la motivación para formar parte de nuestro equipo, te invitamos a
                enviar tu currículum vitae y una carta de presentación que destaque tu experiencia y tus motivaciones
                para unirte a AMFTech. Puedes enviar tu solicitud a nuestro departamento de recursos humanos a través de

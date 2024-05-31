@@ -22,52 +22,75 @@
 
     <!-- BARRA NAVEGACION -->
     <nav class="navbar navbar-expand-lg bg-body-black"
-        style="background-color: rgba(255, 255, 255, 0.164); color: rgb(0, 0, 0);">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="./index.html"><img src="./Assets/logo.png" alt="" width="160"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                    <li class="nav-item" style="color: rgb(0, 0, 0);">
-                        <a class="nav-link active" style="color: rgb(0, 0, 0);" aria-current="page"
-                            href="./index.html">INICIO</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" style="color: rgb(0, 0, 0)" href="./quienessomos.html">QUIENES SOMOS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" style="color: rgb(0, 0, 0)" href="#">PROYECTOS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" style="color: rgb(0, 0, 0)" href=".//servicios.html">SERVICIOS</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" style="color: rgb(0, 0, 0)" href="./servicios.html"
-                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    style="background-color: rgba(255, 255, 255, 0.164); color: rgb(0, 0, 0);">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html"><img src="./Assets/logo.png" alt="" width="160"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item" style="color: rgb(0, 0, 0);">
+                    <a class="nav-link active" style="color: rgb(0, 0, 0);" aria-current="page"
+                        href="./index.html" data-section="index" data-value="navBarMenu1">INICIO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color: rgb(0, 0, 0)" href="./quienessomos.html"
+                    data-section="index" data-value="navBarMenu2">QUIENES SOMOS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color: rgb(0, 0, 0)" href="#" 
+                    data-section="index" data-value="navBarMenu3">PROYECTOS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color: rgb(0, 0, 0)" href=".//servicios.html"
+                    data-section="index" data-value="navBarMenu4">SERVICIOS</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" style="color: rgb(0, 0, 0)" href="./servicios.html"
+                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
 
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="./comunicaciones.html">COMUNICACIONES</a></li>
-                            <li><a class="dropdown-item" href="./electricidad.html">ELECTRICIDAD</a></li>
-                            <li><a class="dropdown-item" href="./energiasRenovables.html">ENERGIAS RENOVABLES</a></li>
-                            <li><a class="dropdown-item" href="./operadorInternet.html">OPERADOR DE INTERNET</a></li>
-                            <li><a class="dropdown-item" href="./videoseguridad.html">VIDEOSEGURIDAD</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" style="color: rgb(0, 0, 0)" href="./trabajaconnosotros.html">TRABAJA CON
-                            NOSOTROS</a>
-                    </li>
-                </ul>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="./comunicaciones.html"
+                            data-section="index" data-value="navBarMenu7">COMUNICACIONES</a></li>
+                        <li><a class="dropdown-item" href="./electricidad.html"
+                            data-section="index" data-value="navBarMenu8">ELECTRICIDAD</a></li>
+                        <li><a class="dropdown-item" href="./energiasRenovables.html"
+                            data-section="index" data-value="navBarMenu9">ENERGIAS RENOVABLES</a></li>
+                        <li><a class="dropdown-item" href="./operadorInternet.html"
+                            data-section="index" data-value="navBarMenu10">OPERADOR DE INTERNET</a></li>
+                        <li><a class="dropdown-item" href="./videoseguridad.html"
+                            data-section="index" data-value="navBarMenu11">VIDEOSEGURIDAD</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color: rgb(0, 0, 0)" href="./trabajaconnosotros.html"
+                    data-section="index" data-value="navBarMenu5">TRABAJA CON
+                        NOSOTROS</a>
+                </li>
+            </ul>
 
-                <a href="./contacto.html" class="btn btn-danger w-40"
-                    style="height: 2rem; font-size: 13px; color: rgb(0, 0, 0);">CONTACTO</a>
+            <a href="./contacto.html" class="btn btn-danger w-40"
+                style="height: 2rem; font-size: 13px; color: rgb(0, 0, 0);"
+                data-section="index" data-value="navBarMenu6">CONTACTO</a>
+        </div>
+        <div class="switches">
+            <div id="toggle-theme" class="toggle-theme">
+
             </div>
         </div>
-    </nav>
+        <div id="flags" class="flags">
+            <div class="flags__item" data-language="es">
+                <img src="./Assets//es.svg" alt="" class="flags__img">
+            </div>
+            <div class="flags__item" data-language="en">
+                <img src="./Assets//gb.svg" alt="" class="flags__img">
+            </div>
+        </div>
+    </div>
+</nav>
     <!-- PORTADA -->
     <div class="container-fluid d-flex justify-content-center  align-items-center" style="width: 100%; 
         height: 59.7vh;
@@ -83,9 +106,9 @@
             justify-content: center;
             align-items: center;">
             <h2 style="font-family:Arial, Helvetica, sans-serif;
-                font-size: 50px;" class="text-center">Comunicaciones</h2>
+                font-size: 50px;" class="text-center" data-section="index" data-value="comunicaciones">Comunicaciones</h2>
             <p style="font-family:Arial, Helvetica, sans-serif;
-                font-size: 20px">En nuestra consultoría, nos especializamos en proporcionar orientación experta y
+                font-size: 20px" data-section="index" data-value="comunicacionesDescription">En nuestra consultoría, nos especializamos en proporcionar orientación experta y
                 soluciones personalizadas para mejorar las comunicaciones empresariales. Comenzamos con un análisis
                 detallado de sus necesidades, diseñamos soluciones a medida que se adaptan a sus desafíos específicos y
                 evaluamos constantemente las últimas tecnologías para mantenerlo al día. Optimizamos su infraestructura
@@ -96,7 +119,7 @@
             <a href="./quienessomos.html" style="font-family:Arial, Helvetica, sans-serif;
                 font-size: 15px;
                 width: 200px;
-                margin-left: 2rem;" class="btn  btn-light">Más de nosotros</a>
+                margin-left: 2rem;" class="btn  btn-light" data-section="index" data-value="botonPortada">Más de nosotros</a>
         </div>
         <div style="width: 50%;
         height: 100%;
@@ -117,7 +140,7 @@
         <!-- <div class="container mt-5 d-flex flex-column justify-content align-items-center"> -->
 
         <h2 class="text-center" style="font-family:Arial, Helvetica, sans-serif;
-                font-size: 30px;">¿QUE OFRECEMOS?</h2>
+                font-size: 30px;" data-section="index" data-value="queOfrecemos">¿QUE OFRECEMOS?</h2>
 
 
 
@@ -127,23 +150,26 @@
               background-color: black;
             color: white;">
                 <div class="card-body d-flex flex-column flex-grow-1">
-                    <h5 class="card-title" style="color: red;">Diseño y Planificación de Redes Personalizadas</h5>
-                    <p class="card-text ">
-                        • Utilizamos herramientas avanzadas de diseño de redes para crear modelos personalizados,
-                        considerando necesidades específicas de la empresa en términos de conectividad, seguridad y
-                        escalabilidad.
-                        <br>
-                        • Proporcionamos recomendaciones fundamentadas sobre marcas, modelos y características
-                        específicas que mejor se adapten a sus necesidades.
-                        <br>
-                        • Creamos un diseño personalizado de la infraestructura de red, teniendo en cuenta la
-                        disposición física de los equipos, la topología de la red y la integración con sistemas
-                        existentes.
-                        <br>
-                        • Llevamos a cabo la implementación física y la configuración inicial de los equipos de red,
+                    <h5 class="card-title" style="color: red;"
+                    data-section="index" data-value="comunicacionesCard1">Diseño y Planificación de Redes Personalizadas</h5>
+                    <ul>
+                        <li data-section="index" data-value="aComunicacionesCard1"> Utilizamos herramientas avanzadas de diseño de redes para crear modelos personalizados,
+                            considerando necesidades específicas de la empresa en términos de conectividad, seguridad y
+                            escalabilidad.
+                        </li>
+                        <li data-section="index" data-value="bComunicacionesCard1">Proporcionamos recomendaciones fundamentadas sobre marcas, modelos y características
+                            específicas que mejor se adapten a sus necesidades.
+                        </li>
+                        <li data-section="index" data-value="cComunicacionesCard1">
+                            Creamos un diseño personalizado de la infraestructura de red, teniendo en cuenta la
+                            disposición física de los equipos, la topología de la red y la integración con sistemas
+                            existentes.
+                        </li>
+                        <li data-section="index" data-value="dComunicacionesCard1">
+                            Llevamos a cabo la implementación física y la configuración inicial de los equipos de red,
                         asegurando una instalación precisa y una puesta en marcha sin problemas.
-
-                    </p>
+                        </li>
+                    </ul>
 
                 </div>
             </div>
@@ -154,8 +180,10 @@
                   background-color: black;
             color: white;">
                 <div class="card-body d-flex flex-column ">
-                    <h5 class="card-title" style="color: red;">Evaluación Integral de la Infraestructura de Red</h5>
-                    <p class="card-text ">
+                    <h5 class="card-title" style="color: red;"
+                    data-section="index" data-value="comunicacionesCard2">Evaluación Integral de la Infraestructura de Red</h5>
+                    <p class="card-text "
+                    data-section="index" data-value="comunicacionesCard2Description">
                         • Realizamos un análisis de la infraestructura de red existente, evaluando la topología física y
                         lógica, la capacidad de ancho de banda y la calidad de la conectividad. Identificamos y
                         corregimos posibles puntos de congestión, cuellos de botella y áreas de mejora, priorizando la
@@ -171,8 +199,9 @@
                   background-color: black;
             color: white;">
                 <div class="card-body d-flex flex-column ">
-                    <h5 class="card-title" style="color: red;">DSL (Línea de Abonado Digital)</h5>
-                    <p class="card-text ">
+                    <h5 class="card-title" style="color: red;"
+                    data-section="index" data-value="comunicacionesCard3">DSL (Línea de Abonado Digital)</h5>
+                    <p class="card-text " data-section="index" data-value="comunicacionesCard3Description">
                         Ofrecemos conexiones DSL a través de la infraestructura telefónica existente en diversas
                         ubicaciones. Esta opción nos permite proporcionar soluciones de conectividad incluso en áreas
                         donde la fibra óptica no está disponible.
@@ -186,8 +215,9 @@
                   background-color: black;
             color: white;">
                 <div class="card-body d-flex flex-column ">
-                    <h5 class="card-title" style="color: red;">Implementación de Soluciones de Seguridad Avanzadas</h5>
-                    <p class="card-text ">
+                    <h5 class="card-title" style="color: red;"
+                    data-section="index" data-value="comunicacionesCard4">Implementación de Soluciones de Seguridad Avanzadas</h5>
+                    <p class="card-text " data-section="index" data-value="comunicacionesCard4Description">
                         • Configuramos firewalls de ultima generación con inspección profunda de paquetes (DPI), reglas
                         de filtrado granulares y funcionalidades de prevención de intrusiones para proteger la red
                         contra amenazas externas e internas.
@@ -205,9 +235,10 @@
                   background-color: black;
             color: white;">
                 <div class="card-body d-flex flex-column">
-                    <h5 class="card-title" style="color: red;">Optimización del Rendimiento y la Conectividad de la Red
+                    <h5 class="card-title" style="color: red;"
+                    data-section="index" data-value="comunicacionesCard5">Optimización del Rendimiento y la Conectividad de la Red
                     </h5>
-                    <p class="card-text">
+                    <p class="card-text" data-section="index" data-value="comunicacionesCard5Description">
                         • Utilizamos herramientas de monitoreo de red avanzadas para realizar análisis detallados del
                         rendimiento y la conectividad, identificando y resolviendo problemas de manera proactiva.
                         • Configuramos protocolos de enrutamiento dinámico y tecnologías de optimización de ancho de
@@ -223,8 +254,9 @@
                   background-color: black;
             color: white;">
                 <div class="card-body d-flex flex-column ">
-                    <h5 class="card-title" style="color: red;">Garantía de Alta Disponibilidad y Redundancia</h5>
-                    <p class="card-text">
+                    <h5 class="card-title" style="color: red;" 
+                    data-section="index" data-value="comunicacionesCard6">Garantía de Alta Disponibilidad y Redundancia</h5>
+                    <p class="card-text" data-section="index" data-value="comunicacionesCard6Description">
                         • Implementamos tecnologías de conmutación por error y balanceo de carga para proporcionar
                         redundancia y maximizar la disponibilidad de la red, minimizando el tiempo de inactividad en
                         caso de fallos.
@@ -240,8 +272,9 @@
               background-color: black;
             color: white;">
                 <div class="card-body d-flex flex-column ">
-                    <h5 class="card-title" style="color: red;">Monitoreo Proactivo y Mantenimiento Continuo</h5>
-                    <p class="card-text">
+                    <h5 class="card-title" style="color: red;"
+                    data-section="index" data-value="comunicacionesCard7">Monitoreo Proactivo y Mantenimiento Continuo</h5>
+                    <p class="card-text" data-section="index" data-value="comunicacionesCard7Description">
                         • Desplegamos sistemas de monitoreo en tiempo real para supervisar el estado y el rendimiento de
                         la red, generando alertas automáticas ante eventos adversos y facilitando la resolución rápida
                         de problemas.
@@ -257,16 +290,16 @@
             background-color: black;
             color: white;">
                 <div class="card-body d-flex flex-column ">
-                    <h5 class="card-title" style="color: red;">Capacitación del Personal y Mejores Prácticas</h5>
-                    <p class="card-text">
-                        • Ofrecemos sesiones de capacitación técnica para el personal de TI sobre la configuración,
-                        administración y resolución de problemas de redes empresariales, promoviendo las mejores
-                        prácticas de conectividad y seguridad.
-                        • Impartimos conocimientos sobre la implementación de políticas de seguridad basadas en roles,
-                        la gestión de accesos y la prevención de amenazas para fortalecer la postura de seguridad de la
-                        empresa.
-
-                    </p>
+                    <h5 class="card-title" style="color: red;"
+                    data-section="index" data-value="comunicacionesCard8">Capacitación del Personal y Mejores Prácticas</h5>
+                    <ul>
+                        <li data-section="index" data-value="aComunicacionesCard8">Ofrecemos sesiones de capacitación técnica para el personal de TI sobre la configuración,
+                            administración y resolución de problemas de redes empresariales, promoviendo las mejores
+                            prácticas de conectividad y seguridad.</li>
+                        <li  data-section="index" data-value="bComunicacionesCard8">Ofrecemos sesiones de capacitación técnica para el personal de TI sobre la configuración,
+                            administración y resolución de problemas de redes empresariales, promoviendo las mejores
+                            prácticas de conectividad y seguridad.</li>
+                    </ul>
 
                 </div>
             </div>
@@ -288,8 +321,9 @@
       height: 100%;
       background-color: rgba(0,0,0,.2);">
 
-            <h3 style=" font-size: 20px;"> Instalaciones</h3>
-            <p style="color: white; font-size: 15px;" class="text-center d-flex flex-column align-items-center">
+            <h3 style=" font-size: 20px;" data-section="index" data-value="instalaciones"> Instalaciones</h3>
+            <p style="color: white; font-size: 15px;" class="text-center d-flex flex-column align-items-center"
+            data-section="index" data-value="instalacionesDescription">
                 En nuestra búsqueda por proporcionar soluciones integrales de redes, reconocemos que la implementación
                 efectiva de la infraestructura es un pilar fundamental para el éxito de cualquier proyecto. Nuestro
                 enfoque se centra en ofrecer instalaciones de red profesionales y eficientes que no solo cumplan con sus
@@ -310,8 +344,9 @@
         background-color: black;
   color: white;">
       <div class="card-body d-flex flex-column ">
-          <h5 class="card-title" style="color: red;">Evaluación Integral de la Infraestructura de Red</h5>
-          <p class="card-text ">
+          <h5 class="card-title" style="color: red;"
+          data-section="index" data-value="instalacionesCard1">Evaluación Integral de la Infraestructura de Red</h5>
+          <p class="card-text " data-section="index" data-value="instalacionesDescriptionCard1">
               • Realizamos un análisis de la infraestructura de red existente, evaluando la topología física y
               lógica, la capacidad de ancho de banda y la calidad de la conectividad. Identificamos y
               corregimos posibles puntos de congestión, cuellos de botella y áreas de mejora, priorizando la
@@ -326,8 +361,9 @@
   background-color: black;
 color: white;">
 <div class="card-body d-flex flex-column ">
-    <h5 class="card-title" style="color: red;">Garantía de Alta Disponibilidad y Redundancia</h5>
-    <p class="card-text">
+    <h5 class="card-title" style="color: red;"
+    data-section="index" data-value="instalacionesCard2">Garantía de Alta Disponibilidad y Redundancia</h5>
+    <p class="card-text" data-section="index" data-value="instalacionesDescriptionCard2">
         • Implementamos tecnologías de conmutación por error y balanceo de carga para proporcionar
         redundancia y maximizar la disponibilidad de la red, minimizando el tiempo de inactividad en
         caso de fallos.
@@ -344,8 +380,9 @@ color: white;">
         background-color: black;
   color: white;">
       <div class="card-body d-flex flex-column ">
-          <h5 class="card-title" style="color: red;">DSL (Línea de Abonado Digital)</h5>
-          <p class="card-text ">
+          <h5 class="card-title" style="color: red;"
+          data-section="index" data-value="instalacionesCard3">DSL (Línea de Abonado Digital)</h5>
+          <p class="card-text " data-section="index" data-value="instalacionesDescriptionCard3">
               Ofrecemos conexiones DSL a través de la infraestructura telefónica existente en diversas
               ubicaciones. Esta opción nos permite proporcionar soluciones de conectividad incluso en áreas
               donde la fibra óptica no está disponible.
@@ -359,18 +396,17 @@ color: white;">
         background-color: black;
   color: white;">
       <div class="card-body d-flex flex-column ">
-          <h5 class="card-title" style="color: red;">Implementación de Soluciones de Seguridad Avanzadas</h5>
-          <p class="card-text ">
-              • Configuramos firewalls de ultima generación con inspección profunda de paquetes (DPI), reglas
-              de filtrado granulares y funcionalidades de prevención de intrusiones para proteger la red
-              contra amenazas externas e internas.
-              <br>
-              • Implementamos VPNs con protocolos de cifrado robustos para garantizar una comunicación segura
-              entre sucursales y usuarios remotos, manteniendo la confidencialidad y la integridad de los
-              datos.
-
-
-          </p>
+          <h5 class="card-title" style="color: red;"
+          data-section="index" data-value="instalacionesCard4">Implementación de Soluciones de Seguridad Avanzadas</h5>
+         
+          <ul>
+            <li data-section="index" data-value="aInstalacionesCard4">Configuramos firewalls de ultima generación con inspección profunda de paquetes (DPI), reglas
+                de filtrado granulares y funcionalidades de prevención de intrusiones para proteger la red
+                contra amenazas externas e internas.</li>
+            <li data-section="index" data-value="bInstalacionesCard4">Implementamos VPNs con protocolos de cifrado robustos para garantizar una comunicación segura
+                entre sucursales y usuarios remotos, manteniendo la confidencialidad y la integridad de los
+                datos.</li>
+          </ul>
 
       </div>
   </div>
@@ -379,17 +415,16 @@ color: white;">
         background-color: black;
   color: white;">
       <div class="card-body d-flex flex-column">
-          <h5 class="card-title" style="color: red;">Optimización del Rendimiento y la Conectividad de la Red
+          <h5 class="card-title" style="color: red;"
+          data-section="index" data-value="instalacionesCard5">Optimización del Rendimiento y la Conectividad de la Red
           </h5>
-          <p class="card-text">
-              • Utilizamos herramientas de monitoreo de red avanzadas para realizar análisis detallados del
-              rendimiento y la conectividad, identificando y resolviendo problemas de manera proactiva.
-             <br>
-              • Configuramos protocolos de enrutamiento dinámico y tecnologías de optimización de ancho de
-              banda para garantizar una conectividad rápida y confiable, minimizando la latencia y maximizando
-              el rendimiento de la red.
-
-          </p>
+          <ul>
+            <li  data-section="index" data-value="aInstalacionesCard5">Utilizamos herramientas de monitoreo de red avanzadas para realizar análisis detallados del
+                rendimiento y la conectividad, identificando y resolviendo problemas de manera proactiva.</li>
+            <li  data-section="index" data-value="bInstalacionesCard5">Configuramos protocolos de enrutamiento dinámico y tecnologías de optimización de ancho de
+                banda para garantizar una conectividad rápida y confiable, minimizando la latencia y maximizando
+                el rendimiento de la red.</li>
+          </ul>
 
       </div>
   </div>
@@ -407,37 +442,37 @@ color: white;">
     <div class="container-fluid">
         <h3 class="text-center" style="font-family:Arial, Helvetica, sans-serif;
         font-size: 20px; 
-        color: black;"><b>Beneficios de nuestros servicios</b></h3>
+        color: black;" data-section="index" data-value="beneficios"><b>Beneficios de nuestros servicios</b></h3>
     </div>
         <div class="d-flex justify-content-center align-items-center gap-3 mt-5">
             <div class="d-flex flex-column align-items-center">
                 <img src="./Assets/eficienciaProductividad.png" alt="" width="90">
-                <h6><b>Eficiencia y Productividad</b></h6>
+                <h6 data-section="index" data-value="beneficios1"><b>Eficiencia y Productividad</b></h6>
             </div>
             
             <div class="d-flex flex-column align-items-center">
                 <img src="./Assets/costosReducidos2.png" alt="" width="90">
-                <h6><b>Costos Reducidos</b></h6>
+                <h6 data-section="index" data-value="beneficios2"><b>Costos Reducidos</b></h6>
             </div>
            
             <div class="d-flex flex-column align-items-center">
                 <img src="./Assets/Adaptabilidad2.png" alt="" width="90">
-                <h6><b>Flexibilidad y Adaptabilidad</b></h6>
+                <h6 data-section="index" data-value="beneficios3"><b>Flexibilidad y Adaptabilidad</b></h6>
             </div>
 
             <div class="d-flex flex-column align-items-center">
                 <img src="./Assets/tecnologiaAvanzada.png" alt="" width="90">
-                <h6><b>Seguridad de Datos</b></h6>
+                <h6 data-section="index" data-value="beneficios4"><b>Seguridad de Datos</b></h6>
             </div>
 
             <div class="d-flex flex-column align-items-center">
                 <img src="./Assets/excellencesd-150x150.png" alt="" width="90">
-                <h6><b>Imagen profesional</b></h6>
+                <h6 data-section="index" data-value="beneficios5"><b>Imagen profesional</b></h6>
             </div>
             
             <div class="d-flex flex-column align-items-center">
                 <img src="./Assets/diagnostico.png" alt="" width="90">
-                <h6><b>Cumplimiento Normativo</b></h6>
+                <h6 data-section="index" data-value="beneficios6"><b>Cumplimiento Normativo</b></h6>
             </div>
         </div>
     </section>

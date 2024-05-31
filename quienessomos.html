@@ -8,7 +8,7 @@
     <title>AMFTech</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link href="./style.css">
+        <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
@@ -25,16 +25,19 @@
                 <ul class="navbar-nav">
                     <li class="nav-item" style="color: rgb(0, 0, 0);">
                         <a class="nav-link active" style="color: rgb(0, 0, 0);" aria-current="page"
-                            href="./index.html">INICIO</a>
+                            href="./index.html" data-section="index" data-value="navBarMenu1">INICIO</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" style="color: rgb(0, 0, 0)" href="./quienessomos.html">QUIENES SOMOS</a>
+                        <a class="nav-link" style="color: rgb(0, 0, 0)" href="./quienessomos.html"
+                        data-section="index" data-value="navBarMenu2">QUIENES SOMOS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" style="color: rgb(0, 0, 0)" href="#">PROYECTOS</a>
+                        <a class="nav-link" style="color: rgb(0, 0, 0)" href="#"
+                        data-section="index" data-value="navBarMenu3">PROYECTOS</a>
                     </li>
                        <li class="nav-item">
-                        <a class="nav-link" style="color: rgb(0, 0, 0)" href=".//servicios.html">SERVICIOS</a>
+                        <a class="nav-link" style="color: rgb(0, 0, 0)" href=".//servicios.html"
+                        data-section="index" data-value="navBarMenu4">SERVICIOS</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" style="color: rgb(0, 0, 0)" href="./servicios.html" role="button"
@@ -42,21 +45,36 @@
                             
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="./comunicaciones.html">COMUNICACIONES</a></li>
-                            <li><a class="dropdown-item" href="./electricidad.html">ELECTRICIDAD</a></li>
-                            <li><a class="dropdown-item" href="./energiasRenovables.html">ENERGIAS RENOVABLES</a></li>
-                            <li><a class="dropdown-item" href="./operadorInternet.html">OPERADOR DE INTERNET</a></li>
-                            <li><a class="dropdown-item" href="./videoseguridad.html">VIGILANCIA Y SEGURIDAD</a></li>
+                            <li><a class="dropdown-item" href="./comunicaciones.html"data-section="index" data-value="navBarMenu7">COMUNICACIONES</a></li>
+                            <li><a class="dropdown-item" href="./electricidad.html"data-section="index" data-value="navBarMenu8">ELECTRICIDAD</a></li>
+                            <li><a class="dropdown-item" href="./energiasRenovables.html"data-section="index" data-value="navBarMenu9">ENERGIAS RENOVABLES</a></li>
+                            <li><a class="dropdown-item" href="./operadorInternet.html"data-section="index" data-value="navBarMenu10">OPERADOR DE INTERNET</a></li>
+                            <li><a class="dropdown-item" href="./videoseguridad.html"data-section="index" data-value="navBarMenu11">VIGILANCIA Y SEGURIDAD</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" style="color: rgb(0, 0, 0)" href="./trabajaconnosotros.html">TRABAJA CON
+                        <a class="nav-link" style="color: rgb(0, 0, 0)" href="./trabajaconnosotros.html"
+                        data-section="index" data-value="navBarMenu5">TRABAJA CON
                             NOSOTROS</a>
                         </li>
                 </ul>
 
                 <a href="./contacto.html" class="btn btn-danger w-40"
-                style="height: 2rem; font-size: 13px; color: rgb(0, 0, 0);">CONTACTO</a>
+                style="height: 2rem; font-size: 13px; color: rgb(0, 0, 0);"data-section="index" data-value="navBarMenu6">CONTACTO</a>
+    
+            </div>
+            <div class="switches">
+                <div id="toggle-theme" class="toggle-theme">
+
+                </div>
+            </div>
+            <div id="flags" class="flags">
+                <div class="flags__item" data-language="es">
+                    <img src="./Assets//es.svg" alt="" class="flags__img">
+                </div>
+                <div class="flags__item" data-language="en">
+                    <img src="./Assets//gb.svg" alt="" class="flags__img">
+                </div>
             </div>
         </div>
     </nav>
@@ -71,7 +89,8 @@
      height: 100%;
      background-color: rgba(0,0,0,.2);">
 
-            <p style="color: white; font-size: 25px;" class="d-flex flex-column align-items-center">
+            <p style="color: white; font-size: 25px;" class="d-flex flex-column align-items-center"
+            data-section="index" data-value="descriptionQuienesSomos">
                En AMF Tech somos un equipo multidisciplinar Líder en la instalación,
                 puesta en marcha y mantenimiento de redes de comunicación industrial, seguridad electrónica y energías
                 renovables.
@@ -94,8 +113,10 @@
         <div class="card d-flex align-items-center justify-content-center mt-5 shadow-lg p-3 mb-5 bg-white rounded"
             style="width: 70%;">
             <div class="card-body d-flex align-items-center flex-column">
-                <h5 class="card-title" style="color: red;">TRAYECTORIA DE AMF TECH</h5>
-                <p class="card-text">En AMF Tech hemos sido testigos de un viaje emocionante y gratificante. Desde
+                <h5 class="card-title" style="color: red;"
+                data-section="index" data-value="trayectoriaTitulo">TRAYECTORIA DE AMF TECH</h5>
+                <p class="card-text"
+                data-section="index" data-value="descriptionTrayectoria">En AMF Tech hemos sido testigos de un viaje emocionante y gratificante. Desde
                     nuestros
                     modestos comienzos hasta hoy hemos mantenido un compromiso intacto con la excelencia y la
                     innovación.
@@ -113,9 +134,11 @@
 
     <!-- NUESTRO COMPROMISO-->
     <div class="d-flex align-items-center justify-content-center flex-column " style="margin-top: 7rem !important;">
-        <h2 style="color: rgb(0, 0, 0); font-family:Arial, Helvetica, sans-serif">NUESTRO COMPROMISO</h2>
+        <h2 style="color: rgb(0, 0, 0); font-family:Arial, Helvetica, sans-serif"
+        data-section="index" data-value="nuestroCompromiso">NUESTRO COMPROMISO</h2>
         <p class="d-flex justify-content-center align-items-center flex-column"
-            style="font-size: 20px; font-family:Arial, Helvetica, sans-serif">Nuestra empresa
+            style="font-size: 20px; font-family:Arial, Helvetica, sans-serif"
+            data-section="index" data-value="descriptionCompromiso">Nuestra empresa
             se esfuerza por ser el socio integral de tecnología y telecomunicaciones de las empresas,
             proporcionando soluciones innovadoras, <span></span> seguras y sostenibles que impulsan el crecimiento y la
             eficiencia
@@ -130,10 +153,12 @@
             <div class="card-img-overlay d-flex align-items-center flex-column"
                 style=" background-image: linear-gradient(rgba(255, 255, 255, 0.726), rgba(255, 255, 255, 0))">
                 <h5 class="card-title"
-                    style="color: rgb(51, 51, 51); font-size: 30px; font-family:Arial, Helvetica, sans-serif">
+                    style="color: rgb(51, 51, 51); font-size: 30px; font-family:Arial, Helvetica, sans-serif"
+                    data-section="index" data-value="opcion1">
                     Sustentabilidad</h5>
                 <p class="card-text"
-                    style="color: rgba(0, 0, 0, 0.76); font-size: 20px; font-family:Arial, Helvetica, sans-serif">
+                    style="color: rgba(0, 0, 0, 0.76); font-size: 20px; font-family:Arial, Helvetica, sans-serif"
+                    data-section="index" data-value="descriptionOp1">
                     Promovemos la gestión sustentable de nuestras operaciones.</p>
 
             </div>
@@ -146,10 +171,12 @@
             <div class="card-img-overlay d-flex align-items-center flex-column"
                 style="background-image: linear-gradient(rgba(255, 255, 255, 0.938), rgba(255, 255, 255, 0))">
                 <h5 class="card-title"
-                    style="color: rgb(51, 51, 51); font-size: 30px; font-family:Arial, Helvetica, sans-serif">
+                    style="color: rgb(51, 51, 51); font-size: 30px; font-family:Arial, Helvetica, sans-serif"
+                    data-section="index" data-value="opcion2">
                     Compromiso con el desarrollo</h5>
                 <p class="card-text"
-                    style="color: rgba(0, 0, 0, 0.76); font-size: 20px; font-family:Arial, Helvetica, sans-serif">
+                    style="color: rgba(0, 0, 0, 0.76); font-size: 20px; font-family:Arial, Helvetica, sans-serif"
+                    data-section="index" data-value="descriptionOp2">
                     Conectamos a personas y comunidades, impulsando la economía digital.</p>
 
             </div>
@@ -162,21 +189,26 @@ SONTENEMOS UN COMPROMISO COTIDIANO -->
     <section class="container d-flex justify-content-center align-items-center"
         style="margin-top: 10rem; width: 100%; padding: 100; margin-bottom: 5rem;">
         <div class="d-flex align-items-center justify-content-center flex-column flex-wrap">
-            <h2 style="font-family:Arial, Helvetica, sans-serif;">SONTENEMOS UN COMPROMISO COTIDIANO</h2>
+            <h2 style="font-family:Arial, Helvetica, sans-serif;"
+            data-section="index" data-value="nuestroCompromisoCotidiano">SONTENEMOS UN COMPROMISO COTIDIANO</h2>
             <div class="d-flex align-items-center gap-5">
                 <img src="./Assets//gentetrabajando.png" alt="" style="width:1000px;">
 
                 <div class="d-flex flex-column flex-wrap align-items-center justify-content-center">
                     <div>
-                        <h3 style="font-family:Arial, Helvetica, sans-serif;">Transformación</h3>
-                        <p style="font-family:Arial, Helvetica, sans-serif;">Seguimos evolucionando para transformar la
+                        <h3 style="font-family:Arial, Helvetica, sans-serif;"
+                        data-section="index" data-value="opcion1cc">Transformación</h3>
+                        <p style="font-family:Arial, Helvetica, sans-serif;"
+                        data-section="index" data-value="descriptionOp1cc">Seguimos evolucionando para transformar la
                             experiencia digital de nuestros clientes ofreciéndoles
                             un servicio seguro, flexible y dinámico.</p>
                     </div>
 
                     <div>
-                        <h3 style="font-family:Arial, Helvetica, sans-serif;">Conexión</h3>
-                        <p style="font-family:Arial, Helvetica, sans-serif;">Garantizamos conexiones fijas y móviles de
+                        <h3 style="font-family:Arial, Helvetica, sans-serif;"
+                        data-section="index" data-value="opcion2cc">Conexión</h3>
+                        <p style="font-family:Arial, Helvetica, sans-serif;"
+                        data-section="index" data-value="descriptionOp2cc">Garantizamos conexiones fijas y móviles de
                             alta velocidad, para acceder desde cualquier
                             dispositivo.</p>
                     </div>
@@ -192,8 +224,10 @@ SONTENEMOS UN COMPROMISO COTIDIANO -->
 
                     <div class="d-flex flex-column flex-wrap">
                         <div class="d-flex align-items-center justify-content-center flex-column">
-                            <h3 style="font-family:Arial, Helvetica, sans-serif;">Ética y transparencia</h3>
-                            <p style="font-family:Arial, Helvetica, sans-serif;">Nuestros principios, valores,
+                            <h3 style="font-family:Arial, Helvetica, sans-serif;"
+                            data-section="index" data-value="opcion3cc">Ética y transparencia</h3>
+                            <p style="font-family:Arial, Helvetica, sans-serif;"
+                            data-section="index" data-value="descriptionOp2cc">Nuestros principios, valores,
                                 fundamentos morales y éticos promueven la transparencia de nuestro accionar. Conocé
                                 nuestro Código de Ética y Conducta y nuestras Políticas Anticorrupción, Antifraude y
                                 sobre Conflictos de Intereses.</p>
@@ -211,15 +245,16 @@ SONTENEMOS UN COMPROMISO COTIDIANO -->
 
     <!-- VALORES -->
     <section class="d-flex flex-column align-items-center mt-5">
-        <h2>NUESTROS VALORES</h2>
+        <h2 data-section="index" data-value="nuestrosValores">NUESTROS VALORES</h2>
         <div class="container d-flex gap-4 flex-wrap mt-3 justify-content-center">
 
             <div class="card d-flex align-items-center p-3 mb-5 bg-white rounded" style="width: 15rem; border: none;">
                 <img src="./Assets/excellencesd-150x150.png" class="card-img-top" alt="Excelencia"
                     style="width: 100px !important;">
                 <div class="card-body">
-                    <h5 class="card-title">Excelencia</h5>
-                    <p class="card-text">Nos esforzamos por ofrecer productos y servicios de la más alta calidad,
+                    <h5 class="card-title" data-section="index" data-value="op1v">Excelencia</h5>
+                    <p class="card-text"
+                    data-section="index" data-value="descriptionv1">Nos esforzamos por ofrecer productos y servicios de la más alta calidad,
                         cumpliendo con los más altos estándares de excelencia en cada aspecto de nuestro trabajo.</p>
                 </div>
             </div>
@@ -228,8 +263,9 @@ SONTENEMOS UN COMPROMISO COTIDIANO -->
                 <img src="./Assets/innovation.png" class="card-img-top" alt="Innovación"
                     style="width: 100px !important;">
                 <div class="card-body">
-                    <h5 class="card-title">Innovación</h5>
-                    <p class="card-text">Buscamos constantemente nuevas y mejores formas de abordar los desafíos de
+                    <h5 class="card-title" data-section="index" data-value="op2v">Innovación</h5>
+                    <p class="card-text"
+                    data-section="index" data-value="descriptionv2">Buscamos constantemente nuevas y mejores formas de abordar los desafíos de
                         nuestros clientes, aprovechando la tecnología más avanzada y las mejores prácticas del sector.
                     </p>
                 </div>
@@ -239,8 +275,9 @@ SONTENEMOS UN COMPROMISO COTIDIANO -->
                 <img src="./Assets/compromiso-100x100.png" class="card-img-top" alt="Compromiso"
                     style="width: 100px !important;">
                 <div class="card-body">
-                    <h5 class="card-title">Compromiso</h5>
-                    <p class="card-text">Estamos comprometidos con la satisfacción del cliente, la integridad en
+                    <h5 class="card-title" data-section="index" data-value="op3v">Compromiso</h5>
+                    <p class="card-text"
+                    data-section="index" data-value="descriptionv3">Estamos comprometidos con la satisfacción del cliente, la integridad en
                         nuestras acciones y el respeto por el medio ambiente en todo lo que hacemos.</p>
                 </div>
             </div>
@@ -249,8 +286,9 @@ SONTENEMOS UN COMPROMISO COTIDIANO -->
                 <img src="./Assets//colaboracion-100x100.png" class="card-img-top" alt="Colaboración"
                     style="width: 100px !important;">
                 <div class="card-body">
-                    <h5 class="card-title">Colaboración</h5>
-                    <p class="card-text">Fomentamos un entorno de trabajo colaborativo donde el trabajo en equipo, la
+                    <h5 class="card-title"  data-section="index" data-value="op4v">Colaboración</h5>
+                    <p class="card-text"
+                    data-section="index" data-value="descriptionv4">Fomentamos un entorno de trabajo colaborativo donde el trabajo en equipo, la
                         comunicación abierta y el intercambio de ideas son fundamentales para alcanzar nuestros
                         objetivos.</p>
                 </div>
@@ -260,8 +298,9 @@ SONTENEMOS UN COMPROMISO COTIDIANO -->
                 <img src="./Assets//sostenibilidad-150x150.png" class="card-img-top" alt="Sostenibilidad"
                     style="width: 100px !important;">
                 <div class="card-body">
-                    <h5 class="card-title">Sostenibilidad</h5>
-                    <p class="card-text">Nos comprometemos a promover el uso responsable de los recursos naturales y a
+                    <h5 class="card-title" data-section="index" data-value="op5v">Sostenibilidad</h5>
+                    <p class="card-text"
+                    data-section="index" data-value="descriptionv5">Nos comprometemos a promover el uso responsable de los recursos naturales y a
                         desarrollar soluciones que contribuyan a la conservación del medio ambiente y al desarrollo
                         sostenible de las comunidades en las que operamos.
                     </p>
@@ -429,6 +468,7 @@ LOGO FINAL -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+        
 </body>
 <footer class="bg-light d-flex justify-content-center align-items-center flex-column ">
     <div class="container p-3 d-flex align-items-center justify-content-center" style="background-color: rgb(0, 0, 0);
@@ -469,5 +509,6 @@ LOGO FINAL -->
 
     </div>
 </footer>
+<script src="./index.js"></script>
 
 </html>
