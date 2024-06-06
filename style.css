@@ -115,3 +115,9 @@ input::placeholder, textarea::placeholder {
     cursor: pointer;
 }
 
+#btn-back-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: none;
+  }
