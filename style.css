@@ -29,23 +29,69 @@
 form{
     display: flex;
     flex-direction: column;
-    width: 35%;
     justify-content: center;
+    text-align: center;
     align-items: center;
-    background-color: rgba(255, 0, 0, 0.342);
-    border-radius: 2%;
-    padding: 2%;
+    box-shadow: 0 0 20px rgba(0,0, 0, 0.2);
+    border-radius: 20px;
+    padding: 50px 55px;
+    height: 85vh;
 }
 
 label{
-    width: 90%;
+    color :#000000;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 10px;
 }
 
-input{
-    width: 80%;
-    border-color: black;
+
+input, textarea {
+   padding: 2%;
    border-radius: 2%;
+   margin-bottom: 10px;
+   background-color: #00000010;
+   border: 2px solid #f0faf1;
+   color: #000000;
+   outline: none;
+   width: 100%;
 }
+
+input::placeholder, textarea::placeholder {
+    color: rgba(0, 0, 0, 0.425);
+}
+
+.form-txt{
+ margin-bottom: 20px;
+ display: flex;
+ justify-content: space-between;
+ text-align: center;
+}
+
+.form-txt a{
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+
+
+
+
+@media(max-width:991px){
+    body{
+        padding: 30px;
+    }
+
+    form{
+        padding: 50px 30px;
+        width: 100%;
+    }
+
+    input{
+        pad: 15px;
+}}
 
 /* IDIOMA */
 
@@ -68,3 +114,4 @@ input{
     display: block;
     cursor: pointer;
 }
+

@@ -22,20 +22,20 @@
         "descripcionVideo":"Somos una empresa en constante evolución. Ofrecemos experiencias de conectividad y soluciones tecnológicas.",
         "sectionAvanzar":"Nos unen las ganas de avanzar",
         "descriptionAvanzar":"Potenciamos la vida digital de personas y comunidades conectando con lo que más importa",
-        "avanzarIcon1":"Superacion",
-        "avanzarIcon2":"innovacion",
-        "avanzarIcon3":"Compromiso",
-        "avanzarIcon4":"Bienestar",
+        "avanzarIcon1":"SUPERACIÓN",
+        "avanzarIcon2":"INNOVACIÓN",
+        "avanzarIcon3":"COMPROMISO",
+        "avanzarIcon4":"BIENESTAR",
         
-        "descriptionQuienesSomos":"En AMF Tech somos un equipo multidisciplinar Líder en la instalación, puesta en marcha y mantenimiento de redes de comunicación industrial, seguridad electrónica y energías renovables. Nos estacamos por nuestra pasión por la sostenibilidad, implementando prácticas respetuosas con el medio ambiente en cada proyecto y promoviendo un mundo más limpio y verde a través de soluciones tecnológicas innovadoras. Con un equipo experto y compromet, nos esforzamos por superar las expectativas de nuestros clientes, priorizando la integridad, la calidad y el compromiso con la comunidad. En AMF Tech estamos impulsados por nuestra visión de un futuro más sostenible y tecnológicamente avanzado, y nos comprometemos a ser agentes de cambio positivo en nuestras comunidades locales y globales.",
+        "descriptionQuienesSomos":"Bienvenidos a AMF Tech, líder en la vanguardia de la innovación tecnológica. Desde nuestros humildes comienzos, nos hemos dedicado a proporcionar soluciones tecnológicas de última generación para satisfacer las necesidades de nuestros clientes en un mundo digitalmente dinámico. Con un equipo de expertos apasionados y una trayectoria probada de éxito, estamos comprometidos a impulsar el progreso y la excelencia en todos los aspectos de nuestros servicios. Descubre cómo AMF Tech  puede llevar tu empresa al siguiente nivel en la era digital.",
         "trayectoriaTitulo":"TRAYECTORIA DE AMF TECH",
         "descriptionTrayectoria":"En AMF Tech hemos sido testigos de un viaje emocionante y gratificante. Desde nuestros modestos comienzos hasta hoy hemos mantenido un compromiso intacto con la excelencia y la innovación. Con cada desafío superado y cada obstáculo enfrentado, hemos fortalecido nues poscición comolíderes de la instalación, puesta en marcha y mantenimiento de redes industriales, seguridad electrónica y energías renovables. Guiados por nuestros valores fundamentales de integridad y calidad, estamos ansiosos por seguir creciendo y superando las expectativas de nuestros clientes. Mirando hacia adelante, estamos emocionados por el futuro y la oportunidad de seguir.",
         "nuestroCompromiso":"NUESTRO COMPROMISO",
         "descriptionCompromiso":"Nuestra empresa se esfuerza por ser el socio integral de tecnología y telecomunicaciones de las empresas, proporcionando soluciones innovadoras, seguras y sostenibles que impulsan el crecimiento y la eficiencia operativa en el mundo empresarial actual.",
-        "opcion1":"Sustentabilidad",
-        "descriptionOp1":"Promovemos la gestión sustentable de nuestras operaciones.",
-        "opcion2":"Compromiso con el desarrollo",
-        "descriptionOp2":"Conectamos a personas y comunidades, impulsando la economía digital.",
+        "opcion1":"Misión",
+        "descriptionOp1":" AMF TECH proporciona soluciones integrales y tecnológicamente avanzadas en el campo de las comunicaciones , sistemas de videovigilancia, electricidad y energías renovables para mejorar la calidad de vida de nuestros clientes y contribuir al desarrollo sostenible de la sociedad. Su equipo multidiciplinar posee una experiencia de más de 15 años en diferentes ramas",
+        "opcion2":"Visión",
+        "descriptionOp2":" El objetivo que persigue AMF TECH es la innovación y la excelencia en servicios y productos relacionados con las comunicaciones , sistemas de videovigilancia, electricidad y energías renovables, constribuyendo activamente a un mundo más conectado, seguro y sostenible.",
         "nuestroCompromisoCotidiano":"SONTENEMOS UN COMPROMISO COTIDIANO",
         "opcion1cc":"Transformación",
         "descriptionOp1cc":"Seguimos evolucionando para transformar la experiencia digital de nuestros clientes ofreciéndoles un servicio seguro, flexible y dinámico.",
@@ -43,7 +43,7 @@
         "descriptionOp2cc":"Garantizamos conexiones fijas y móviles de alta velocidad, para acceder desde cualquier dispositivo.",
         "opcion3cc":"Ética y transparencia",
         "descriptionOp3cc":"Nuestros principios, valores, fundamentos morales y éticos promueven la transparencia de nuestro accionar. Conocé nuestro Código de Ética y Conducta y nuestras Políticas Anticorrupción, Antifraude y sobre Conflictos de Intereses.",
-        "nuestrosValores":"NUESTROS VALORES",
+        "nuestrosValores":"¿PORQUE ELEGIRNOS?",
         "op1v":"Excelencia",
         "descriptionv1":"Nos esforzamos por ofrecer productos y servicios de la más alta calidad, cumpliendo con los más altos estándares de excelencia en cada aspecto de nuestro trabajo.",
         "op2v":"Innovación",
@@ -280,6 +280,8 @@
         "cardSeg3":"Gestión Centralizada Y Remota",
         "aCardSeg3":"Nuestro software de gestión centralizada te permite controlar y monitorear todos los aspectos de tu sistema de seguridad desde una ubicación central o de forma remota a través de dispositivos móviles. Acceso a registros de actividad, alertas en tiempo real y capacidad de respuesta rápida a eventos de seguridad.",
         "cardSeg4":"Análisis De Datos Y Reporting",
-        "aCardSeg4":"Utilizamos herramientas de análisis de datos para extraer información valiosa de tus sistemas de seguridad, identificando patrones, tendencias y áreas de mejora. Generación de informes detallados sobre actividad de usuarios, eventos de seguridad y cumplimiento normativo."    }
- 
+        "aCardSeg4":"Utilizamos herramientas de análisis de datos para extraer información valiosa de tus sistemas de seguridad, identificando patrones, tendencias y áreas de mejora. Generación de informes detallados sobre actividad de usuarios, eventos de seguridad y cumplimiento normativo.",
+        
+        "botonVideoP":"Saber más"  
+      }
 }

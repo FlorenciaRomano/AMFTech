@@ -148,7 +148,7 @@
 
             <div class="card d-flex align-items-center  flex-column border-1 pt-0"
                 style="width: 15rem; height: 11rem">
-                <img src="./Assets/trabajaconNosotrosCard2.avif" class="card-img-top" alt="..."
+                <img src="./Assets/ingenieros.jpg" class="card-img-top" alt="..."
                     style="width: 100%; height: 100px; object-fit:cover">
                 <div class="card-body d-flex flex-column justify-content-center " 
                  style="background-color: #0A4273; width: 100%; color: white">
@@ -159,7 +159,7 @@
 
             <div class="card d-flex align-items-center flex-column  border-1 pt-0"
                 style="width: 15rem; height: 11rem">
-                <img src="./Assets/trabajaconNosotrosCard3.jpg" class="card-img-top" alt="..."
+                <img src="./Assets/gestiontcn.jpg" class="card-img-top" alt="..."
                     style="width: 100%; height: 100px; object-fit:cover">
                 <div class="card-body d-flex flex-column justify-content-center"  
                 style="background-color: #0A4273; width: 100%; color: white">
@@ -184,41 +184,44 @@
     <!-- 
     FORMULARIO -->
 
-    <div id="wrapper">
+    <div class="d-flex align-items-center justify-content-center" style="width: 100%;">
+
+    <div id="wrapper" style="width: 50%; margin-left: 1%;">
         
         <form action="https://formsubmit.co/florromanoyt@gmail.com" method="POST" enctype="multipart/form-data"
-        class="shadow-lg p-3 mb-5 bg-white rounded">
-        <h5 style="color: RED;" data-section="index" data-value="formulario">QUEREMOS CONOCERTE</h5>   
-        
+        class="shadow-lg p-3 mb-5 bg-white rounded" style="width: 100%;">
+        <div class="d-flex flex-column" style="align-items: flex-start;" >
         <label for="Nombre" data-section="index" data-value="nombre">Nombre</label>
-            <input type="text" name="name">
+            <input type="text" name="name" id="name" placeholder="Nombre">
 
             <label for="email" data-section="index" data-value="correo">Correo Electrónico</label>
-            <input type="email" name="email" >
+            <input type="email" name="email"  id="email" placeholder="email" >
 
             <label for="subject" data-section="index" data-value="asunto">Asunto</label>
-            <input type="text" name="subject">
+            <input type="text" name="subject" style="border-radius: 2%;">
 
             <input type="file" name="adjunto" aceptar="image/png, image/jpeg" style="margin-top: 1rem;">
 
             <label for="comments" data-section="index" data-value="comentario">Comentarios</label>
-            <textarea name="comments" cols="50" rows="3"></textarea>
-
-            <input type="submit" value="Enviar"
+            <textarea name="comments" id="commnets" cols="50" rows="3" placeholder="comments"></textarea>            <input type="submit" value="Enviar"
              style="margin-top: 1rem;
              background-color: red;
-             color: white;">
+             color: white;
+             border: none;
+             border-radius: 2%;">
 
             <input type="hidden" name="_captcha" value="false">
+            </div>
         </form>
     </div>
 
+   
     <!-- PORQUE ELEGIRNOS -->
     <section class="container-fluid mt-5" style="background-color: rgb(240, 240, 240);
-    width: 100%;
+    width: 40%;
     color: rgb(0, 0, 0);
     font-family:Arial, Helvetica, sans-serif;
-    height: 40vh;
+    height: 80vh;
     padding-top: 2rem;">
         <div class="container-fluid">
             <h3 class="text-center" style="font-family:Arial, Helvetica, sans-serif;
@@ -238,7 +241,7 @@
             </p>
         </div>
     </section>
-
+</div>
 
     <!-- LOGO DE ABAJO -->
     <div class="d-flex align-items-center justify-content-center" style="background-color: rgba(0, 0, 0, 0.055);">
