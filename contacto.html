@@ -132,9 +132,9 @@
    <div class="d-flex align-items-center">
     <div id="wrapper" style="width:50%;">
         <h5 data-section="index" data-value="envieForm">Envíe su formulario</h5>
-       
+        
         <form action="https://formsubmit.co/florromanoyt@gmail.com" method="POST" enctype="multipart/form-data"
-        class="shadow-lg p-3 mb-5 bg-white rounded">
+        class="shadow-lg p-3 mb-5 bg-white rounded" style="width: 70%;">
         <div class="d-flex flex-column" style="align-items: flex-start;" >
         <label for="Nombre" data-section="index" data-value="nombre">Nombre</label>
             <input type="text" name="name" id="name" placeholder="Nombre">
@@ -145,15 +145,14 @@
             <label for="subject" data-section="index" data-value="asunto">Asunto</label>
             <input type="text" name="subject" style="border-radius: 2%;">
 
-            <label for="comments" data-section="index" data-value="comentario">Comentarios</label>
-            <textarea name="comments" id="commnets" cols="50" rows="3" placeholder="comments"></textarea>            <input type="submit" value="Enviar"
-             style="margin-top: 1rem;
-             background-color: red;
-             color: white;
-             border: none;
-             border-radius: 2%;">
+          
 
-            <input type="hidden" name="_captcha" value="false">
+            <label for="comments" data-section="index" data-value="comentario">Comentarios</label>
+            <textarea name="comments" id="commnets" cols="50" rows="3" placeholder="comments"></textarea>         
+            
+            <div id="liveAlertPlaceholder"></div>
+            <button type="submit" class="btn btn-danger" id="liveAlertBtn" value="Enviar">Enviar Formulario</button>
+            <input type="hidden" name="_captcha" value="false"  id="liveAlertPlaceholder">
             </div>
         </form>
     </div>
