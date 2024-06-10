@@ -19,6 +19,7 @@
         "servicioTres":"Conectividad",
         "servicioCuatro":"Comunicaciones",
         "servicioCinco":"Energías Renovables",
+        "servicioSeis":"Certificaciones",
         "descripcionVideo":"Somos una empresa en constante evolución. Ofrecemos experiencias de conectividad y soluciones tecnológicas.",
         "sectionAvanzar":"Nos unen las ganas de avanzar",
         "descriptionAvanzar":"Potenciamos la vida digital de personas y comunidades conectando con lo que más importa",
@@ -43,7 +44,7 @@
         "descriptionOp2cc":"Garantizamos conexiones fijas y móviles de alta velocidad, para acceder desde cualquier dispositivo.",
         "opcion3cc":"Ética y transparencia",
         "descriptionOp3cc":"Nuestros principios, valores, fundamentos morales y éticos promueven la transparencia de nuestro accionar. Conocé nuestro Código de Ética y Conducta y nuestras Políticas Anticorrupción, Antifraude y sobre Conflictos de Intereses.",
-        "nuestrosValores":"¿PORQUE ELEGIRNOS?",
+        "nuestrosValores":"VALORES",
         "op1v":"Excelencia",
         "descriptionv1":"Nos esforzamos por ofrecer productos y servicios de la más alta calidad, cumpliendo con los más altos estándares de excelencia en cada aspecto de nuestro trabajo.",
         "op2v":"Innovación",
@@ -54,7 +55,13 @@
         "descriptionv4":"Fomentamos un entorno de trabajo colaborativo donde el trabajo en equipo, la comunicación abierta y el intercambio de ideas son fundamentales para alcanzar nuestros objetivos.",
         "op5v":"Sostenibilidad",
         "descriptionv5":"Nos comprometemos a promover el uso responsable de los recursos naturales y a desarrollar soluciones que contribuyan a la conservación del medio ambiente y al desarrollo sostenible de las comunidades en las que operamos.",
-    
+        "op6":"Ética y Transparencia",
+        "descriptionv6":"Nuestros principios, valores, fundamentos morales y éticos promueven la transparencia de nuestro accionar.",
+        "botonPP":" Política de Calidad y Medioambiente",
+        "descripcionPP":"En AMF TECH, estamos comprometidos con la excelencia en la calidad de nuestros productos y servicios, así como con la protección del medio ambiente en todas nuestras operaciones. Nuestra política se basa en los siguientes principios fundamentales: CALIDAD        Cumplimiento de requisitos: Nos comprometemos a cumplir con todos los requisitos legales, reglamentarios y contractuales aplicables a nuestras actividades, productos y servicios. Además, nos esforzamos por superar las expectativas de nuestros clientes mediante la entrega oportuna y consistente de productos y servicios de alta calidad. Mejora continua: Promovemos una cultura de mejora continua en toda la organización, mediante la identificación de áreas de oportunidad, la implementación de acciones correctivas y preventivas, y la revisión regular de nuestro sistema de gestión de calidad. Fomentamos la participación activa de nuestros empleados en la identificación de oportunidades de mejora y en la implementación de prácƟcas y procesos de calidad. MEDIO AMBIENTE Gestión ambiental responsable: Nos comprometemos a minimizar el impacto ambiental de nuestras operaciones, productos y servicios, mediante la adopción de prácticas y tecnologías sostenibles, la prevención de la contaminación y la conservación de los recursos naturales. Cumplimiento legal y regulador: Cumplimos con todas las leyes, regulaciones y normativas ambientales aplicables en todas nuestras actividades operativas. Además, promovemos la sensibilización y el cumplimiento ambiental entre nuestros empleados, proveedores y contratistas. Innovación y tecnología verde: : Buscamos desarrollar productos y servicios que contribuyan a la conservación del medio ambiente y a la mitigación del cambio climático. Promovemos el uso de energías renovables, tecnologías limpias y prácticas ecoamigables en todas nuestras operaciones. Para asegurar el cumplimiento de esta política, establecemos objetivos y metas específicos de calidad y medio ambiente, los cuales son revisados periódicamente para garantizar su relevancia y eficacia. Además, comunicamos esta política a todos nuestros empleados, proveedores y partes interesadas relevantes, y proporcionamos la capacitación y los recursos necesarios para su implementación efectiva. En AMF TECH, estamos comprometidos a ser un líder en calidad y sostenibilidad, trabajando de manera responsable para el beneficio de nuestros clientes, empleados y el medio ambiente.",
+        "botonRS":"Responsabilidad Social y Cooperativa",
+        "descripcionRS":"La responsabilidad social y cooperativa de AMF TECH es un pilar fundamental de nuestra filosofía empresarial. Nos comprometemos a contribuir positivamente al bienestar de la sociedad y al desarrollo sostenible, tanto a nivel local como global. Algunas de las acciones que llevamos a cabo en este sentido incluyen: Inversión en la comunidad: Apoyamos iniciativas locales que promueven la educación, la salud, el desarrollo económico y la inclusión social. Ya sea a través de donaciones, programas de voluntariado corporativo o colaboraciones con organizaciones sin fines de lucro, buscamos mejorar la calidad de vida de las comunidades en las que operamos. Ética empresarial: Nos comprometemos a operar de manera ética y transparente en todas nuestras actividades comerciales. Promovemos prácticas comerciales justas, respetando los derechos humanos, laborales y medioambientales en todas nuestras operaciones y en la cadena de suministro. Impulso a la innovación social: Fomentamos la innovación social como una forma de abordar los desafíos sociales y ambientales a través de soluciones tecnológicas y empresariales. Colaboramos con emprendedores, instituciones académicas y otras empresas para desarrollar y promover soluciones innovadoras que generen un impacto positivo en la sociedad. Cooperación y colaboración: Creemos en el poder de la colaboración y la cooperación para generar un cambio positivo. Colaboramos con otras empresas, organizaciones gubernamentales y no gubernamentales, así como con la sociedad civil, para abordar los desafíos sociales y ambientales de manera conjunta y efectiva. En resumen, en AMF TECH estamos comprometidos a ser un agente de cambio positivo en la sociedad, promoviendo la sostenibilidad, la inclusión y el desarrollo humano en todas nuestras actividades y relaciones comerciales.",
+
         "tituloServicios":"ADENTRATE AL MUNDO AMF TECH",
         "descriptionServicios":"Ofrecemos soluciones integrales en telecomunicaciones, tecnología y energía. Descubra nuestros servicios diseñados para mejorar su conectividad, optimizar sus sistemas y potenciar su negocio.",
         "botonPortada":"Más de nosotros",
@@ -111,7 +118,18 @@
         "comentario":"Comentario",
         "porqueElegirnos":"¿PORQUE ELEGIRNOS?",
         "descriptionPorqueElegirnos":"Si crees que tienes las habilidades y la motivación para formar parte de nuestro equipo, te invitamos a enviar tu currículum vitae y una carta de presentación que destaque tu experiencia y tus motivaciones para unirte a AMFTech. Puedes enviar tu solicitud a nuestro departamento de recursos humanos a través de nuestro sitio web o correo electrónico. Estamos comprometidos a ofrecer un entorno de trabajo inclusivo, colaborativo y de crecimiento profesional, donde cada empleado tenga la oportunidad de alcanzar su máximo potencial y contribuir al éxito de la empresa y sentirse como en casa. ¡Esperamos recibir tu solicitud y conocerte pronto!",
+        "servicioL1":"Crecimiento Profesional",
+        "servicioL2":"Ambiente Inspirador",
+        "servicioL3":"Beneficios Competitivos",
+        "servicioL4":"Innovación Constante",
+        "servicioL1Desc":" Programas de formación y desarrollo continuo",
+        "servicioL2Desc":"Trabaja junto a un equipo motivado y apasionado",
+        "servicioL3Desc":"Atractivo paquete de beneficios y compensaciones",
+        "servicioL4Desc":"Trabaja en proyectos  innovadores que marcan la diferencia",
+    
         
+
+
         "contacto":"Contactanos",
         "descripcionContacto":"Para todas las consultas envianos un correo electrónico a través del siguiente formultario",
         "envieForm":"Envíe su formulario",
