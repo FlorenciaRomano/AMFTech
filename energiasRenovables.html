@@ -21,79 +21,78 @@
 
 
     <!-- BARRA NAVEGACION -->
-    <nav class="navbar navbar-expand-lg bg-body-black"
-    style="background-color: rgba(255, 255, 255, 0.164); color: rgb(0, 0, 0);">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="./index.html"><img src="./Assets/logo.png" alt="" width="160"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-                <li class="nav-item" style="color: rgb(0, 0, 0);">
-                    <a class="nav-link active" style="color: rgb(0, 0, 0);" aria-current="page"
-                        href="./index.html" data-section="index" data-value="navBarMenu1">INICIO</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" style="color: rgb(0, 0, 0)" href="./quienessomos.html"
-                    data-section="index" data-value="navBarMenu2">QUIENES SOMOS</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" style="color: rgb(0, 0, 0)" href="#" 
-                    data-section="index" data-value="navBarMenu3">PROYECTOS</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" style="color: rgb(0, 0, 0)" href=".//servicios.html"
-                    data-section="index" data-value="navBarMenu4">SERVICIOS</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" style="color: rgb(0, 0, 0)" href="./servicios.html"
-                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <nav class="navbar navbar-expand-lg bg-body-black text-black myNavbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./Index.html"><img src="./Assets/logo.png" alt="" width="160"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse gap-2" id="navbarNavDropdown">
+                <ul class="navbar-nav flex-grow-1 mb-2 justify-content-center">
+                    <li class="nav-item" style="color: rgb(255, 255, 255);">
+                        <a class="nav-link active" style="color: rgb(0, 0, 0);" aria-current="page"
+                            href="./Index.html" data-section="index" data-value="navBarMenu1">INICIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="color: rgb(0, 0, 0)" href="./quienessomos.html"
+                            data-section="index" data-value="navBarMenu2">QUIENES
+                            SOMOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="color: rgb(0, 0, 0)" href="#" data-section="index"
+                            data-value="navBarMenu3">PROYECTOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="color: rgb(0, 0, 0)" href=".//servicios.html"
+                            data-section="index" data-value="navBarMenu4">SERVICIOS</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" style="color: rgb(0, 0, 0)" href="./servicios.html"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="./comunicaciones.html" data-section="index"
+                                    data-value="navBarMenu7">COMUNICACIONES</a></li>
+                            <li><a class="dropdown-item" href="./electricidad.html" data-section="index"
+                                    data-value="navBarMenu8">ELECTRICIDAD</a></li>
+                            <li><a class="dropdown-item" href="./energiasRenovables.html" data-section="index"
+                                    data-value="navBarMenu9">ENERGIAS RENOVABLES</a></li>
+                            <li><a class="dropdown-item" href="./operadorInternet.html" data-section="index"
+                                    data-value="navBarMenu10">OPERADOR DE INTERNET</a></li>
+                            <li><a class="dropdown-item" href="/videoseguridad.html" data-section="index"
+                                    data-value="navBarMenu11">VIDEOSEGURIDAD</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="color: rgb(0, 0, 0)" href="./trabajaconnosotros.html"
+                            data-section="index" data-value="navBarMenu5">TRABAJA
+                            CON
+                            NOSOTROS</a>
+                    </li>
+                </ul>
+                <a href="./contacto.html" class="btn btn-danger w-40 mb-2"
+                    style="height: 2rem; font-size: 13px; color: white;" data-section="index"
+                    data-value="navBarMenu6">CONTACTO</a>
+                <div class="switches">
+                    <div id="toggle-theme" class="toggle-theme">
 
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="./comunicaciones.html"
-                            data-section="index" data-value="navBarMenu7">COMUNICACIONES</a></li>
-                        <li><a class="dropdown-item" href="./electricidad.html"
-                            data-section="index" data-value="navBarMenu8">ELECTRICIDAD</a></li>
-                        <li><a class="dropdown-item" href="./energiasRenovables.html"
-                            data-section="index" data-value="navBarMenu9">ENERGIAS RENOVABLES</a></li>
-                        <li><a class="dropdown-item" href="./operadorInternet.html"
-                            data-section="index" data-value="navBarMenu10">OPERADOR DE INTERNET</a></li>
-                        <li><a class="dropdown-item" href="./videoseguridad.html"
-                            data-section="index" data-value="navBarMenu11">VIDEOSEGURIDAD</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" style="color: rgb(0, 0, 0)" href="./trabajaconnosotros.html"
-                    data-section="index" data-value="navBarMenu5">TRABAJA CON
-                        NOSOTROS</a>
-                </li>
-            </ul>
-
-            <a href="./contacto.html" class="btn btn-danger w-40"
-                style="height: 2rem; font-size: 13px; color: rgb(0, 0, 0);"
-                data-section="index" data-value="navBarMenu6">CONTACTO</a>
-        </div>
-        <div class="switches">
-            <div id="toggle-theme" class="toggle-theme">
-
+                    </div>
+                </div>
+                <div id="flags" class="flags">
+                    <div class="flags__item" data-language="es">
+                        <img src="./Assets//es.svg" alt="" class="flags__img">
+                    </div>
+                    <div class="flags__item" data-language="en">
+                        <img src="./Assets//gb.svg" alt="" class="flags__img">
+                    </div>
+                </div>
             </div>
         </div>
-        <div id="flags" class="flags">
-            <div class="flags__item" data-language="es">
-                <img src="./Assets//es.svg" alt="" class="flags__img">
-            </div>
-            <div class="flags__item" data-language="en">
-                <img src="./Assets//gb.svg" alt="" class="flags__img">
-            </div>
-        </div>
-    </div>
-</nav>
+    </nav>
     <!-- PORTADA -->
-    <div class="container-fluid d-flex justify-content-center  align-items-center" style="width: 100%; 
-        height: 59.7vh;
+    <div class="container-fluid d-flex justify-content-center  align-items-center  flex-column flex-md-row" style="width: 100%; 
+    
         margin-top: 0 !important;
         padding-right: 0% !important;
         background-image: url(./Assets//fonfonfonfon.jpeg);
@@ -104,7 +103,7 @@
             flex-direction: column;
             align-content: center;
             justify-content: center;
-            align-items: center;">
+            align-items: center;" class="w-100 w-md-50">
             <h2 style="font-family:Arial, Helvetica, sans-serif;
                 font-size: 50px;" class="text-center" data-section="index" data-value="energiasRenovables">Energias Renovables</h2>
             <p class="text-center" style="font-family:Arial, Helvetica, sans-serif;
@@ -119,7 +118,7 @@
         height: 100%;
             display: flex;
              justify-content: end;
-             object-fit:fill !important;">
+             object-fit:fill !important;" class="w-100 w-md-50">
             <img src="./Assets/IntalacionFotovoltaica.webp" alt="" width="100%" height="100%" style="
             display: flex;
             object-fit: cover;">
@@ -136,7 +135,7 @@
         <h2 class="text-center" style="font-family:Arial, Helvetica, sans-serif;
                 font-size: 30px;" data-section="index" data-value="queOfrecemos">¿QUE OFRECEMOS?</h2>
               
-              <div class="d-flex justify-content-center gap-4">
+              <div class="d-flex justify-content-center gap-4 flex-column flex-md-row">
                     <a class="btn btn-danger" href="#montaje" role="button"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-card-checklist" viewBox="0 0 16 16">
                         <path d="M14.5 3a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2z"/>
                         <path d="M7 5.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5m-1.496-.854a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 1 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0M7 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5m-1.496-.854a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 0 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0"/>
@@ -159,7 +158,7 @@
             MONTAJE DE PROYECTOS
         </h3>
 
-        <div class="flex-wrap d-flex justify-content-center align-items-center w-100 gap-3 mt-5">
+        <div class="flex-wrap d-flex justify-content-center align-items-center w-100 gap-3 mt-5 flex-column flex-md-row">
 
 
             <div class="card d-flex align-items-center serviceCard flex-column transitionAll border-0 pt-0"
@@ -427,46 +426,46 @@
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
 
-    <footer class="bg-light d-flex justify-content-center align-items-center flex-column ">
-        <div class="container p-3 d-flex align-items-center justify-content-center" style="background-color: rgb(0, 0, 0);
-    min-width: 100%;
-    min-height: 30vh;">
-
-            <div class="col-md-3 mt-4">
-                <h5 style="color: rgb(0, 0, 0);;">EXPLORAR</h5>
-                <ul class="list-unstyled" style="color: rgb(0, 0, 0);">
-                    <li><a href="./quienessomos.html">NOSOTROS</a></li>
-                    <li><a href="./servicios.html">SERVICIOS</a></li>
-                    <li><a href="#">DONCDE ESTAMOS</a></li>
-                    <li><a href="#">PROYECTOS</a></li>
-                    <li><a href="#" style="color: white;">CONTACTO</a></li>
-                </ul>
-            </div>
-
-            <div class="d-flex flex-column align-items-center justify-content-center">
-                <div>
-                    <a href="https://quizzical-maxwell.82-165-2-112.plesk.page/politica-de-cookies/">Politica de
-                        cookies</a>
-                    <a href="https://quizzical-maxwell.82-165-2-112.plesk.page/aviso-legal/">|Aviso legal</a>
-                    <a href="">|Politica de Privacidad</a>
-                    <p style="color: white;">Designed by <a href="">Florencia Romano</a></p>
-                    <p style="color: white;">© 2024 AMF TECH. All Rights Reserved</p>
+        <footer class="bg-light d-flex justify-content-center align-items-center flex-column ">
+            <div class="container p-3 d-flex align-items-center justify-content-center flex-column flex-lg-row" style="background-color: rgb(0, 0, 0);
+            min-width: 100%;
+            min-height: 30vh;">
+    
+                <div class="col-md-3 mt-4">
+                    <h5 style="color: white;">EXPLORAR</h5>
+                    <ul class="list-unstyled" style="color: white;">
+                        <li><a href="/quienessomos.html">NOSOTROS</a></li>
+                        <li><a href="./servicios.html">SERVICIOS</a></li>
+                        <li><a href="#">DONCDE ESTAMOS</a></li>
+                        <li><a href="#">PROYECTOS</a></li>
+                        <li><a href="./contacto.html">CONTACTO</a></li>
+                    </ul>
                 </div>
+    
+                <div class="d-flex flex-column align-items-center justify-content-center">
+                    <div>
+                        <a href="https://quizzical-maxwell.82-165-2-112.plesk.page/politica-de-cookies/">Politica de
+                            cookies</a>
+                        <a href="https://quizzical-maxwell.82-165-2-112.plesk.page/aviso-legal/">|Aviso legal</a>
+                        <a href="">|Politica de Privacidad</a>
+                        <p style="color: white;">Designed by <a href="">Florencia Romano</a></p>
+                        <p style="color: white;">© 2024 AMF TECH. All Rights Reserved</p>
+                    </div>
+                </div>
+    
+                <div class=" mt-2 col-md-4 d-flex flex-column justify-content-center align-items-center"
+                    style="margin-left: 5rem;">
+                    <h5 style="color: white;">CONTACTO</h5>
+                    <ul class="list-unstyled" style="color: white;">
+                        <li><img src="./Assets//gps-red.png" alt="" width="30"> Carrer les Pells, Nº 12 Nave 3,
+                            12600 La Vall d’Uixó, Castelló</li>
+                        <li> <img src="./Assets//phone-red.png" alt="" width="30">+34 641 401 459</li>
+                        <li> <img src="./Assets//email-reds.png" alt="" width="30">comercial@amftech.es</li>
+                    </ul>
+                </div>
+    
             </div>
-
-            <div class=" mt-2 col-md-4 d-flex flex-column justify-content-center align-items-center"
-                style="margin-left: 5rem;">
-                <h5 style="color: white;">CONTACTO</h5>
-                <ul class="list-unstyled" style="color: white;">
-                    <li><img src="./Assets//gps-red.png" alt="" width="30"> Carrer les Pells, Nº 12 Nave 3,
-                        12600 La Vall d’Uixó, Castelló</li>
-                    <li> <img src="./Assets//phone-red.png" alt="" width="30">+34 641 401 459</li>
-                    <li> <img src="./Assets//email-reds.png" alt="" width="30">comercial@amftech.es</li>
-                </ul>
-            </div>
-
-        </div>
-    </footer>
+        </footer>
 
     <script src="./index.js"></script>
 

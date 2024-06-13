@@ -11,9 +11,9 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 
-<body>
+<body class="p-0">
     <!-- BARRA NAVEGACION -->
-    <nav class="navbar navbar-expand-lg bg-body-black"
+    <!-- <nav class="navbar navbar-expand-lg bg-body-black"
         style="background-color: rgba(255, 255, 255, 0.164); color: rgb(255, 255, 255);">
         <div class="container-fluid">
             <a class="navbar-brand" href="./Index.html"><img src="./Assets/logo.png" alt="" width="160"></a>
@@ -81,18 +81,97 @@
             </div>
 
         </div>
-    </nav>
+    </nav> -->
 
     <!-- ENCABEZADO y video -->
 
     <!-- ENCABEZADO y video -->
-    <div class="ratio-16x9 d-flex justify-content-center align-items-center min-vh-100">
+    <!-- <div class="ratio-16x9 d-flex justify-content-center align-items-center video-banner">
         <video class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover z-n1" src="./Assets/videocorto.mp4"
             autoplay muted loop class="background"></video>
         <h1 class="link-light buttom-2 fs-1 fw-light" style="color: white; margin-bottom: 5rem;" data-section="index"
             data-value="encabezado">CONECTANDO TECNOLOGÍA,
             SEGURIDAD Y SOSTENIBILIDAD <br>
             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; PARA IMPULSAR TU ÉXITO EMPRESARIAL</h1>
+    </div> -->
+
+    <!-- Navbar que anda -->
+    <nav class="navbar navbar-expand-lg bg-body-black text-black myNavbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./Index.html"><img src="./Assets/logo.png" alt="" width="160"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse gap-2" id="navbarNavDropdown">
+                <ul class="navbar-nav flex-grow-1 mb-2 justify-content-center">
+                    <li class="nav-item" style="color: rgb(255, 255, 255);">
+                        <a class="nav-link active" style="color: rgb(0, 0, 0);" aria-current="page"
+                            href="./Index.html" data-section="index" data-value="navBarMenu1">INICIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="color: rgb(0, 0, 0)" href="./quienessomos.html"
+                            data-section="index" data-value="navBarMenu2">QUIENES
+                            SOMOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="color: rgb(0, 0, 0)" href="#" data-section="index"
+                            data-value="navBarMenu3">PROYECTOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="color: rgb(0, 0, 0)" href=".//servicios.html"
+                            data-section="index" data-value="navBarMenu4">SERVICIOS</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" style="color: rgb(0, 0, 0)" href="./servicios.html"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="./comunicaciones.html" data-section="index"
+                                    data-value="navBarMenu7">COMUNICACIONES</a></li>
+                            <li><a class="dropdown-item" href="./electricidad.html" data-section="index"
+                                    data-value="navBarMenu8">ELECTRICIDAD</a></li>
+                            <li><a class="dropdown-item" href="./energiasRenovables.html" data-section="index"
+                                    data-value="navBarMenu9">ENERGIAS RENOVABLES</a></li>
+                            <li><a class="dropdown-item" href="./operadorInternet.html" data-section="index"
+                                    data-value="navBarMenu10">OPERADOR DE INTERNET</a></li>
+                            <li><a class="dropdown-item" href="/videoseguridad.html" data-section="index"
+                                    data-value="navBarMenu11">VIDEOSEGURIDAD</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="color: rgb(0, 0, 0)" href="./trabajaconnosotros.html"
+                            data-section="index" data-value="navBarMenu5">TRABAJA
+                            CON
+                            NOSOTROS</a>
+                    </li>
+                </ul>
+                <a href="./contacto.html" class="btn btn-danger w-40 mb-2"
+                    style="height: 2rem; font-size: 13px; color: white;" data-section="index"
+                    data-value="navBarMenu6">CONTACTO</a>
+                <div class="switches">
+                    <div id="toggle-theme" class="toggle-theme">
+
+                    </div>
+                </div>
+                <div id="flags" class="flags">
+                    <div class="flags__item" data-language="es">
+                        <img src="./Assets//es.svg" alt="" class="flags__img">
+                    </div>
+                    <div class="flags__item" data-language="en">
+                        <img src="./Assets//gb.svg" alt="" class="flags__img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="video-banner mb-3">
+        <video class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover z-n1" src="./Assets/videocorto.mp4"
+            autoplay muted loop class="background"></video>
+        <h1 class="link-light text-center fw-light" data-section="index" data-value="encabezado">CONECTANDO TECNOLOGÍA,
+            SEGURIDAD Y SOSTENIBILIDAD</h1>
+        <h2 class="text-center text-white">PARA IMPULSAR TU ÉXITO EMPRESARIAL</h2>
     </div>
 
 
@@ -163,14 +242,14 @@
             </div>
 
             <div class="card d-flex align-items-center serviceCard flex-column transitionAll border-0 pt-3"
-            style="width: 12rem; height: 15rem">
-            <img src="./Assets/certificacion.png" class="card-img-top" alt="..."
-                style="width: 100px; height: 100px; object-fit:contain">
-            <div class="card-body d-flex flex-column flex-grow-1">
-                <h5 class="card-title" data-section="index" data-value="servicioSeis">Certificaciones</h5>
-                <a href="#" class="btn btn-outline-danger d-none transitionAll">Ver más</a>
+                style="width: 12rem; height: 15rem">
+                <img src="./Assets/certificacion.png" class="card-img-top" alt="..."
+                    style="width: 100px; height: 100px; object-fit:contain">
+                <div class="card-body d-flex flex-column flex-grow-1">
+                    <h5 class="card-title" data-section="index" data-value="servicioSeis">Certificaciones</h5>
+                    <a href="#" class="btn btn-outline-danger d-none transitionAll">Ver más</a>
+                </div>
             </div>
-        </div>
 
 
         </div>
@@ -181,8 +260,8 @@
 
     <!-- VIDEO -->
 
-    <div class="container d-flex align-items-center justify-content-center mt-5" style="width: 100%;">
-        <div style="width: 50%; margin-top: 0.4rem;">
+    <div class="container d-flex flex-column flex-md-row flex-wrap justify-content-center mt-5" style="width: 100%;">
+        <div class="w-100 w-md-50" style="margin-top: 0.4rem;">
             <iframe width="600" height="315" src="https://www.youtube.com/embed/pzgZtTkiKrE?si=cWjd8iOMXZw8zYAb"
                 title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -190,8 +269,8 @@
         height: 51vh !important;"></iframe>
         </div>
 
-        <div class="d-flex justify-content-center align-items-center flex-column" style="background-image: url(./Assets//WhatsApp\ Image\ 2024-05-20\ at\ 7.41.03\ AM.jpeg);
-    width: 50%; height: 50.9vh;">
+        <div class="d-flex justify-content-center align-items-center flex-column w-100 w-md-50" style="background-image: url(./Assets//WhatsApp\ Image\ 2024-05-20\ at\ 7.41.03\ AM.jpeg);
+     height: 50.9vh;">
             <h2 style="color: white;">AMF TECH</h2>
             <p class="text-center" style="color: white;" data-section="index" data-value="descripcionVideo">Somos una
                 empresa en constante evolución.
@@ -199,22 +278,22 @@
                 Ofrecemos experiencias de conectividad y soluciones tecnológicas.</p>
 
             <a href="./quienessomos.html" class="btn btn-danger w-40"
-                style="height: 2rem; font-size: 13px; color: white;"
-                data-section="index" data-value="botonVideoP">Saber más</a>
+                style="height: 2rem; font-size: 13px; color: white;" data-section="index" data-value="botonVideoP">Saber
+                más</a>
         </div>
     </div>
 
 
     <!-- ICONOS AVANZAR-->
 
-    <div class=" container d-flex flex-column align-items-center justify-content-center mt-5">
-        <h2 style="font-family:Arial, Helvetica, sans-serif; font-size: 35px;" 
-        data-section="index" data-value="sectionAvanzar">NOS UNEN LAS GANAS DE AVANZAR</h2>
-        <p style="font-family:Arial, Helvetica, sans-serif; font-size: 25px;"
-        data-section="index" data-value="descriptionAvanzar">Potenciamos la vida digital de personas y
+    <div class=" container d-flex flex-column align-items-center justify-content-center my-5">
+        <h2 style="font-family:Arial, Helvetica, sans-serif; font-size: 35px;" data-section="index"
+            data-value="sectionAvanzar">NOS UNEN LAS GANAS DE AVANZAR</h2>
+        <p style="font-family:Arial, Helvetica, sans-serif; font-size: 25px;" data-section="index"
+            data-value="descriptionAvanzar">Potenciamos la vida digital de personas y
             comunidades conectando con lo que más importa</p>
     </div>
-    <div class=" d-flex align-items-center justify-content-center flex-wrap" style="gap: 10rem;">
+    <div class=" d-flex flex-column flex-md-row align-items-center justify-content-center flex-wrap gap-5">
         <div class="d-flex flex-column align-items-center justify-content-center">
             <img src="./Assets//superacion.png" alt="" width="50">
             <p data-section="index" data-value="avanzarIcon1">SUPERACIÓN</p>
@@ -238,28 +317,27 @@
         <img src="./Assets//logo.png" alt="" width="200">
     </div>
 
-      <!-- SCROLL TO TOP -->
-      <button
-      type="button"
-      class="btn btn-danger btn-floating btn-lg"
-      id="btn-back-to-top"
-      ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up" viewBox="0 0 16 16">
-          <path fill-rule="evenodd" d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5"/>
+    <!-- SCROLL TO TOP -->
+    <button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top"><svg
+            xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up"
+            viewBox="0 0 16 16">
+            <path fill-rule="evenodd"
+                d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5" />
         </svg>
-<i class="fas fa-arrow-up"></i>
-</button>
+        <i class="fas fa-arrow-up"></i>
+    </button>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
 
     <footer class="bg-light d-flex justify-content-center align-items-center flex-column ">
-        <div class="container p-3 d-flex align-items-center justify-content-center" style="background-color: rgb(0, 0, 0);
+        <div class="container p-3 d-flex align-items-center justify-content-center flex-column flex-lg-row" style="background-color: rgb(0, 0, 0);
         min-width: 100%;
         min-height: 30vh;">
 
             <div class="col-md-3 mt-4">
-                <h5 style="color: white;;">EXPLORAR</h5>
+                <h5 style="color: white;">EXPLORAR</h5>
                 <ul class="list-unstyled" style="color: white;">
                     <li><a href="/quienessomos.html">NOSOTROS</a></li>
                     <li><a href="./servicios.html">SERVICIOS</a></li>

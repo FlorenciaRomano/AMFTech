@@ -1,74 +1,76 @@
-.masthead{
+.masthead {
     background-size: cover !important;
     min-height: 60vh !important;
     color: white !important;
 }
 
-.cardActive{
+.cardActive {
     /* color de fondo negro y letra blanca */
     background-color: black;
     color: white;
 }
 
-.transitionAll{
+.transitionAll {
     transition: all 0.5s ease-in-out;
 }
 
-.showP{
+.showP {
     display: block !important;
     color: white;
 }
 
-#wrapper{
+#wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 5rem;
 }
 
-form{
+form {
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
     align-items: center;
-    box-shadow: 0 0 20px rgba(0,0, 0, 0.2);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     border-radius: 20px;
     padding: 50px 55px;
     height: 85vh;
 }
 
-label{
-    color :#000000;
+label {
+    color: #000000;
     font-size: 15px;
     font-weight: 500;
     margin-top: 10px;
 }
 
 
-input, textarea {
-   padding: 2%;
-   border-radius: 2%;
-   margin-bottom: 10px;
-   background-color: #00000010;
-   border: 2px solid #f0faf1;
-   color: #000000;
-   outline: none;
-   width: 100%;
+input,
+textarea {
+    padding: 2%;
+    border-radius: 2%;
+    margin-bottom: 10px;
+    background-color: #00000010;
+    border: 2px solid #f0faf1;
+    color: #000000;
+    outline: none;
+    width: 100%;
 }
 
-input::placeholder, textarea::placeholder {
+input::placeholder,
+textarea::placeholder {
     color: rgba(0, 0, 0, 0.425);
 }
 
-.form-txt{
- margin-bottom: 20px;
- display: flex;
- justify-content: space-between;
- text-align: center;
+.form-txt {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
 }
 
-.form-txt a{
+.form-txt a {
     color: black;
     font-size: 14px;
     font-weight: 500;
@@ -79,40 +81,44 @@ input::placeholder, textarea::placeholder {
 
 
 
-@media(max-width:991px){
-    body{
-        padding: 30px;
-    }
+@media(max-width:991px) {
+   
 
-    form{
+    form {
         padding: 50px 30px;
         width: 100%;
     }
 
-    input{
+    input {
         pad: 15px;
-}}
+    }
+}
 
 /* IDIOMA */
 
-.toggle-theme__icon{
+.toggle-theme__icon {
     margin-right: 0.5rem;
     width: 20px;
 }
-.flags{
+
+.flags {
     width: 75px;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    gap: 10px;
 }
 
-.flags__item{
+.flags__item {
     width: 30px;
 }
 
-.flags__img{
+.flags__img {
     display: block;
     cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.flags__img:hover {
+    transform: scale(1.1);
 }
 
 #btn-back-to-top {
@@ -120,9 +126,44 @@ input::placeholder, textarea::placeholder {
     bottom: 30px;
     right: 30px;
     display: none;
-  }
+}
 
-  .card-img{
+.card-img {
     width: 100%;
     height: 250px;
-  }
+}
+
+/* body {
+    background-color: gray;
+} */
+
+.myNavbar {
+    background-color: rgba(255, 255, 255, 0.164) !important;
+}
+
+.video-banner {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.grow {
+    flex-grow: 1 !important;
+}
+
+@media (max-width: 768px) {
+    .video-banner {
+        height: 50vh;
+    }
+
+    .flags {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+    }
+}
