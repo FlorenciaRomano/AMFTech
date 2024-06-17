@@ -23,7 +23,7 @@
     <!-- BARRA NAVEGACION -->
     <nav class="navbar navbar-expand-lg bg-body-black text-black myNavbar">
         <div class="container-fluid">
-            <a class="navbar-brand" href="./Index.html"><img src="./Assets/logo.png" alt="" width="160"></a>
+            <a class="navbar-brand" href="./index.html"><img src="./Assets/logo.png" alt="" width="160"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -31,7 +31,7 @@
             <div class="collapse navbar-collapse gap-2" id="navbarNavDropdown">
                 <ul class="navbar-nav flex-grow-1 mb-2 justify-content-center">
                     <li class="nav-item" style="color: rgb(255, 255, 255);">
-                        <a class="nav-link active" style="color: rgb(0, 0, 0);" aria-current="page" href="./Index.html"
+                        <a class="nav-link active" style="color: rgb(0, 0, 0);" aria-current="page" href="./index.html"
                             data-section="index" data-value="navBarMenu1">INICIO</a>
                     </li>
                     <li class="nav-item">
@@ -62,6 +62,8 @@
                                     data-value="navBarMenu10">OPERADOR DE INTERNET</a></li>
                             <li><a class="dropdown-item" href="/videoseguridad.html" data-section="index"
                                     data-value="navBarMenu11">VIDEOSEGURIDAD</a></li>
+                                    <li><a class="dropdown-item" href="/videoseguridad.html" data-section="index"
+                                        data-value="navBarMenu12">CERTIFICACIONES</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
@@ -146,20 +148,20 @@
 
 
             <div class="card d-flex align-items-center serviceCard flex-column transitionAll border-0 pt-3"
-                style="width: 30rem; height: 30rem">
+                style="width: 20rem">
                 <img src="./Assets/camarita.png" class="card-img-top" alt="..."
                     style="width: 100px; height: 100px; object-fit:contain">
                 <div class="card-body d-flex flex-column flex-grow-1">
                     <h5 class="card-title" data-section="index" data-value="cardSeg1">
                         Videovigilancia</h5>
-                    <ul>
-                        <li>Cámaras de Seguridad: Disponemos de una amplia gama de cámaras, incluyendo cámaras fijas,
+                    <ul class="card-text flex-grow-1 d-none transitionAll">
+                        <li data-section="index" data-value="cardSeg1a">Cámaras de Seguridad: Disponemos de una amplia gama de cámaras, incluyendo cámaras fijas,
                             PTZ, con visión nocturna y de alta resolución, diseñadas para capturar cada detalle con
                             claridad.</li>
-                        <li>Grabadores y Almacenamiento: Ofrecemos DVRs y NVRs de última generación, así como soluciones
+                        <li data-section="index" data-value="cardSeg1b">Grabadores y Almacenamiento: Ofrecemos DVRs y NVRs de última generación, así como soluciones
                             de almacenamiento en la nube para asegurar que sus grabaciones estén siempre disponibles y
                             seguras.</li>
-                        <li>Monitores y Software de Gestión: Suministramos monitores y software avanzado que permite la
+                        <li data-section="index" data-value="cardSeg1c">Monitores y Software de Gestión: Suministramos monitores y software avanzado que permite la
                             gestión y visualización de sus cámaras en tiempo real, además de análisis de video para
                             detectar actividades sospechosas.</li>
                     </ul>
@@ -168,18 +170,18 @@
             </div>
 
             <div class="card d-flex align-items-center serviceCard flex-column transitionAll border-0 pt-3"
-                style="width: 30rem; height: 30rem">
+                style="width: 20rem;">
                 <img src="./Assets/iconAccesoInteligente.png" class="card-img-top" alt="..."
                     style="width: 100px; height: 100px; object-fit:contain">
                 <div class="card-body d-flex flex-column flex-grow-1">
                     <h5 class="card-title" data-section="index" data-value="cardSeg2">Control De Accesos</h5>
-                    <ul>
-                        <li>Sistemas de Tarjetas y Llaveros: Implementamos sistemas de control de acceso con tarjetas y
+                    <ul class="card-text flex-grow-1 d-none transitionAll">
+                        <li data-section="index" data-value="cardSeg2a">Sistemas de Tarjetas y Llaveros: Implementamos sistemas de control de acceso con tarjetas y
                             llaveros electrónicos para un control seguro y eficiente de entradas y salidas.</li>
-                        <li>Acceso Biométrico: Ofrecemos soluciones avanzadas de control de acceso mediante huella
+                        <li data-section="index" data-value="cardSeg2b">Acceso Biométrico: Ofrecemos soluciones avanzadas de control de acceso mediante huella
                             dactilar, reconocimiento facial y otros métodos biométricos que aseguran un alto nivel de
                             seguridad.</li>
-                        <li>Gestión de Visitantes: Proveemos sistemas para la gestión y registro de visitantes,
+                        <li data-section="index" data-value="cardSeg2c">Gestión de Visitantes: Proveemos sistemas para la gestión y registro de visitantes,
                             facilitando el control y seguimiento de todas las personas que ingresan a sus instalaciones.
                         </li>
                     </ul>
@@ -188,17 +190,17 @@
             </div>
 
             <div class="card d-flex align-items-center serviceCard flex-column transitionAll border-0 pt-3"
-                style="width: 30rem; height: 30rem">
+                style="width: 20rem;">
                 <img src="./Assets/alarma.png" class="card-img-top" alt="..."
                     style="width: 100px; height: 100px; object-fit:contain">
                 <div class="card-body d-flex flex-column flex-grow-1">
                     <h5 class="card-title" data-section="index" data-value="cardSeg3">Sistemas de Alarmas</h5>
-                    <ul>
-                        <li>Alarmas Antirrobo: Instalamos sistemas de alarmas avanzados que detectan intrusiones de
+                    <ul class="card-text flex-grow-1 d-none transitionAll">
+                        <li data-section="index" data-value="cardSeg3a">Alarmas Antirrobo: Instalamos sistemas de alarmas avanzados que detectan intrusiones de
                             manera inmediata y activan alertas para prevenir robos.</li>
-                        <li>Detección de Incendios: Proveemos sistemas de detección de humo y alarmas contra incendios
+                        <li data-section="index" data-value="cardSeg3b">Detección de Incendios: Proveemos sistemas de detección de humo y alarmas contra incendios
                             que reaccionan rápidamente para minimizar riesgos y daños.</li>
-                        <li>Alarmas Técnicas: Ofrecemos alarmas para detectar fugas de gas, agua y otros incidentes
+                        <li data-section="index" data-value="cardSeg3c">Alarmas Técnicas: Ofrecemos alarmas para detectar fugas de gas, agua y otros incidentes
                             técnicos, protegiendo su propiedad de daños potenciales.</li>
                     </ul>
 
@@ -217,8 +219,8 @@
 color: white;">
   <div class="card-body d-flex flex-column ">
       <h5 class="card-title" style="color: red;"
-      data-section="index" data-value="instalacionesCard1">Mantenimiento y Soporte Técnico</h5>
-      <p class="card-text " data-section="index" data-value="instalacionesDescriptionCard1">
+      data-section="index" data-value="cardN1">Mantenimiento y Soporte Técnico</h5>
+      <p class="card-text " data-section="index" data-value="cardN1p">
         •Preventivo y 24/7: Revisiones periódicas y asistencia continua.
 
       </p>
@@ -231,8 +233,8 @@ background-color: black;
 color: white;">
 <div class="card-body d-flex flex-column ">
 <h5 class="card-title" style="color: red;"
-data-section="index" data-value="instalacionesCard2">Monitoreo Remoto</h5>
-<p class="card-text" data-section="index" data-value="instalacionesDescriptionCard2">
+data-section="index" data-value="cardN2">Monitoreo Remoto</h5>
+<p class="card-text" data-section="index" data-value="cardN2p">
     • Centro de Monitoreo 24/7: Supervisión constante y respuesta rápida.</p>
 
 </div>
@@ -244,10 +246,10 @@ data-section="index" data-value="instalacionesCard2">Monitoreo Remoto</h5>
 color: white;">
   <div class="card-body d-flex flex-column ">
       <h5 class="card-title" style="color: red;"
-      data-section="index" data-value="instalacionesCard3">Integración y Actualización</h5>
+      data-section="index" data-value="cardN3">Integración y Actualización</h5>
      <ul>
-        <li>Sistemas Cohesivos: Integración de videovigilancia, alarmas y controles de acceso.</li>
-        <li>Última Tecnología: Actualización constante de sistemas.</li>
+        <li data-section="index" data-value="cardN3a">Sistemas Cohesivos: Integración de videovigilancia, alarmas y controles de acceso.</li>
+        <li data-section="index" data-value="cardN3b">Última Tecnología: Actualización constante de sistemas.</li>
      </ul>
 
   </div>
@@ -273,25 +275,25 @@ color: white;">
   </div>
       <div class="d-flex justify-content-center align-items-center gap-5 mt-2 p-3 mb-2 flex-column flex-md-row ">
           <div class="d-flex flex-column align-items-center" style="background-color: rgba(255, 0, 0, 0.192);">
-              <h6 data-section="index" data-value="beneficios1" class="text-center"><b>Seguridad Mejorada:</b> Reducción de delitos.</h6>
+              <h6 data-section="index" data-value="beneficiosV1" class="text-center"><b>Seguridad Mejorada:</b> Reducción de delitos.</h6>
           </div>
           
           <div class="d-flex flex-column align-items-center"  style="background-color: rgba(255, 0, 0, 0.192);">
-             <h6 data-section="index" data-value="beneficios2" class="text-center"><b>Tranquilidad:</b> Protección integral de sus propiedades.</h6>
+             <h6 data-section="index" data-value="beneficiosV2" class="text-center"><b>Tranquilidad:</b> Protección integral de sus propiedades.</h6>
           </div>
          
           <div class="d-flex flex-column align-items-center"  style="background-color: rgba(255, 0, 0, 0.192);">
-             <h6 data-section="index" data-value="beneficios3" class="text-center"><b>Eficiencia Operativa:</b> Mejor supervisión y control.</h6>
+             <h6 data-section="index" data-value="beneficiosV3" class="text-center"><b>Eficiencia Operativa:</b> Mejor supervisión y control.</h6>
           </div>
 
           <div class="d-flex flex-column align-items-center"  style="background-color: rgba(255, 0, 0, 0.192);">
-              <h6 data-section="index" data-value="beneficios4" class="text-center"><b>Evidencia Visual y de Eventos: </b>Grabaciones y registros detallados.</h6>
+              <h6 data-section="index" data-value="beneficiosV4" class="text-center"><b>Evidencia Visual y de Eventos: </b>Grabaciones y registros detallados.</h6>
           </div>
       </div>
   </section>
 
   <!-- PORQUE ELEGIRNOS -->
-  <section class="container-fluid mt-5  flex-column flex-md-row gap-5" style="background-color: rgb(240, 240, 240);
+  <section class="container-fluid mt-1  flex-column flex-md-row gap-5" style="background-color: rgb(240, 240, 240);
   width: 100%;
   color: rgb(0, 0, 0);
   font-family:Arial, Helvetica, sans-serif;
@@ -299,19 +301,19 @@ color: white;">
   <div class="container-fluid  flex-column flex-md-row " >
       <h3 class="text-center" style="font-family:Arial, Helvetica, sans-serif;
       font-size: 20px; 
-      color: black;" data-section="index" data-value="beneficios"><b>¿PORQUE ELEGIRNOS?</b></h3>
+      color: black;" data-section="index" data-value="Eleginos"><b>¿PORQUE ELEGIRNOS?</b></h3>
   </div>
       <div class="d-flex justify-content-center align-items-center gap-5 mt-5  flex-column flex-md-row ">
           <div class="d-flex flex-column align-items-center">
               <img src="./Assets/educacion.png" alt="" width="90">
-              <h6 data-section="index" data-value="beneficios1"><b>Educación y Demostraciones: </b></h6>
-              <p>Información clara y demostraciones en vivo.</p>
+              <h6 data-section="index" data-value="EleginosV1"><b>Educación y Demostraciones: </b></h6>
+              <p data-section="index" data-value="EleginosV1p">Información clara y demostraciones en vivo.</p>
           </div>
           
           <div class="d-flex flex-column align-items-center">
               <img src="./Assets/costosReducidos2.png" alt="" width="90">
-              <h6 data-section="index" data-value="beneficios2"><b>Planes Personalizados y Paquetes Competitivos:</b></h6>
-              <p>Soluciones a medida y precios accesibles.</p>
+              <h6 data-section="index" data-value="EleginosV2"><b>Planes Personalizados y Paquetes Competitivos:</b></h6>
+              <p data-section="index" data-value="EleginosV2p">Soluciones a medida y precios accesibles.</p>
           </div>
          
       </div>
