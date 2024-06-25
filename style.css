@@ -168,4 +168,12 @@ textarea::placeholder {
         justify-content: flex-end;
         gap: 10px;
     }
+
+    .fondoClientes{
+        background-image: url(./Assets/fondo.avif) !important;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    
+    }
 }
