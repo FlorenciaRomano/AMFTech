@@ -13,6 +13,7 @@
         "navBarMenu11":"VIDEOSERGURIDAD",
         "navBarMenu12":"CERTIFICACIONES",
         "encabezado": "Conectando tecnología, seguridad y sostenibilidad para impulsar tu éxito empresarial",
+        "encabezado2":"PARA IMPULSAR TU ÉXITO EMPRESARIAL",
         "nuestrosServicios": "Nuestros Servicios",
         "descripciondeServicios":"Encontra todas las soluciones tecnológicas para potenciar y optimizar la productividad de tu negocio",
         "servicioUno":"Electricidad",
@@ -100,6 +101,7 @@
         "descriptionServicio4":"Ofrecemos consultoria especializada en comunicaciones, adaptando soluciones a medida del desafío específico de cada cliente. Priorizamos la implementación eficaz de infraestructuras de red, asegurando su funcionamiento óptimo desde el inicio.",
         "servicio5":"Energías Renovables",
         "descriptionServicio5":"Servicios para plantas solares fijas y seguidores: Montaje de proyectos, Servicio de operación y mantenimiento, asistencia, soporte técnico, diseño y construcción de sistemas solares para el hogar.",
+        "descriptionServicio6":" Certificación de cableado estructurado. Ofrecemos servicios que aseguran que los sistemas de cableado de red cumplan con los estándares internacionales de calidad y rendimiento.",
         "tituloAsesoria":"En AMF te asesoramos según tus necesidades",
         "asesoriaTitulo1":"Encuentra tu solución",
         "descripcionAsesoria1":"Ayudamos a transformar y potenciar tu empresa, diseñamos soluciones que integran conocimiento y tecnología que impulsan la evolución de los procesos de negocio.",
@@ -149,6 +151,7 @@
         "servicioL2Desc":"Trabaja junto a un equipo motivado y apasionado",
         "servicioL3Desc":"Atractivo paquete de beneficios y compensaciones",
         "servicioL4Desc":"Trabaja en proyectos  innovadores que marcan la diferencia",
+        "porqueunirte":"¿PORQUE UNIRTE AL EQUIPO DE AMF TECH?",
     
         
 
@@ -157,7 +160,7 @@
         "descripcionContacto":"Para todas las consultas envianos un correo electrónico a través del siguiente formultario",
         "envieForm":"Envíe su formulario",
 
-        "comunicaciones":"Comunicaciones",
+        "comunicaciones":"Comunicaciones (Infraestructura de Redes)",
         "comunicacionesDescription":"Soluciones de Comunicación para su Negocio. Nos especializamos en ofrecer soluciones de comunicación avanzadas y personalizadas para satisfacer las necesidades únicas de nuestros clientes empresariales. Desde redes y telefonía hasta videoconferencias y seguridad en comunicaciones, estamos aquí para mantener su negocio conectado de manera eficiente y segura.",
         "queOfrecemos":"¿QUE OFRECEMOS?",
         "btnInfraestructura":"Infraestructura",
@@ -326,10 +329,10 @@
         "Soluciones1":"Proyectos Llave en Mano",
         "Soluciones1a":"Ofrecemos soluciones integrales que incluyen diseño, instalación, y mantenimiento de sistemas de energía renovable.",
         "Soluciones1b":"Nos encargamos de todas las etapas del proyecto, desde la planificación hasta la puesta en marcha.",
-        "Soluciones2":"Armarios de control",
+        "Soluciones2":"Integración de Sistemas de Energía",
         "Soluciones2a":"Diseñamos sistemas híbridos que combinan diferentes fuentes de energía renovable para maximizar la eficiencia.",
         "Soluciones2b":"Integración de sistemas de energía renovable con la red eléctrica existente.",
-        "Soluciones3":"Armarios de comunicaciones y redes",
+        "Soluciones3":"Eficiencia Energética",
         "Soluciones3a":"Implementamos soluciones para mejorar la eficiencia energética en edificios residenciales, comerciales e industriales.",
         "Soluciones3b":"Auditorías energéticas y recomendaciones para reducir el consumo y los costos de energía.",
         "SoporteTitle":"SOPORTE Y ATENCIÓN AL CLIENTE",
