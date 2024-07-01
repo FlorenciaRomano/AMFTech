@@ -31,12 +31,12 @@
             <div class="collapse navbar-collapse gap-2" id="navbarNavDropdown">
                 <ul class="navbar-nav flex-grow-1 mb-2 justify-content-center">
                     <li class="nav-item" style="color: rgb(255, 255, 255);">
-                        <a class="nav-link active" style="color: rgb(0, 0, 0);" aria-current="page"
-                            href="./index.html" data-section="index" data-value="navBarMenu1">INICIO</a>
+                        <a class="nav-link active" style="color: rgb(0, 0, 0);" aria-current="page" href="./index.html"
+                            data-section="index" data-value="navBarMenu1">INICIO</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" style="color: rgb(0, 0, 0)" href="./quienessomos.html"
-                            data-section="index" data-value="navBarMenu2">QUIENES
+                        <a class="nav-link" style="color: rgb(0, 0, 0)" href="./quienessomos.html" data-section="index"
+                            data-value="navBarMenu2">QUIENES
                             SOMOS</a>
                     </li>
                     <li class="nav-item">
@@ -44,8 +44,8 @@
                             data-value="navBarMenu3">PROYECTOS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" style="color: rgb(0, 0, 0)" href=".//servicios.html"
-                            data-section="index" data-value="navBarMenu4">SERVICIOS</a>
+                        <a class="nav-link" style="color: rgb(0, 0, 0)" href=".//servicios.html" data-section="index"
+                            data-value="navBarMenu4">SERVICIOS</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" style="color: rgb(0, 0, 0)" href="./servicios.html"
@@ -62,8 +62,8 @@
                                     data-value="navBarMenu10">OPERADOR DE INTERNET</a></li>
                             <li><a class="dropdown-item" href="/videoseguridad.html" data-section="index"
                                     data-value="navBarMenu11">VIDEOSEGURIDAD</a></li>
-                                    <li><a class="dropdown-item" href="/certificaciones.html" data-section="index"
-                                        data-value="navBarMenu12">CERTIFICACIONES</a></li>
+                            <li><a class="dropdown-item" href="/certificaciones.html" data-section="index"
+                                    data-value="navBarMenu12">CERTIFICACIONES</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
@@ -113,80 +113,88 @@
             <h2 style="font-family:Arial, Helvetica, sans-serif;
                 font-size: 50px;" class="text-center" data-section="index" data-value="contacto">Contactanos</h2>
             <p style="font-family:Arial, Helvetica, sans-serif;
-                font-size: 20px" class="text-center" data-section="index" data-value="descripcionContacto">Para todas las consultas envianos un correo electrónico a través del siguiente formultario
+                font-size: 20px" class="text-center" data-section="index" data-value="descripcionContacto">Para todas
+                las consultas envianos un correo electrónico a través del siguiente formultario
             </p>
             <a href="./quienessomos.html" style="font-family:Arial, Helvetica, sans-serif;
                 font-size: 15px;
                 width: 200px;
-                margin-left: 2rem;" class="btn  btn-light" data-section="index" data-value="botonPortada">Más de nosotros</a>
+                margin-left: 2rem;" class="btn  btn-light" data-section="index" data-value="botonPortada">Más de
+                nosotros</a>
         </div>
         <div style="width: 50%;
         height: 100%;
             display: flex;
              justify-content: end;
-             object-fit:fill !important;">
-            <img src="./Assets//portadaContacto.avif" alt="" width="100%" height="100%" style="
+             object-fit:fill !important;" class="divContacto">
+            <img src="./Assets//portadaContacto.avif" alt="" class="portadaContactoimg" width="100%" height="100%"
+                style="
             display: flex;
             object-fit: cover;">
         </div>
     </div>
 
-    
+
     <!-- 
     FORMULARIO -->
-   <div class="d-flex align-items-center">
-    <div id="wrapper" style="width:50%;">
-        <h5 data-section="index" data-value="envieForm">Envíe su formulario</h5>
-        
-        <form action="https://formsubmit.co/contacto@amftech.es" method="POST" enctype="multipart/form-data"
-        class="shadow-lg p-3 mb-5 bg-white rounded" style="width: 70%;">
-        <div class="d-flex flex-column" style="align-items: flex-start;" >
-        <label for="Nombre" data-section="index" data-value="nombre">Nombre</label>
-            <input type="text" name="name" id="name" placeholder="Nombre">
+    <div class="d-block d-md-flex  align-items-center">
+        <div id="wrapper" class="container-md">
+            <h5 data-section="index" data-value="envieForm">Envíe su formulario</h5>
 
-            <label for="email" data-section="index" data-value="correo">Correo Electrónico</label>
-            <input type="email" name="email"  id="email" placeholder="email" >
+            <form action="https://formsubmit.co/contacto@amftech.es" method="POST" enctype="multipart/form-data"
+                class="shadow-lg p-3 mb-5 bg-white rounded" style="width: 70%;">
+                <div class="d-flex flex-column" style="align-items: flex-start;">
+                    <label for="Nombre" data-section="index" data-value="nombre">Nombre</label>
+                    <input type="text" name="name" id="name" placeholder="Nombre">
 
-            <label for="subject" data-section="index" data-value="asunto">Asunto</label>
-            <input type="text" name="subject" style="border-radius: 2%;">
+                    <label for="email" data-section="index" data-value="correo">Correo Electrónico</label>
+                    <input type="email" name="email" id="email" placeholder="email">
+
+                    <label for="subject" data-section="index" data-value="asunto">Asunto</label>
+                    <input type="text" name="subject" style="border-radius: 2%;">
+
+
+
+                    <label for="comments" data-section="index" data-value="comentario">Comentarios</label>
+                    <textarea name="comments" id="commnets" cols="50" rows="3" placeholder="comments"></textarea>
+
+                    <div id="liveAlertPlaceholder"></div>
+                    <button type="submit" class="btn btn-danger" id="liveAlertBtn" value="Enviar">Enviar
+                        Formulario</button>
+                    <input type="hidden" name="_captcha" value="false" id="liveAlertPlaceholder">
+                </div>
+            </form>
+        </div>
+    
+
+            <div
+                style=" margin-right: 10px;background-size: cover; height: 85vh; display: flex; flex-direction: column; align-items: center;">
+                <h5>Encuentranos</h5>
+                <ul class="list-unstyled" style="color: rgb(0, 0, 0);">
+                    <li><img src="./Assets//gps-red.png" alt="" width="30"> Carrer les Pells, Nº 12 Nave 3,
+                        12600 La Vall d’Uixó, Castelló
+                    </li>
+                    <li> <img src="./Assets//phone-red.png" alt="" width="30">(+34)964072752</li>
+                    <li> <img src="./Assets//email-reds.png" alt="" width="30">Contacto@amftech.es</li>
+                </ul>
+                <a href="https://maps.app.goo.gl/LAPPNctLGAX7Gmpc6">
+                    <img src="/Assets/location2.jpg" alt="" width="100%">
+                </a>
 
           
-
-            <label for="comments" data-section="index" data-value="comentario">Comentarios</label>
-            <textarea name="comments" id="commnets" cols="50" rows="3" placeholder="comments"></textarea>         
-            
-            <div id="liveAlertPlaceholder"></div>
-            <button type="submit" class="btn btn-danger" id="liveAlertBtn" value="Enviar">Enviar Formulario</button>
-            <input type="hidden" name="_captcha" value="false"  id="liveAlertPlaceholder">
-            </div>
-        </form>
-    </div>
-  
-    <div style="width: 50%; background-size: cover; height: 85vh;">
-        <h5>Encuentranos</h5>
-        <ul class="list-unstyled" style="color: rgb(0, 0, 0);">
-            <li><img src="./Assets//gps-red.png" alt="" width="30"> Alcalá galiano n5- grao de Moncofar- Castellón</li>
-                <li> <img src="./Assets//phone-red.png" alt="" width="30"> +34 641 401 459</li>
-                <li> <img src="./Assets//email-reds.png" alt="" width="30"> comercial@amftech.es</li>
-        </ul>
-        <a href="https://maps.app.goo.gl/LAPPNctLGAX7Gmpc6">
-        <img src="/Assets/location2.jpg" alt="" width="100%">
-    </a>
+        </div>
 
     </div>
 
-</div>
-
-  <!-- SCROLL TO TOP -->
-  <button
-  type="button"
-  class="btn btn-danger btn-floating btn-lg"
-  id="btn-back-to-top"
-  ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up" viewBox="0 0 16 16">
-      <path fill-rule="evenodd" d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5"/>
-    </svg>
-<i class="fas fa-arrow-up"></i>
-</button>
+    <!-- SCROLL TO TOP -->
+    <button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top"><svg
+            xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up"
+            viewBox="0 0 16 16">
+            <path fill-rule="evenodd"
+                d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5" />
+        </svg>
+        <i class="fas fa-arrow-up"></i>
+    </button>
 
     <!-- LOGO DE ABAJO -->
     <div class="d-flex align-items-center justify-content-center" style="background-color: rgba(0, 0, 0, 0.055);">
@@ -220,7 +228,8 @@
                         cookies</a>
                     <a href="https://quizzical-maxwell.82-165-2-112.plesk.page/aviso-legal/">|Aviso legal</a>
                     <a href="">|Politica de Privacidad</a>
-                    <p style="color: white;">Designed by <a href="https://www.linkedin.com/in/florencia-romano-4ba3481a0/">Florencia Romano</a></p>
+                    <p style="color: white;">Designed by <a
+                            href="https://www.linkedin.com/in/florencia-romano-4ba3481a0/">Florencia Romano</a></p>
                     <p style="color: white;">© 2024 AMF TECH. All Rights Reserved</p>
                 </div>
             </div>
@@ -231,8 +240,8 @@
                 <ul class="list-unstyled" style="color: white;">
                     <li><img src="./Assets//gps-red.png" alt="" width="30"> Carrer les Pells, Nº 12 Nave 3,
                         12600 La Vall d’Uixó, Castelló</li>
-                        <li> <img src="./Assets//phone-red.png" alt="" width="30">(+34)964072752</li>
-                        <li> <img src="./Assets//email-reds.png" alt="" width="30">Contacto@amftech.es </li>
+                    <li> <img src="./Assets//phone-red.png" alt="" width="30">(+34)964072752</li>
+                    <li> <img src="./Assets//email-reds.png" alt="" width="30">Contacto@amftech.es </li>
                 </ul>
             </div>
 

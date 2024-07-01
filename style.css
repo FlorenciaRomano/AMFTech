@@ -176,4 +176,54 @@ textarea::placeholder {
         background-attachment: fixed;
     
     }
+
+    .portadaSeguridadimg{
+        display: none;
+        block-size: 0;
+    }
+
+    .portadaServiciosimg{
+        display: none;
+        block-size: 0;
+    }
+
+    .portadaComunicacionesimg{
+        display: none;
+        block-size: 0;
+    }
+    .portadaElectricidadimg{
+        display: none;
+        block-size: 0;
+    }
+
+    .portadaEnergiasRenovablesimg{
+        display: none;
+        block-size: 0;
+    }
+
+    .portadaOperadorimg{
+        display: none;
+        block-size: 0;
+    }
+    .portadaCertificacionesimg{
+        display: none;
+        block-size: 0;
+    }
+
+    .portadaContactoimg{
+        display: none;
+        block-size: 0;
+    }
+    .divContacto{
+        display: none !important;
+        block-size: 0;
+    }
+    .divElectricidad{
+        display: none !important;
+        block-size: 0;
+    }
+    .portadaTrabajaimg{
+        display: none !important;
+        block-size: 0;
+    }
 }
