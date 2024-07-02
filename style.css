@@ -226,4 +226,8 @@ textarea::placeholder {
         display: none !important;
         block-size: 0;
     }
+    .Encontranos{
+        display: none !important;
+        block-size: 0;
+    }
 }
