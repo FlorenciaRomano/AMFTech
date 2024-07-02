@@ -19,6 +19,11 @@ cards.forEach(card => {
 
 // CAMBIO DE IDIOMA
 
+
+
+
+
+
 const toggleTheme = document.getElementById("toggle-theme");
 const toggleIcon = document.getElementById("toggle.icon");
 const toggleText = document.getElementById("toggle-text");
@@ -28,6 +33,7 @@ const flagsElement = document.getElementById("flags")
 const textsToChange = document.querySelectorAll("[data-section]");
 
 const changeLanguage = async language=>{
+  console.log("Presionado botón")
     const requestJson = await fetch(`./languages/${language}.json`);
     const texts = await requestJson.json();
     
@@ -39,8 +45,17 @@ const changeLanguage = async language=>{
     }
 };
 
+const changeLanguageLoading = () =>{
+  const lenguageDefault = localStorage.getItem("lenguage") 
+  changeLanguage(lenguageDefault)
+}
+changeLanguageLoading()
+
+
 flagsElement.addEventListener("click", (e) => {
-    changeLanguage(e.target.parentElement.dataset.language);
+  const selectedLenguage = e.target.parentElement.dataset.language
+    changeLanguage(selectedLenguage);
+    localStorage.setItem("lenguage" , selectedLenguage)
 });
 
 
