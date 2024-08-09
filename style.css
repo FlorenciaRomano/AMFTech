@@ -230,4 +230,10 @@ textarea::placeholder {
         display: none !important;
         block-size: 0;
     }
+    .TituloServicios{
+        font-size: 22px !important;
+    }
+    .tituloComunicaciones{
+        font-size: 10px !important;
+    }
 }
